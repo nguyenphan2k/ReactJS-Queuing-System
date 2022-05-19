@@ -1,0 +1,57 @@
+*{
+     padding: 0; 
+     margin: 0;
+     box-sizing: border-box; 
+     font-family: 'Nunito';
+}
+.Login{
+     width: 592px;
+     height: 810px;
+     border-radius: 16px;
+     background: #F6F6F6; 
+     display: flex;
+}
+.form{
+     display: flex;
+     flex-direction: column;
+     top: 18%;
+     left: 4%;
+     position: absolute;
+}
+.name{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     color: #37474F;
+}
+.box{
+     width: 400px;
+     height: 44px;
+     border-radius: 8px;
+     top: 31px;
+     gap: 10px;
+     font-size: 18px;
+     line-height: 27px;
+     padding: 10px 270px 10px 12px;
+}
+.button{
+     width: 162px;
+     height: 40px;
+     top: 511px;
+     left: 215px;
+     background: #FF9138;
+     padding: 10px 24px 10px 24px;
+     border-radius: 8px;
+     color: #E7E9F2;
+     gap: 48px;
+     font-size: 16px;
+     line-height: 24px;
+}
+.forget{
+     color: #E73F3F;
+     font-size: 14px;
+     width: 102px;
+     height: 21px;
+}
+
+
