@@ -1,0 +1,88 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Nunito;
+}
+section{
+     max-width: 1440px;
+     max-height: 810px;
+     display: flex;
+     margin: auto;
+}
+section .contentBx{
+     display: flex;
+     width: 592px;
+     height: 810px;
+     background-color: #F6F6F6;
+     border-radius: 16px;
+     justify-content: center;
+     align-items: center;
+}
+section .contentBx .formBx{
+     width: 367px;
+}
+section .contentBx .formBx img{
+     width: 448px;
+}
+section .contentBx .formBx .inputBx{
+     margin-bottom: 10px;
+}
+section .contentBx .formBx .inputBX{
+     margin-bottom: 10px;
+     margin-left: 100px;
+}
+section .contentBx .formBx .inputBX input{
+     width: 162px;
+     height: 40px;
+     border-radius: 8px;
+     padding: 10px 24px 10px 24px;
+     background-color:  #FF9138;
+     border: 1.5px solid #FF9138;
+     color: #E7E9F2;
+}
+section .contentBx .formBx .inputBx span{
+     display: flex;
+     flex-direction: row;
+     font-size: 18px;
+     line-height: 27px;
+     font-weight: 400;   
+}
+section .contentBx .formBx .inputBx input{
+     width: 400px;
+     height: 44px;
+     border-radius: 8px; 
+     padding: 10px 270px 10px 12px;
+     border: 1.5px solid #E73F3F;
+}
+section .contentBx .formBx .remember{
+     margin-bottom: 20px;
+     padding-left: 20px;
+     font-size: 14px;
+     color: #E73F3F; 
+     line-height: 21px;
+     width: 209px;
+     height: 21px;
+     top: 471px;
+     font-weight: 400;
+}
+section .contentBx .formBx .forget{
+     margin-left: 135px;
+}
+section .contentBx .formBx .forget label{
+     color: #E73F3F;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 21px;
+}
+section .imgBx{
+     display: flex;
+}
+section .imgBx img{
+     width: 848px;
+     height: 810px;
+}
+
+
+
+
