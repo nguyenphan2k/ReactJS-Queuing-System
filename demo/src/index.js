@@ -1,16 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { BrowserRouter } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
-// import Login from './user/Login';
-import Forget from './user/Forget'
+import Login from './user/Login';
+// import Forget from './user/Forget'
+// import Error from './user/Error';
+// import ConfirmPass from './user/ConfirmPass';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <Login /> */}
-    <Forget />
+  <BrowserRouter>
+    <React.StrictMode>
+    <Login />
+    {/* <Forget /> */}
+    {/* <Error /> */}
+    {/* <ConfirmPass /> */}
   </React.StrictMode>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

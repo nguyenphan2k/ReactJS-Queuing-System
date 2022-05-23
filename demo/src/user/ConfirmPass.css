@@ -1,12 +1,12 @@
 *{
-     padding: 0; 
      margin: 0;
-     box-sizing: border-box; 
-     font-family: 'Nunito';
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Nunito;
 }
 section{
-     max-width: 1440px;
-     max-height: 810px;
+     width: 1440px;
+     height: 810px;
      display: flex;
      margin: auto;
 }
@@ -20,17 +20,31 @@ section .contentBx{
      align-items: center;
 }
 section .contentBx .formBx{
-     width: 367px;
+     width: 296px;
 }
 section .contentBx .formBx img{
-     width: 448px;
+     width: 260px;
+     margin-bottom: 100px;
+     margin-left: 30px;
+}
+section .contentBx .titleFr{
+     margin-bottom: 20px;
+     margin-left: 40px;
+     margin-top: -30px;
+}
+section .contentFr .formFr .titleFr h1{
+     font-size: 22px;
+     font-weight: 700;
+     line-height: 33px;
+     color: #282739;
 }
 section .contentBx .formBx .inputBx{
      margin-bottom: 10px;
+     margin-left: -50px;
 }
 section .contentBx .formBx .inputBX{
-     margin-bottom: 10px;
-     margin-left: 100px;
+     margin-top: 50px;
+     margin-left: -40px;
 }
 section .contentBx .formBx .inputBX input{
      width: 162px;
@@ -40,6 +54,7 @@ section .contentBx .formBx .inputBX input{
      background-color:  #FF9138;
      border: 1.5px solid #FF9138;
      color: #E7E9F2;
+     margin-left: 100px;
 }
 section .contentBx .formBx .inputBx span{
      display: flex;
@@ -47,23 +62,14 @@ section .contentBx .formBx .inputBx span{
      font-size: 18px;
      line-height: 27px;
      font-weight: 400;   
+     color: #37474F;
 }
 section .contentBx .formBx .inputBx input{
      width: 400px;
      height: 44px;
      border-radius: 8px; 
      padding: 10px 270px 10px 12px;
-     border: 1.5px solid #E73F3F;
-}
-section .contentBx .formBx .remember{
-     margin-bottom: 20px;
-     font-size: 14px;
-     color: #E73F3F; 
-     line-height: 21px;
-     width: 209px;
-     height: 21px;
-     top: 471px;
-     font-weight: 400;
+     border: 1.5px solid #D4D4D7;
 }
 section .imgBx{
      display: flex;

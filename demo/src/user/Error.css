@@ -1,0 +1,72 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: Nunito;
+}
+section{
+     max-width: 1440px;
+     max-height: 810px;
+     display: flex;
+     margin: auto;
+}
+section .contentFr{
+     display: flex;
+     width: 592px;
+     height: 810px;
+     background-color: #F6F6F6;
+     border-radius: 16px;
+     justify-content: center;
+     align-items: center;
+}
+section .contentFr .formFr{
+     width: 400px;
+}
+section .contentFr .formFr img{
+     width: 390px;
+}
+section .contentFr .formFr .titleFr{
+     margin-left: 100px;
+     margin-bottom: 10px;
+}
+section .contentFr .formFr .titleFr h1{
+     font-size: 22px;
+     font-weight: 700;
+     line-height: 33px;
+     color: #282739;
+}
+section .contentFr .formFr .contextFr p{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     color: #37474F;
+     width: 396px;
+     margin-left: 25px;
+}
+section .contentFr .formFr .inputFr input{
+     width: 400px;
+     height: 44px;
+     border-radius: 8px;
+     margin-right: 30px;
+}
+section .contentFr .formFr .buttonFr{
+     display: inline-block;
+     /* flex-direction: row; */
+     margin: 20px 30px 20px 0;
+}
+section .contentFr .formFr .buttonFr button{
+    width: 162px;
+    height: 40px;
+    /* padding: 10px 24px 10px 24px; */
+    color: #FFFFFF;
+    background-color: #FF9138;
+    border-radius: 8px;
+    border: 1px solid #FF9138;
+}
+section .imgBx{
+     display: flex;
+}
+section .imgBx img{
+     width: 848px;
+     height: 810px;
+}

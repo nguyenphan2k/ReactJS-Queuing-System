@@ -1,35 +1,35 @@
-import './Login.css';
+import './ConfirmPass.css'
 import logo from '../images/Screenshot_39.jpg'
-import logos from '../images/Screenshot_37.jpg'
-import './Forget.js'
-function Login(){
-     return (
+import image from '../images/Screenshot_40.jpg'
+
+function ConfirmPass(){
+     return(
           <section>
                <div className="contentBx">
                     <div className='formBx'>
                          <img src={logo}/>
                          <form>
-                              <div className='inputBx'>
-                                   <span>Tên đăng nhập *</span>
-                                   <input type='text' value='lequynhaivan01'></input>
+                              <div className='titleFr'>
+                                   <h1>Đặt lại mật khẩu mới</h1>
                               </div>
                               <div className='inputBx'>
-                                   <span>Mật khẩu *</span>
+                                   <span>Mật khẩu</span>
                                    <input type='password' value='password'></input>
                               </div>
-                              <div className='remember'>
-                                   <label>Quên mật khẩu?</label>
+                              <div className='inputBx'>
+                                   <span>Nhập lại mật khẩu</span>
+                                   <input type='password' value='password'></input>
                               </div>
                               <div className='inputBX'>
-                                   <input src='./Forget.js'  type='submit' value='Đăng nhập' name=''/>
+                                   <input  type='submit' value='Xác nhận' name=''/>
                               </div>
                          </form>
                     </div>
                </div>
                <div className="imgBx">
-                    <img src={logos}/>
+                    <img src={image}/>
                </div>
           </section>
      )
 }
-export default Login
+export default ConfirmPass
