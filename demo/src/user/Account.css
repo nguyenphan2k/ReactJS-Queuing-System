@@ -4,3 +4,85 @@
      box-sizing: border-box;
      font-family: Nunito;
 }
+section{
+     width: 1440px;
+     height: 810px;
+     display: flex;
+     margin: auto;
+}
+section .contentBx{
+     display: flex;
+     width: 200px;
+     height: 810px;
+     background-color: rgba(219, 219, 219, 0.5);
+     box-shadow: #DBDBDB;
+     justify-content: center;
+     align-items: center;
+     border-top-left-radius: 16px;
+     border-bottom-left-radius: 16px;
+     offset: 0px 4px;
+     
+}
+section .contentBx .formBx{
+     display: flex;
+     position: relative;
+}
+section .contentBx .formBx img{
+     position: absolute;
+     width: 100px;
+     /* top: -220px;
+     left: -50px; */
+     transform: translate(30px,-220px);
+     margin-bottom: -450px;
+     
+}
+section .contentBx .formBx .iconBx{
+     position: relative;
+     display: flex;
+     margin-left: 30px;
+     margin-bottom: 50px;
+     transform: translate(0px ,-60px);
+     flex-direction: column;
+}
+section .contentBx .formBx form{
+     
+}
+section .contentBx .formBx .iconBx menubar{
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #7E7D88;
+     margin-bottom: 20px;
+}
+section .contentBx .formBx .logoutBx{
+     position: absolute;
+     display: flex;
+     margin-left: 30px;
+     margin-top: 250px;
+     transform: translate(0px ,-60px);
+}
+section .contentBx .formBx .logoutBx menubar{
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #FF7506;
+     /* margin-bottom: 20px; */
+}
+section .userBx{
+     width: 1240px;
+     height: 810px;
+     background-color: #B1B1B1;
+     border-bottom-right-radius: 16px;
+     border-top-right-radius: 16px;
+}
+section .userBx .frameBx{
+     display: flex;
+}
+section .userBx .frameBx .headerBx{
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 30px;
+     color: #FF9138;
+     margin: 29px 24px;
+     
+}

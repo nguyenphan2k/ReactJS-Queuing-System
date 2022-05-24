@@ -3,19 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
-import Login from './user/Login';
+// import Login from './user/Login';
 // import Forget from './user/Forget'
 // import Error from './user/Error';
 // import ConfirmPass from './user/ConfirmPass';
+import Account from './user/Account';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-    <Login />
+    {/* <Login /> */}
     {/* <Forget /> */}
     {/* <Error /> */}
     {/* <ConfirmPass /> */}
+    <Account />
   </React.StrictMode>
   </BrowserRouter>
 );
