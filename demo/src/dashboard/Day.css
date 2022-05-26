@@ -1,0 +1,168 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Nunito;
+}
+section{
+     width: 1440px;
+     height: 810px;
+     margin: auto;
+     display: flex;
+}
+section .contentBx{
+     display: flex;
+     width: 200px;
+     height: 810px;
+     background-color:#dbdbdb;
+     justify-content: center;
+     align-items: center;
+     border-top-left-radius: 16px;
+     border-bottom-left-radius: 16px;
+}
+section .contentBx .formBx{
+     display: flex;
+     position: relative;
+}
+section .contentBx .formBx img{
+     position: absolute;
+     width: 100px;
+     transform: translate(20px,-220px);
+     margin-bottom: -450px;
+}
+section .contentBx .formBx .iconBx{
+     position: relative;
+     display: flex;
+     margin-left: 30px;
+     margin-bottom: 50px;
+     transform: translate(0px ,-60px);
+     flex-direction: column;
+}
+section .contentBx .formBx form{
+     
+}
+section .contentBx .formBx .iconBx menubar{
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #7E7D88;
+     margin-bottom: 20px;
+}
+section .contentBx .formBx .iconBx menubar span{
+     font-size: 20px;
+     font-weight: 600;
+     color: #7E7D88;
+     padding-right: 5px;
+     display: block;
+     position: absolute;
+     left:-25px;
+}
+section .contentBx .formBx .logoutBx{
+     width: 176px;
+     height: 48px;
+     background-color: #FFF2E7;
+     position: absolute;
+     border-radius: 8px;
+     display: flex;
+     margin-left: -15px;
+     justify-content: center;
+     align-items: center;
+     margin-top: 235px;
+     transform: translate(0px ,-60px);
+}
+section .contentBx .formBx .logoutBx menubar{
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #FF7506;
+}
+section .contentBx .formBx .logoutBx menubar span{
+     font-size: 20px;
+     font-weight: 600;
+     color: #FF7506;
+     margin-bottom: 20px;
+     position: absolute; 
+     top: 12px;
+     left: 10px;
+}
+section .dashBx{
+     width: 829px;
+     height: 810px;
+     display: flex;
+     background-color: #B1B1B1;
+     opacity: 90%;
+}
+section .dashBx .boardBx{
+     display: flex;
+     position: relative;
+}
+section .dashBx .boardBx .headerBx{
+     display: inline-block;
+     /* position: absolute; */
+}
+section .dashBx .boardBx .headerBx h1{
+     display: flex;
+     top: 29px;
+     left: 24px;
+     position: absolute;
+     font-size: 20px;
+     line-height: 30px;
+     font-weight: 700;
+     color: #FF7506;
+}
+section .dashBx .boardBx .headerBx h2{
+     display: flex;
+     padding-top: 50px;
+     position: relative;
+     left: 24px;
+     font-size: 24px;
+     line-height: 36px;
+     font-weight: 700;
+     top: 45px;
+     color: #FF7506;
+}
+section .dashBx .boardBx .footerBx{
+     display: flex;
+     position: absolute;
+}
+section .dashBx .boardBx .footerBx .rectangleBx{
+     width: 186px;
+     position: relative;
+     top: 160px;
+     left: 18px;
+     height: 120px;
+     background-color: #FFFFFF;
+     border-radius: 10px;
+     margin-left: 13px;
+}
+section .dashBx .boardBx .footerBx .rectangleBx span{
+     width: 48px;
+     height: 48px;
+}
+section .dashBx .boardBx .footerBx .rectangleBx span img{
+     width: 24px;
+     height: 24px;
+     display: flex;
+     position: relative;
+     top: 20px;
+     left: 20px;
+}
+section .dashBx .boardBx .footerBx .rectangleBx p{
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 18px;
+     top: 14px;
+     position: absolute;
+     left: 60px;
+     color: #535261;
+}
+section .userBx{
+     width: 401px;
+     height: 810px;
+     display: flex;
+     background-color: gold;
+}
+section .userBx .infoBx{
+     display: flex;
+     position: relative;
+}
