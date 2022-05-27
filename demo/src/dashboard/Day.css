@@ -138,31 +138,300 @@ section .dashBx .boardBx .footerBx .rectangleBx{
 section .dashBx .boardBx .footerBx .rectangleBx span{
      width: 48px;
      height: 48px;
+     background-color: wheat;
+     display: flex;
+     position: relative;
+     margin: 8px 126px 64px 12px;
+     border-radius: 20px;
 }
 section .dashBx .boardBx .footerBx .rectangleBx span img{
      width: 24px;
      height: 24px;
      display: flex;
      position: relative;
-     top: 20px;
-     left: 20px;
+     margin: 12px 12px 12px 12px;
 }
 section .dashBx .boardBx .footerBx .rectangleBx p{
      font-size: 14px;
      font-weight: 700;
      line-height: 18px;
+     width: 60px;
+     height: 36px;
      top: 14px;
      position: absolute;
-     left: 60px;
+     left: 72px;
      color: #535261;
+}
+section .dashBx .boardBx .footerBx .rectangleBx h1{
+     width: 108px;
+     height: 45px;
+     font-size: 30px;
+     line-height: 45px;
+     font-weight: 700;
+     position: absolute;
+     top: 68px;
+     left: 12px;
+}
+section .dashBx .boardBx .footerBx .rectangleBx .numBx h3{
+     width: 29px;
+     height: 12px;
+     top: 85px;
+     left: 145px;
+     font-size: 8px;
+     font-weight: 400;
+     line-height: 12px;
+     display: flexbox;
+     position: absolute;
+}
+section .dashBx .boardBx .footerBx .rectangleBx .numBx h4{
+     width: 6px;
+     height: 6px;
+     top: 85px;
+     left: 137px;
+     font-size: 8px;
+     font-weight: 400;
+     line-height: 12px;
+     display: flex;
+     position: absolute;
+}
+section .dashBx .boardBx .finalBx{
+     width: 791px;
+     height: 484px;
+     background-color: #FFFFFF;
+     position: absolute;
+     top: 300px;
+     left: 25px;
+     border-radius: 12px;
+}
+section .dashBx .boardBx .finalBx .firstBx {
+
+}
+section .dashBx .boardBx .finalBx .firstBx h1{
+     width: 232px;
+     height: 30px;
+     font-size: 20px;
+     line-height: 30px;
+     font-weight: 700;
+     top: 24px;
+     position: absolute;
+     left: 24px;
+     color: #282739;
+}
+section .dashBx .boardBx .finalBx .firstBx p{
+     width: 99px;
+     height: 21px;
+     font-size: 14px;
+     line-height: 21px;
+     font-weight: 400;
+     top: 58px;
+     color: #A9A9B0;
+     position: absolute;
+     left: 24px;
+}
+section .dashBx .boardBx .finalBx .firstBx h2{
+     width: 70px;
+     height: 24px;
+     font-size: 16px;
+     line-height: 24px;
+     font-weight: 600;
+     top: 33px;
+     color: #282739;
+     position: absolute;
+     left: 583px;
+}
+section .dashBx .boardBx .finalBx .firstBx .checkBx{
+     width: 106px;
+     height: 42px;
+     position: absolute;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 8px;
+     border: 1.5px #D4D4D7 solid;
+     left: 661px;
+     top: 24px;
+     color: #7E7D88;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     padding-left: 12px;
+}
+section .dashBx .boardBx .finalBx .firstBx .checkBx span{
+     width: 14px;
+     height: 8px;
+     position: absolute;
+     color: #FF7506;
+     margin: 9px 18px 18px 60px;
+}
+section .dashBx .boardBx .finalBx .secondBx{
+     
+}
+section .dashBx .boardBx .finalBx .secondBx ul{
+     position: relative;
+     left: 27px;
+     top: 80px;
+     width: 67px;
+     height: 44px;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 18px;
+}
+section .dashBx .boardBx .finalBx .secondBx ul li{
+     list-style: none;
+     position: relative;
+     border-bottom: 1px solid #EAEAEC;
+     width: 739px;
+     margin-top: 28px;
+}
+section .dashBx .boardBx .finalBx .thirdthBx{
+     
+}
+section .dashBx .boardBx .finalBx .thirdthBx ul{
+     display: flex;
+     position: relative;
+     width: 15px;
+     height: 18px;
+     top: 343px;
+     left: 35px;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 18px;
+}
+section .dashBx .boardBx .finalBx .thirdthBx ul li{
+     list-style: none;
+     margin-left: 26px;
+}
+section .dashBx .boardBx .finalBx .thirdthBx ul li:nth-child(2){
+     list-style: none;
+     margin-left: 249px;
+}
+section .dashBx .boardBx .finalBx .thirdthBx ul li:nth-child(3){
+     list-style: none;
+     margin-left: 144px;
+}
+section .dashBx .boardBx .finalBx .thirdthBx ul li:nth-child(4){
+     list-style: none;
+     margin-left: 218px;
+}
+section .dashBx .boardBx .finalBx .fourthBx{
+     
+}
+section .dashBx .boardBx .finalBx .fourthBx ul{
+     display: flex;
+     position: relative;
+}
+section .dashBx .boardBx .finalBx .fourthBx ul li:nth-child(1){
+     width: 9px;
+     height: 18px;
+     list-style: none;
+     position: absolute;
+     top: 326px;
+     font-size: 12px;
+     line-height: 18px;
+     font-weight: 400;
+     left: 21px;
+     color: #535261;
+}
+section .dashBx .boardBx .finalBx .fourthBx ul li:nth-child(2){
+     width: 4px;
+     height: 21px;
+     list-style: none;
+     position: absolute;
+     top: 330px;
+     font-size: 12px;
+     line-height: 18px;
+     font-weight: 400;
+     left: 32px;
+     color: #535261;
+}
+section .dashBx .boardBx .finalBx .fourthBx ul li:nth-child(3){
+     width: 27px;
+     height: 18px;
+     list-style: none;
+     position: absolute;
+     top: 340px;
+     font-size: 14px;
+     line-height: 21px;
+     font-weight: 200;
+     left: 38px;
+     color: #535261;
+}
+section .dashBx .boardBx .finalBx .fifthBx{
+     position: absolute;
+     top: 121px;
+     left: 53px;
+     font-size: 20px;
+     width: 696px;
+     height: 121px;
+}
+section .dashBx .boardBx .finalBx .fifthBx{
+     
 }
 section .userBx{
      width: 401px;
      height: 810px;
      display: flex;
-     background-color: gold;
+     background-color:#dbdbdb;
 }
 section .userBx .infoBx{
      display: flex;
      position: relative;
+}
+section .userBx .infoBx .rightBx{
+     
+}
+section .userBx .infoBx .rightBx img{
+     width: 12px;
+     height: 14px;
+     display: flex;
+     position: absolute;
+     top: 35px;
+     left: 118px;
+}
+section .userBx .infoBx .rightBX img{
+     width: 40px;
+     height: 40px;
+     display: flex;
+     position: absolute;
+     top: 24px;
+     left: 165px;
+}
+section .userBx .infoBx .rightBX h1{
+     width: 47px;
+     height: 18px;
+     display: flex;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 18px;
+     color: #7E7D88;
+     position: absolute;
+     top: 24px;
+     left: 213px;
+}
+section .userBx .infoBx .rightBX h2{
+     width: 124px;
+     height: 24px;
+     display: flex;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 24px;
+     position: absolute;
+     color: #535261;
+     top: 42px;
+     left: 213px;
+}
+section .userBx .infoBx .generalBx{
+     /* display: flex;
+     position: relative; */
+}
+section .userBx .infoBx .generalBx h1{
+     position: relative;
+     top: 104px;
+     left: 24px;
+     width: 118px;
+     height: 36px;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 36px;
+     color: #FF7506;
 }

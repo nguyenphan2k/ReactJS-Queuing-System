@@ -7,8 +7,8 @@ import reportWebVitals from './reportWebVitals';
 // import Forget from './user/Forget'
 // import Error from './user/Error';
 // import ConfirmPass from './user/ConfirmPass';
-import Account from './user/Account';
-// import Day from './dashboard/Day'
+// import Account from './user/Account';
+import Day from './dashboard/Day'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,8 +19,8 @@ root.render(
     {/* <Forget /> */}
     {/* <Error /> */}
     {/* <ConfirmPass /> */}
-    <Account />
-    {/* <Day /> */}
+    {/* <Account /> */}
+    <Day />
   </React.StrictMode>
   </BrowserRouter>
 );
