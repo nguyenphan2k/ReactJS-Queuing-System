@@ -16,6 +16,7 @@ import {IoIosArrowRoundDown} from 'react-icons/io'
 import {MdArrowDropDown} from 'react-icons/md'
 import bell from '../images/Vector.png'
 import user from '../images/user.png'
+import {Link} from 'react-router-dom'
 function Day(){
      return(
           <section>
@@ -50,12 +51,12 @@ function Day(){
                                    </menubar>
                                    
                               </div>
-                              <div className='logoutBx'>
+                              <Link to={'/thoat'} className='logoutBx'>
                                    <menubar>
                                         <span><FiLogOut/></span>
                                         Đăng xuất
                                    </menubar>
-                              </div>
+                              </Link>
                          </form>
                     </div>
                </div>
@@ -161,6 +162,7 @@ function Day(){
                          </div>
                     </div>
                </div>
+{/*------------------------------------------------------------------------------------*/}
                <div className='userBx'>
                     <div className='infoBx'>
                          <div className='rightBx'>
@@ -173,6 +175,122 @@ function Day(){
                          </div>
                          <div className='generalBx'>
                               <h1>Tổng quan</h1>
+                         </div>
+                    </div>
+                    <div className='bigcircleBx'>
+                         <div className='circleBx'>
+                              <svg>
+                                   <circle cx='30' cy='30' r='30'></circle>
+                                   <circle cx='25' cy='25' r='25'></circle>
+                              </svg>
+                              <h1>4.221</h1>
+                              <h2>90%</h2>
+                              <h3 className='iconBx'><FiMonitor/></h3>
+                              <h2 className='deviceBx'>Thiết bị</h2>
+                              <h1 className='dotBx'>.</h1>
+                              <h1 className='dotsBx'>.</h1>
+                              <p>Đang hoạt động</p>
+                              <h2 className='numBx'>3.799</h2>
+                              <h3 className='numtwoBx'>422</h3>
+                         </div>
+                         <div className='circlesBx'>
+                              <svg>
+                                   <circle cx='30' cy='30' r='30'></circle>
+                                   <circle cx='25' cy='25' r='25'></circle>
+                              </svg>
+                              <h1>276</h1>
+                              <h2>76%</h2>
+                              <h3 className='iconBx'><BiMessageRoundedDots/></h3>
+                              <h2 className='deviceBx'>Dịch vụ</h2>
+                              <h1 className='dotBx'>.</h1>
+                              <h1 className='dotsBx'>.</h1>
+                              
+                              <h2 className='numBx'>210</h2>
+                              <h3 className='numtwoBx'>66</h3>
+                         </div>
+                         <div className='circlessBx'>
+                              <svg>
+                                   <circle cx='30' cy='30' r='30'></circle>
+                                   <circle cx='25' cy='25' r='25'></circle>
+                                   <circle cx='20' cy='20' r='20'></circle>
+                              </svg>
+                              <h1>4.221</h1>
+                              <h2>86%</h2>
+                              <h3 className='iconBx'><BiLayer/></h3>
+                              <h2 className='deviceBx'>Cấp số</h2>
+                              <h1 className='dotBx'>.</h1>
+                              <h1 className='dotsBx'>.</h1>
+                              
+                              <h2 className='numBx'>3.721</h2>
+                              <h3 className='numtwoBx'>486</h3>
+                              <h3 className='numthreeBx'>32</h3>
+                         </div>
+                    </div>
+                    <div className='calenderBx'>
+                         <div className='caframeBx'>
+                              <div className='cafirstBx'>
+                                   <h1>19 Nov 2021</h1>
+                              </div>
+                              <div className='casecondBx'>
+                                  <table>
+                                       <tbody>
+                                            <tr>
+                                                  <td>Mo</td>
+                                                  <td>Tu</td>
+                                                  <td>We</td>
+                                                  <td>Th</td>
+                                                  <td>Fr</td>
+                                                  <td>Sa</td>
+                                                  <td>Su</td>
+                                            </tr>
+                                            <tr>
+                                                  <td>27</td>
+                                                  <td>28</td>
+                                                  <td>29</td>
+                                                  <td>30</td>
+                                                  <td>1</td>
+                                                  <td>2</td>
+                                                  <td>3</td>
+                                            </tr>
+                                            <tr>
+                                                  <td>4</td>
+                                                  <td>5</td>
+                                                  <td>6</td>
+                                                  <td>7</td>
+                                                  <td>8</td>
+                                                  <td>9</td>
+                                                  <td>10</td>
+                                            </tr>
+                                            <tr>
+                                                  <td>11</td>
+                                                  <td>12</td>
+                                                  <td>13</td>
+                                                  <td>14</td>
+                                                  <td>15</td>
+                                                  <td>16</td>
+                                                  <td>17</td>
+                                            </tr>
+                                            <tr>
+                                                  <td>18</td>
+                                                  <td>19</td>
+                                                  <td>20</td>
+                                                  <td>21</td>
+                                                  <td>22</td>
+                                                  <td>23</td>
+                                                  <td>24</td>
+                                            </tr>
+                                            <tr>
+                                                  <td>25</td>
+                                                  <td>26</td>
+                                                  <td>27</td>
+                                                  <td>28</td>
+                                                  <td>29</td>
+                                                  <td>30</td>
+                                                  <td>31</td>
+                                            </tr>
+                                       </tbody>
+                                  </table>
+                              </div>
                          </div>
                     </div>
                </div>

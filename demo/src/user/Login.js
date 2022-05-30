@@ -2,6 +2,7 @@ import './Login.css';
 import logo from '../images/Screenshot_39.jpg'
 import logos from '../images/Screenshot_37.jpg'
 import './Forget.js'
+import { Link } from 'react-router-dom'
 function Login(){
      return (
           <section>
@@ -17,11 +18,11 @@ function Login(){
                                    <span>Mật khẩu *</span>
                                    <input type='password' value='password'></input>
                               </div>
-                              <div className='remember'>
-                                   <label>Quên mật khẩu?</label>
-                              </div>
+                              <Link to={'/quen-mat-khau'} className='remember'>
+                                   <h1>Quên mật khẩu?</h1>
+                              </Link>
                               <div className='inputBX'>
-                                   <input src='./Forget.js'  type='submit' value='Đăng nhập' name=''/>
+                                   <button type='sumbit'>Đăng nhập</button>
                               </div>
                          </form>
                     </div>

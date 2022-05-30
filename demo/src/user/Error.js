@@ -1,6 +1,7 @@
 import './Error.css'
 import logo from '../images/Screenshot_39.jpg'
-import logos from '../images/Screenshot_37.jpg'
+import image from '../images/Screenshot_40.jpg'
+import {Link} from 'react-router-dom'
 function Error(){
      return(
           <section>
@@ -20,14 +21,14 @@ function Error(){
                               <div className='buttonFr'>
                                    <button>Huỷ</button>
                               </div>
-                              <div className='buttonFr'>
-                                   <button>Tiếp tục</button>
-                              </div>
+                              <Link to={'/tiep-tuc'} className='buttonFr'>
+                                   <button type='sumbit'>Tiếp tục</button>
+                              </Link>
                          </form>
                     </div>
                </div>
                <div className="imgBx">
-                    <img src={logos}/>
+                    <img src={image}/>
                </div>
           </section>
      )

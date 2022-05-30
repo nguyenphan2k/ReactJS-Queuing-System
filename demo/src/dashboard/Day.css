@@ -2,7 +2,7 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     font-family: Nunito;
+     font-family: 'Nunito';
 }
 section{
      width: 1440px;
@@ -12,6 +12,7 @@ section{
 }
 section .contentBx{
      display: flex;
+     position: relative;
      width: 200px;
      height: 810px;
      background-color:#dbdbdb;
@@ -21,8 +22,7 @@ section .contentBx{
      border-bottom-left-radius: 16px;
 }
 section .contentBx .formBx{
-     display: flex;
-     position: relative;
+     
 }
 section .contentBx .formBx img{
      position: absolute;
@@ -421,8 +421,7 @@ section .userBx .infoBx .rightBX h2{
      left: 213px;
 }
 section .userBx .infoBx .generalBx{
-     /* display: flex;
-     position: relative; */
+     
 }
 section .userBx .infoBx .generalBx h1{
      position: relative;
@@ -434,4 +433,490 @@ section .userBx .infoBx .generalBx h1{
      font-size: 24px;
      line-height: 36px;
      color: #FF7506;
+}
+section .userBx .bigcircleBx{
+     position: absolute;
+}
+section .userBx .bigcircleBx .circleBx{
+     width: 353px;
+     height: 83px;
+     background-color: #FFFFFF;
+     top: 156px;
+     position: relative;
+     left: 24px;
+     border-radius: 12px;
+}
+section .userBx .bigcircleBx .circleBx svg{
+     width: 353px;
+     height: 83px;
+     position: relative;
+}
+section .userBx .bigcircleBx .circleBx svg circle{
+     width:60px;
+     height:60px;
+     fill: none;
+     stroke-width: 2;
+     stroke: #FF7506;
+     position: relative; 
+     transform: translate(16px, 11px);
+}
+section .userBx .bigcircleBx .circleBx svg circle:nth-child(2){
+     width:50px;
+     height:50px;
+     fill: none;
+     stroke-width: 2;
+     stroke: #7E7D88;
+     transform: translate(21px, 16px);
+}
+section .userBx .bigcircleBx .circleBx h2{
+     width: 31px;
+     height: 24px;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 24x;
+     position: absolute;
+     top: 29px;
+     left: 31px;
+     bottom: 30px;
+     color: #535261;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+section .userBx .bigcircleBx .circleBx h1{
+     width: 64px;
+     height: 36px;
+     font-weight: 800;
+     font-size: 24px;
+     line-height: 36x;
+     color: #535261;
+     position: absolute;
+     top: 14px;
+     left: 88px;
+     font-family: 'Nunito';
+}
+section .userBx .bigcircleBx .circleBx .dotBx{
+     position: absolute;
+     left: 192px;
+     top: 10px;
+     width: 4px;
+     height: 4px;
+     color: #FFD130;
+}
+section .userBx .bigcircleBx .circleBx .dotsBx{
+     position: absolute;
+     left: 192px;
+     top: 38px;
+     width: 4px;
+     height: 4px;
+     color: #7E7D88;
+}
+section .userBx .bigcircleBx .circleBx p{
+     position: absolute;
+     left: 200px;
+     top: 18px;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 21px;
+     width: 87px;
+     height: 21px;
+     color: #7E7D88;
+}
+section .userBx .bigcircleBx .circleBx .offlineBx{
+     position: absolute;
+     left: 200px;
+     top: 28px;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 21px;
+     width: 87px;
+     height: 21px;
+     color: #7E7D88;
+}
+section .userBx .bigcircleBx .circleBx .numBx{
+     position: absolute;
+     left: 299px;
+     top: 19px;
+     width: 38px;
+     height: 18px;
+     font-size: 14px;
+     line-height: 18px;
+     font-weight: 700;
+     color: #FF7506;
+}
+section .userBx .bigcircleBx .circleBx .numtwoBx{
+     position: absolute;
+     left: 299px;
+     top: 45px;
+     width: 26px;
+     height: 18px;
+     font-size: 14px;
+     color: #FF7506;
+     line-height: 18px;
+     font-weight: 700;
+}
+section .userBx .bigcircleBx .circleBx .iconBx{
+     width: 12px;
+     height: 9px;
+     position: absolute;
+     color: #FF7506;
+     display: flex;
+     top: 14px;
+     left: 89px;
+}
+section .userBx .bigcircleBx .circleBx .deviceBx{
+     width: 49px;
+     height: 21px;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 24px;
+     position: absolute;
+     color: #FF7506;
+     top: 47px;
+     left: 106px;
+}
+/*-----------------------------------------*/
+section .userBx .bigcircleBx .circlesBx{
+     width: 353px;
+     height: 83px;
+     background-color: #FFFFFF;
+     top: 251px;
+     position: absolute;
+     left: 24px;
+     border-radius: 12px;
+}
+section .userBx .bigcircleBx .circlesBx svg{
+     width: 353px;
+     height: 83px;
+     position: relative;
+}
+section .userBx .bigcircleBx .circlesBx svg circle{
+     width:60px;
+     height:60px;
+     fill: none;
+     stroke-width: 2;
+     stroke: #4277FF;
+     position: relative; 
+     transform: translate(16px, 11px);
+}
+section .userBx .bigcircleBx .circlesBx svg circle:nth-child(2){
+     width:50px;
+     height:50px;
+     fill: none;
+     stroke-width: 2;
+     stroke: #7E7D88;
+     transform: translate(21px, 16px);
+}
+section .userBx .bigcircleBx .circlesBx h2{
+     width: 31px;
+     height: 24px;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 24x;
+     position: absolute;
+     top: 29px;
+     left: 31px;
+     bottom: 30px;
+     color: #535261;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+section .userBx .bigcircleBx .circlesBx h1{
+     width: 64px;
+     height: 36px;
+     font-weight: 800;
+     font-size: 24px;
+     line-height: 36x;
+     color: #535261;
+     position: absolute;
+     top: 14px;
+     left: 88px;
+     font-family: 'Nunito';
+}
+section .userBx .bigcircleBx .circlesBx .dotBx{
+     position: absolute;
+     left: 192px;
+     top: 10px;
+     width: 4px;
+     height: 4px;
+     color: #4277FF;
+}
+section .userBx .bigcircleBx .circlesBx .dotsBx{
+     position: absolute;
+     left: 192px;
+     top: 38px;
+     width: 4px;
+     height: 4px;
+     color: #7E7D88;
+}
+section .userBx .bigcircleBx .circlesBx .numBx{
+     position: absolute;
+     left: 299px;
+     top: 19px;
+     width: 26px;
+     height: 18px;
+     font-size: 14px;
+     line-height: 18px;
+     font-weight: 700;
+     color: #4277FF;
+}
+section .userBx .bigcircleBx .circlesBx .numtwoBx{
+     position: absolute;
+     left: 299px;
+     top: 45px;
+     width: 17px;
+     height: 18px;
+     font-size: 14px;
+     color: #4277FF;
+     line-height: 18px;
+     font-weight: 700;
+}
+section .userBx .bigcircleBx .circlesBx .iconBx{
+     width: 12px;
+     height: 9px;
+     position: absolute;
+     color: #4277FF;
+     display: flex;
+     top: 14px;
+     left: 89px;
+}
+section .userBx .bigcircleBx .circlesBx .deviceBx{
+     width: 49px;
+     height: 21px;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 24px;
+     position: absolute;
+     color: #4277FF;
+     top: 47px;
+     left: 106px;
+}
+/*-----------------------------------------*/
+section .userBx .bigcircleBx .circlessBx{
+     width: 353px;
+     height: 83px;
+     background-color: #FFFFFF;
+     top: 346px;
+     position: absolute;
+     left: 24px;
+     border-radius: 12px;
+}
+section .userBx .bigcircleBx .circlessBx svg{
+     width: 353px;
+     height: 83px;
+     position: relative;
+}
+section .userBx .bigcircleBx .circlessBx svg circle{
+     width:60px;
+     height:60px;
+     fill: none;
+     stroke-width: 2;
+     stroke: #35C75A;
+     position: relative; 
+     transform: translate(16px, 11px);
+}
+section .userBx .bigcircleBx .circlessBx svg circle:nth-child(2){
+     width:50px;
+     height:50px;
+     fill: none;
+     stroke-width: 2;
+     stroke: #7E7D88;
+     transform: translate(21px, 16px);
+}
+section .userBx .bigcircleBx .circlessBx svg circle:nth-child(3){
+     width:40px;
+     height:40px;
+     fill: none;
+     stroke-width: 2;
+     stroke: #F178B6;
+     transform: translate(26px, 21px);
+}
+section .userBx .bigcircleBx .circlessBx h2{
+     width: 31px;
+     height: 24px;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 24x;
+     position: absolute;
+     top: 29px;
+     left: 31px;
+     bottom: 30px;
+     color: #535261;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+section .userBx .bigcircleBx .circlessBx h1{
+     width: 64px;
+     height: 36px;
+     font-weight: 800;
+     font-size: 24px;
+     line-height: 36x;
+     color: #535261;
+     position: absolute;
+     top: 14px;
+     left: 88px;
+     font-family: 'Nunito';
+}
+section .userBx .bigcircleBx .circlessBx .dotBx{
+     position: absolute;
+     left: 192px;
+     top: 10px;
+     width: 4px;
+     height: 4px;
+     color: #4277FF;
+}
+section .userBx .bigcircleBx .circlessBx .dotsBx{
+     position: absolute;
+     left: 192px;
+     top: 38px;
+     width: 4px;
+     height: 4px;
+     color: #7E7D88;
+}
+section .userBx .bigcircleBx .circlessBx p{
+     position: relative;
+     left: 200px;
+     top: -77px;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 21px;
+     width: 87px;
+     height: 21px;
+     color: #7E7D88;
+     margin-top: 2.5px;
+}
+section .userBx .bigcircleBx .circlessBx .numBx{
+     position: absolute;
+     left: 299px;
+     top: 11px;
+     width: 38px;
+     height: 18px;
+     font-size: 14px;
+     line-height: 18px;
+     font-weight: 700;
+     color: #35C75A;
+}
+section .userBx .bigcircleBx .circlessBx .numtwoBx{
+     position: absolute;
+     left: 301px;
+     top: 32px;
+     width: 26px;
+     height: 18px;
+     font-size: 14px;
+     color: #35C75A;
+     line-height: 18px;
+     font-weight: 700;
+}
+section .userBx .bigcircleBx .circlessBx .numthreeBx{
+     position: absolute;
+     left: 301px;
+     top: 53px;
+     width: 17px;
+     height: 18px;
+     font-size: 14px;
+     color: #35C75A;
+     line-height: 18px;
+     font-weight: 700;
+}
+section .userBx .bigcircleBx .circlessBx .iconBx{
+     width: 12px;
+     height: 9px;
+     position: absolute;
+     color: #35C75A;
+     display: flex;
+     top: 14px;
+     left: 89px;
+}
+section .userBx .bigcircleBx .circlessBx .deviceBx{
+     width: 49px;
+     height: 21px;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 24px;
+     position: absolute;
+     color: #35C75A;
+     top: 47px;
+     left: 106px;
+}
+/*---------------------------------------------------------------------*/
+section .userBx .calenderBx{
+     position: absolute;
+}
+section .userBx .calenderBx .caframeBx{
+     width: 353px;
+     height: 336px;
+     position: relative;
+     background-color:#FFFFFF;
+     top: 445px;
+     left: 24px;
+     border-radius: 12px;
+     padding: 16px 10px 16px 10px;
+}
+section .userBx .calenderBx .caframeBx .cafirstBx{
+}
+section .userBx .calenderBx .caframeBx .cafirstBx h1{
+     position: absolute;
+     top: 25px;
+     left: 122.5px;
+     color: #FF7506;
+     font-size: 16px;
+     line-height: 21.82px;
+     font-weight: 700; 
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody{
+     display: block
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr{
+     display: table-row;
+     position: relative;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 19.1px;
+     color: #FF9138;
+     top: 58.5px;
+     left: 27.5px;
+     width: 20px;
+     height: 19px;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr td{
+     list-style: none;
+     padding: 10px 10px;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2){
+     color:#535261 ;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(3){
+     color:#535261 ;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(4){
+     color:#535261 ;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(5){
+     color:#535261 ;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(6){
+     color:#535261 ;
+}
+/*-----------------------------------------------------------------------------*/
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2) td:nth-child(1){
+     color: #7E7D88;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2) td:nth-child(2){
+     color: #7E7D88;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2) td:nth-child(3){
+     color: #7E7D88;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2) td:nth-child(4){
+     color: #7E7D88;
+}
+/*--------------------------------------*/
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(5) td:nth-child(2){
+     color:#FFFFFF;
+     background-color: #FF7506;
+     border-radius: 8px;
+     width: 36px;
+     height: 36px;
 }

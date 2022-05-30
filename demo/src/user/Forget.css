@@ -20,10 +20,12 @@ section .contentBx{
      align-items: center;
 }
 section .contentBx .formBx{
-     width: 367px;
+     /* width: 367px; */
 }
 section .contentBx .formBx img{
-     width: 448px;
+     position: absolute;
+     width: 167px;
+     height: 112px;
 }
 section .contentBx .formBx .inputBx{
      margin-bottom: 10px;
@@ -67,7 +69,7 @@ section .contentBx .formBx .remember{
      font-weight: 400;
 }
 section .contentBx .formBx .forget{
-     margin-left: 135px;
+     margin-left: 155px;
 }
 section .contentBx .formBx .forget label{
      color: #E73F3F;

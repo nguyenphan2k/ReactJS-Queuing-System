@@ -5,41 +5,47 @@
      font-family: 'Nunito';
 }
 section{
-     max-width: 1440px;
-     max-height: 810px;
+     width: 1440px;
+     height: 810px;
      display: flex;
      margin: auto;
 }
 section .contentBx{
      display: flex;
+     position: relative;
      width: 592px;
      height: 810px;
      background-color: #F6F6F6;
-     border-radius: 16px;
+     border-top-left-radius: 16px;
+     border-bottom-left-radius: 16px;
      justify-content: center;
      align-items: center;
 }
 section .contentBx .formBx{
-     width: 367px;
+     
 }
 section .contentBx .formBx img{
-     width: 448px;
-}
-section .contentBx .formBx .inputBx{
-     margin-bottom: 10px;
+     position: absolute;
+     width: 180px;
+     top: 112px;
+     height: 124px;
+     left: 200px;
+
 }
 section .contentBx .formBx .inputBX{
-     margin-bottom: 10px;
-     margin-left: 100px;
+     position: absolute;
+     padding: 10px 24px 10px 24px;
 }
-section .contentBx .formBx .inputBX input{
+section .contentBx .formBx .inputBX button{
      width: 162px;
      height: 40px;
+     background-color: #FF9138;
      border-radius: 8px;
-     padding: 10px 24px 10px 24px;
-     background-color:  #FF9138;
-     border: 1.5px solid #FF9138;
-     color: #E7E9F2;
+     color: #FFFFFF;
+     position: absolute;
+     top: 11px;
+     border: 0px solid #FF9138;
+     left: 115px;
 }
 section .contentBx .formBx .inputBx span{
      display: flex;
@@ -55,14 +61,15 @@ section .contentBx .formBx .inputBx input{
      padding: 10px 270px 10px 12px;
      border: 1.5px solid #E73F3F;
 }
-section .contentBx .formBx .remember{
-     margin-bottom: 20px;
+section .contentBx .formBx .remember h1{
+     position: absolute;
      font-size: 14px;
      color: #E73F3F; 
      line-height: 21px;
-     width: 209px;
+     width: 102px;
      height: 21px;
-     top: 471px;
+     top: 473px;
+     left: 74px;
      font-weight: 400;
 }
 section .imgBx{

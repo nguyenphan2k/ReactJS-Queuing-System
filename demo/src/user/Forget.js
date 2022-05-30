@@ -1,6 +1,7 @@
 import './Forget.css'
 import logo from '../images/Screenshot_39.jpg'
 import logos from '../images/Screenshot_37.jpg'
+import {Link} from 'react-router-dom'
 function Forget(){
      return (
           <section>
@@ -22,9 +23,9 @@ function Forget(){
                               <div className='inputBX'>
                                    <input  type='submit' value='Đăng nhập' name=''/>
                               </div>
-                              <div className='forget'>
+                              <Link to={'/quen-mat-khau-tiep'} className='forget'>
                                    <label>Quên mật khẩu</label>
-                              </div>
+                              </Link>
                          </form>
                     </div>
                </div>

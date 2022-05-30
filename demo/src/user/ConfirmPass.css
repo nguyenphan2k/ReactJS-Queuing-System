@@ -12,6 +12,7 @@ section{
 }
 section .contentBx{
      display: flex;
+     position: relative;
      width: 592px;
      height: 810px;
      background-color: #F6F6F6;
@@ -20,19 +21,25 @@ section .contentBx{
      align-items: center;
 }
 section .contentBx .formBx{
-     width: 296px;
+     
 }
 section .contentBx .formBx img{
-     width: 260px;
-     margin-bottom: 100px;
-     margin-left: 30px;
+     position: absolute;
+     top: 82px;
+     left: 150px;
 }
 section .contentBx .titleFr{
-     margin-bottom: 20px;
+     /* margin-bottom: 20px;
      margin-left: 40px;
-     margin-top: -30px;
+     margin-top: -30px; */
 }
 section .contentFr .formFr .titleFr h1{
+
+     position: absolute;
+     top: 320px;
+     width: 211px;
+     height: 33px;
+     left: 198px;
      font-size: 22px;
      font-weight: 700;
      line-height: 33px;
@@ -65,6 +72,13 @@ section .contentBx .formBx .inputBx span{
      color: #37474F;
 }
 section .contentBx .formBx .inputBx input{
+     width: 400px;
+     height: 44px;
+     border-radius: 8px; 
+     padding: 10px 270px 10px 12px;
+     border: 1.5px solid #D4D4D7;
+}
+section .contentBx .formBx .inputBx button{
      width: 400px;
      height: 44px;
      border-radius: 8px; 

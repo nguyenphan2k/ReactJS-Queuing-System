@@ -21,7 +21,7 @@ function ConfirmPass(){
                                    <input type='password' value='password'></input>
                               </div>
                               <div className='inputBX'>
-                                   <input  type='submit' value='Xác nhận' name=''/>
+                                   <button>Xác nhận</button>
                               </div>
                          </form>
                     </div>
