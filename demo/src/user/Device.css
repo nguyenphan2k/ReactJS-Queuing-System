@@ -1,0 +1,1464 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Nunito;
+}
+section{
+     width: 1440px;
+     height: 810px;
+     margin: auto;
+     display: flex;
+}
+section .contentBX{
+     display: flex;
+     position: relative;
+     width: 200px;
+     height: 810px;
+     background-color:#dbdbdb;
+     justify-content: center;
+     align-items: center;
+     border-top-left-radius: 16px;
+     border-bottom-left-radius: 16px;
+}
+section .contentBX .formBX{
+     position: fixed;
+}
+section .contentBX .formBX img{
+     position: absolute;
+     width: 100px;
+     transform: translate(20px,-220px);
+     margin-bottom: -450px;
+}
+section .contentBX .formBX .iconBX{
+     position: relative;
+     display: flex;
+     margin-left: 30px;
+     margin-bottom: 50px;
+     transform: translate(0px ,-60px);
+     flex-direction: column;
+}
+section .contentBX .formBX .iconBX ul{
+     
+}
+section .contentBX .formBX .iconBX ul li {
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #7E7D88;
+     margin-bottom: 20px;
+}
+section .contentBX .formBX .iconBX ul li span{
+     font-size: 20px;
+     font-weight: 600;
+     color: #7E7D88;
+     padding-right: 5px;
+     display: block;
+     position: absolute;
+     left:-25px;
+}
+section .contentBX .formBX .logoutBx{
+     width: 176px;
+     height: 48px;
+     background-color: #FFF2E7;
+     position: absolute;
+     border-radius: 8px;
+     display: flex;
+     margin-left: -15px;
+     justify-content: center;
+     align-items: center;
+     margin-top: 235px;
+     transform: translate(0px ,-60px);
+}
+section .contentBX .formBX .logoutBx {
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #FF7506;
+}
+section .contentBX .formBX .logoutBx span{
+     font-size: 20px;
+     font-weight: 600;
+     color: #FF7506;
+     margin-bottom: 20px;
+     position: absolute; 
+     top: 12px;
+     left: 10px;
+}
+/*--------------------------------------------------*/
+section .menuDx{
+     width: 1240px;
+     height: 810px;
+     background-color: #B1B1B1;
+     border-bottom-right-radius: 16px;
+     border-top-right-radius: 16px;
+}
+section .menuDx .menuDx-info{
+     display: flex;
+     position: relative;
+}
+section .menuDx .menuDx-info .info-right{
+     position: absolute;
+     width: 4.71px;
+     height: 1.67px;
+     top: 35.67px;
+     left: 957.59px;
+}
+section .menuDx .menuDx-info .info-right-two img{
+     position: absolute;
+     width: 40px;
+     height: 40px;
+     top: 24px;
+     left: 1004px;
+}
+section .menuDx .menuDx-info .info-right-two h1{
+     width: 47px;
+     height: 18px;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 18px;
+     color: #7E7D88;
+     position: absolute;
+     left: 1052px;
+     top: 24px;
+}
+section .menuDx .menuDx-info .info-right-two h2{
+     width: 124px;
+     height: 24px;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 24px;
+     position: absolute;
+     color: #535261;
+     left: 1052px;
+     top: 42px;
+}
+section .menuDx .menuDx-info .info-header{
+     display: inline-block;
+}
+section .menuDx .menuDx-info .info-header h1{
+     position: absolute;
+     width: 71px;
+     height: 30px;
+     top: 29px;
+     left: 24px;
+     font-weight: 700;
+     line-height: 30px;
+     font-size: 20px;
+     color: #7E7D88;
+     
+}
+section .menuDx .menuDx-info .info-header h2{
+     position: absolute;
+     width: 167px;
+     height: 30px;
+     top: 29px;
+     left: 131px;
+     font-weight: 700;
+     line-height: 30px;
+     font-size: 20px;
+     color: #FF7506;
+     
+}
+section .menuDx .menuDx-info .info-title h1{
+     position: absolute;
+     width: 200px;
+     height: 36px;
+     top: 104px;
+     left: 24px;
+     font-weight: 700;
+     line-height: 36px;
+     font-size: 24px;
+     color: #FF7506;
+}
+/*---------------------------------------------*/
+section .menuDx .statusBx-form{
+     display: flex;
+     position: relative;
+}
+section .menuDx .statusBx-form .form-status h1{
+     position: absolute;
+     width: 152px;
+     height: 24px;
+     top: 156px;
+     left: 24.97px;
+     font-weight: 600;
+     line-height: 24px;
+     font-size: 16px;
+}
+section .menuDx .statusBx-form .form-status-all{
+     display: flex;
+     position: absolute;
+}
+section .menuDx .statusBx-form .form-status-all .form-status-all-one{
+     position: relative;
+     width: 300px;
+     height: 44px;
+     top: 184px;
+     left: 24px;
+     cursor: pointer;
+     background-color: #FFFFFF;
+     padding: 10px 12px 10px 12px;
+     border-radius: 8px;
+}
+section .menuDx .statusBx-form .form-status-all .form-status-all-one h1{
+     position: absolute;
+     cursor: pointer;
+     left: 12px;
+     top: 10px;
+     width: 43px;
+     height: 24px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     color: #535261;
+}
+section .menuDx .statusBx-form .form-status-all .form-status-all-one span{
+     position: absolute;
+     left: 270px;
+     top: 14px;
+     width: 12px;
+     height: 6px;
+     color: #FF7506;
+}
+/*---------------------------------------------*/
+section .menuDx .statusBx-form-next{
+     display: flex;
+     position: relative;
+}
+section .menuDx .statusBx-form-next .form-status-next h1{
+     position: absolute;
+     width: 152px;
+     height: 24px;
+     top: 156px;
+     left: 348.97px;
+     font-weight: 600;
+     line-height: 24px;
+     font-size: 16px;
+}
+section .menuDx .statusBx-form-next .form-status-all-next{
+     display: flex;
+     position: absolute;
+}
+section .menuDx .statusBx-form-next .form-status-all-next .form-status-all-one-next{
+     position: relative;
+     width: 300px;
+     height: 44px;
+     top: 184px;
+     cursor: pointer;
+     left: 348px;
+     background-color: #FFFFFF;
+     padding: 10px 12px 10px 12px;
+     border-radius: 8px;
+}
+section .menuDx .statusBx-form-next .form-status-all-next .form-status-all-one-next h1{
+     position: absolute;
+     left: 12px;
+     width: 43px;
+     height: 24px;
+     top: 10px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     color: #535261;
+}
+section .menuDx .statusBx-form-next .form-status-all-next .form-status-all-one-next span{
+     position: absolute;
+     left: 270px;
+     top: 14px;
+     width: 12px;
+     height: 6px;
+     color: #FF7506;
+}
+/*---------------------------------------------*/
+section .menuDx .statusBx-form-search{
+     display: flex;
+     position: relative;
+}
+section .menuDx .statusBx-form-search .form-status-search h1{
+     position: absolute;
+     width: 62px;
+     height: 23.96px;
+     top: 156px;
+     left: 836px;
+     font-weight: 600;
+     line-height: 24px;
+     font-size: 16px;
+}
+section .menuDx .statusBx-form-search .form-status-all-search{
+     display: flex;
+     position: absolute;
+}
+section .menuDx .statusBx-form-search .form-status-all-search .form-status-all-one-search{
+     position: relative;
+     width: 300px;
+     height: 44px;
+     top: 184px;
+     left: 836px;
+     background-color: #FFFFFF;
+     padding: 10px 12px 10px 12px;
+     border-radius: 8px;
+}
+section .menuDx .statusBx-form-search .form-status-all-search .form-status-all-one-search h1{
+     position: absolute;
+     left: 12px;
+     top: 10px;
+     width: 97px;
+     height: 24px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     color: #535261;
+}
+section .menuDx .statusBx-form-search .form-status-all-search .form-status-all-one-search span{
+     position: absolute;
+     left: 270px;
+     top: 14px;
+     width: 3.63px;
+     height: 3.63px;
+     color: #FF7506;
+}
+/*----------------------------------------------------------*/
+section .menuDx .addBx-form{
+     display: flex;
+     position: relative;
+}
+section .menuDx .addBx-form .addBx-form-device{
+     display: flex;
+     position: absolute;
+}
+section .menuDx .addBx-form .addBx-form-device .addBx-form-device-click{
+     width: 80px;
+     height: 94px;
+     position: relative;
+     background-color: #FFF2E7;
+     top: 244px;
+     left: 1160px;
+     border-radius: 6px;
+}
+section .menuDx .addBx-form .addBx-form-device .addBx-form-device-click h1{
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     top: 44px;
+     width: 72px;
+     height: 38px;
+     left: 4px;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 19.1px;
+     padding: 12px 4px 12px 16px;
+     color: #FF7506;
+}
+/*----------------------------------------------------------*/
+section .menuDx .tableBx{
+     display: flex;
+     position: relative;
+}
+section .menuDx .tableBx .tableBx-form{
+     position: absolute;
+     width: 1112px;
+     height: 490px;
+     background-color: #E8EFF4;
+     top: 244px;
+     left: 24px;
+     border-radius: 12px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail{
+}
+section .menuDx .tableBx .tableBx-form .form-detail ul{
+     display: flex;
+     position: relative;
+     background-color: #FF9138;
+}
+section .menuDx .tableBx .tableBx-form .form-detail ul li{
+     list-style: none;
+     color: #FFFFFF;
+}
+section .menuDx .tableBx .tableBx-form .form-detail ul li:nth-child(1){
+     list-style: none;
+     color: #FFFFFF;
+     width: 103px;
+     height: 49px;
+     position: relative;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     top: 12.5px;
+     padding: 0px 8px 0px 16px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail ul li:nth-child(2){
+     list-style: none;
+     color: #FFFFFF;
+     width: 99px;
+     height: 49px;
+     position: relative;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     top: 12.5px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail ul li:nth-child(3){
+     list-style: none;
+     color: #FFFFFF;
+     width: 138px;
+     height: 49px;
+     position: relative;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     top: 12.5px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail ul li:nth-child(4){
+     list-style: none;
+     color: #FFFFFF;
+     width: 171px;
+     height: 49px;
+     position: relative;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     top: 12.5px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail ul li:nth-child(5){
+     list-style: none;
+     color: #FFFFFF;
+     width: 145px;
+     height: 49px;
+     position: relative;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     top: 12.5px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail ul li:nth-child(6){
+     list-style: none;
+     color: #FFFFFF;
+     width: 268px;
+     height: 49px;
+     position: relative;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     top: 12.5px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail ul li:nth-child(7){
+     list-style: none;
+     color: #FFFFFF;
+     width: 82px;
+     height: 49px;
+     position: relative;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     top: 12.5px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail ul li:nth-child(8){
+     list-style: none;
+     color: #FFFFFF;
+     width: 106px;
+     height: 49px;
+     position: relative;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     top: 12.5px;
+     padding: 0px 17px 0px 17px;
+}
+/*-----------------------------------------------------------*/
+section .menuDx .tableBx .tableBx-form .form-detail_two{
+}
+section .menuDx .tableBx .tableBx-form .form-detail_two ul{
+     display: flex;
+     position: relative;
+     background-color: #FFFFFF;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_two ul li{
+     list-style: none;
+     color: #535261;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_two ul li:nth-child(1){
+     width: 103px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 16px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_two ul li:nth-child(2){
+     width: 99px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_two ul li:nth-child(3){
+     width: 138px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_two ul li:nth-child(4){
+     width: 171px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_two ul li:nth-child(5){
+     width: 145px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_two ul li:nth-child(6){
+     width: 268px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 3.5px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_two ul li:nth-child(6) p{
+     width: 64px;
+     height: 21px;
+     display: flex;
+     position: absolute;
+     top: 24.5px;
+     font-weight: 400;
+     font-size: 14px;
+     color: #4277FF;
+     line-height: 21px;  
+     text-decoration: underline;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_two ul li:nth-child(7) p{
+     width: 82px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     color: #4277FF;
+     text-decoration: underline;
+     padding: 0px 17px 0px 17px;;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+}
+section .menuDx .tableBx .tableBx-form .form-detail_two ul li:nth-child(8){
+     width: 106px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     font-weight: 400;
+     color: #4277FF;
+     text-decoration: underline;
+     font-size: 14px;
+     line-height: 21px; 
+     padding: 0px 17px 0px 17px; 
+}
+/*-----------------------------------------------------------*/
+section .menuDx .tableBx .tableBx-form .form-detail_three{
+}
+section .menuDx .tableBx .tableBx-form .form-detail_three ul{
+     display: flex;
+     position: relative;
+     background-color: #FFF2E7;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_three ul li{
+     list-style: none;
+     color: #535261;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_three ul li:nth-child(1){
+     width: 103px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 16px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_three ul li:nth-child(2){
+     width: 99px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_three ul li:nth-child(3){
+     width: 138px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_three ul li:nth-child(4){
+     width: 171px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_three ul li:nth-child(5){
+     width: 145px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_three ul li:nth-child(6){
+     width: 268px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 3.5px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_three ul li:nth-child(6) p{
+     width: 64px;
+     height: 21px;
+     display: flex;
+     position: absolute;
+     top: 24.5px;
+     color: #4277FF;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+     text-decoration: underline;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_three ul li:nth-child(7){
+     width: 82px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+     color: #4277FF;
+     text-decoration: underline;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+}
+section .menuDx .tableBx .tableBx-form .form-detail_three ul li:nth-child(8){
+     width: 106px;
+     height: 49px;
+     position: relative;
+     color: #4277FF;
+     text-decoration: underline;
+     top: 14px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px; 
+     padding: 0px 17px 0px 17px; 
+}
+/*-----------------------------------------------------------*/
+section .menuDx .tableBx .tableBx-form .form-detail_four{
+}
+section .menuDx .tableBx .tableBx-form .form-detail_four ul{
+     display: flex;
+     position: relative;
+     background-color: #FFFFFF;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_four ul li{
+     list-style: none;
+     color: #535261;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_four ul li:nth-child(1){
+     width: 103px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 16px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_four ul li:nth-child(2){
+     width: 99px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_four ul li:nth-child(3){
+     width: 138px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_four ul li:nth-child(4){
+     width: 171px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_four ul li:nth-child(5){
+     width: 145px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_four ul li:nth-child(6){
+     width: 268px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 3.5px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_four ul li:nth-child(6) p{
+     width: 64px;
+     height: 21px;
+     display: flex;
+     position: absolute;
+     color: #4277FF;
+     top: 24.5px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+     text-decoration: underline;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_four ul li:nth-child(7){
+     width: 82px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     padding: 0px 17px 0px 17px;;
+     color: #4277FF;
+     text-decoration: underline;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+}
+section .menuDx .tableBx .tableBx-form .form-detail_four ul li:nth-child(8){
+     width: 106px;
+     height: 49px;
+     position: relative;
+     color: #4277FF;
+     text-decoration: underline;
+     top: 14px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px; 
+     padding: 0px 17px 0px 17px; 
+}
+/*-----------------------------------------------------------*/
+section .menuDx .tableBx .tableBx-form .form-detail_five{
+}
+section .menuDx .tableBx .tableBx-form .form-detail_five ul{
+     display: flex;
+     position: relative;
+     background-color: #FFF2E7;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_five ul li{
+     list-style: none;
+     color: #535261;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_five ul li:nth-child(1){
+     width: 103px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 16px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_five ul li:nth-child(2){
+     width: 99px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_five ul li:nth-child(3){
+     width: 138px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_five ul li:nth-child(4){
+     width: 171px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_five ul li:nth-child(5){
+     width: 145px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_five ul li:nth-child(6){
+     width: 268px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 3.5px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_five ul li:nth-child(6) p{
+     width: 64px;
+     height: 21px;
+     display: flex;
+     position: absolute;
+     color: #4277FF;
+     top: 24.5px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+     text-decoration: underline;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_five ul li:nth-child(7){
+     width: 82px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+     color: #4277FF;
+     text-decoration: underline;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+}
+section .menuDx .tableBx .tableBx-form .form-detail_five ul li:nth-child(8){
+     width: 106px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     font-weight: 400;
+     color: #4277FF;
+     text-decoration: underline;
+     font-size: 14px;
+     line-height: 21px; 
+     padding: 0px 17px 0px 17px; 
+}
+/*-----------------------------------------------------------*/
+section .menuDx .tableBx .tableBx-form .form-detail_six{
+}
+section .menuDx .tableBx .tableBx-form .form-detail_six ul{
+     display: flex;
+     position: relative;
+     background-color: #FFFFFF;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_six ul li{
+     list-style: none;
+     color: #535261;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_six ul li:nth-child(1){
+     width: 103px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 16px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_six ul li:nth-child(2){
+     width: 99px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_six ul li:nth-child(3){
+     width: 138px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_six ul li:nth-child(4){
+     width: 171px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_six ul li:nth-child(5){
+     width: 145px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_six ul li:nth-child(6){
+     width: 268px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 3.5px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_six ul li:nth-child(6) p{
+     width: 64px;
+     height: 21px;
+     display: flex;
+     position: absolute;
+     color: #4277FF;
+     top: 24.5px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+     text-decoration: underline;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_six ul li:nth-child(7){
+     width: 82px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+     color: #4277FF;
+     text-decoration: underline;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+}
+section .menuDx .tableBx .tableBx-form .form-detail_six ul li:nth-child(8){
+     width: 106px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     font-weight: 400;
+     font-size: 14px;
+     color: #4277FF;
+     text-decoration: underline;
+     line-height: 21px; 
+     padding: 0px 17px 0px 17px; 
+}
+/*-----------------------------------------------------------*/
+section .menuDx .tableBx .tableBx-form .form-detail_seven{
+}
+section .menuDx .tableBx .tableBx-form .form-detail_seven ul{
+     display: flex;
+     position: relative;
+     background-color: #FFF2E7;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_seven ul li{
+     list-style: none;
+     color: #535261;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_seven ul li:nth-child(1){
+     width: 103px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 16px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_seven ul li:nth-child(2){
+     width: 99px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_seven ul li:nth-child(3){
+     width: 138px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_seven ul li:nth-child(4){
+     width: 171px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_seven ul li:nth-child(5){
+     width: 145px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_seven ul li:nth-child(6){
+     width: 268px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 3.5px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_seven ul li:nth-child(6) p{
+     width: 64px;
+     height: 21px;
+     display: flex;
+     position: absolute;
+     color: #4277FF;
+     top: 24.5px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+     text-decoration: underline;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_seven ul li:nth-child(7){
+     width: 82px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     padding: 0px 17px 0px 17px;;
+     color: #4277FF;
+     text-decoration: underline;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+}
+section .menuDx .tableBx .tableBx-form .form-detail_seven ul li:nth-child(8){
+     width: 106px;
+     height: 49px;
+     position: relative;
+     color: #4277FF;
+     text-decoration: underline;
+     top: 14px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px; 
+     padding: 0px 17px 0px 17px; 
+}
+/*-----------------------------------------------------------*/
+section .menuDx .tableBx .tableBx-form .form-detail_eight{
+}
+section .menuDx .tableBx .tableBx-form .form-detail_eight ul{
+     display: flex;
+     position: relative;
+     background-color: #FFFFFF;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_eight ul li{
+     list-style: none;
+     color: #535261;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_eight ul li:nth-child(1){
+     width: 103px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 16px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_eight ul li:nth-child(2){
+     width: 99px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_eight ul li:nth-child(3){
+     width: 138px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_eight ul li:nth-child(4){
+     width: 171px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_eight ul li:nth-child(5){
+     width: 145px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_eight ul li:nth-child(6){
+     width: 268px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 3.5px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_eight ul li:nth-child(6) p{
+     width: 64px;
+     height: 21px;
+     display: flex;
+     position: absolute;
+     top: 24.5px;
+     font-weight: 400;
+     color: #4277FF;
+     font-size: 14px;
+     line-height: 21px;  
+     text-decoration: underline;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_eight ul li:nth-child(7){
+     width: 82px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     padding: 0px 17px 0px 17px;;
+     color: #4277FF;
+     text-decoration: underline;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+}
+section .menuDx .tableBx .tableBx-form .form-detail_eight ul li:nth-child(8){
+     width: 106px;
+     height: 49px;
+     position: relative;
+     color: #4277FF;
+     text-decoration: underline;
+     top: 14px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px; 
+     padding: 0px 17px 0px 17px; 
+}
+/*-----------------------------------------------------------*/
+section .menuDx .tableBx .tableBx-form .form-detail_nine{
+}
+section .menuDx .tableBx .tableBx-form .form-detail_nine ul{
+     display: flex;
+     position: relative;
+     background-color: #FFF2E7;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_nine ul li{
+     list-style: none;
+     color: #535261;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_nine ul li:nth-child(1){
+     width: 103px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 16px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_nine ul li:nth-child(2){
+     width: 99px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_nine ul li:nth-child(3){
+     width: 138px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_nine ul li:nth-child(4){
+     width: 171px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_nine ul li:nth-child(5){
+     width: 145px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_nine ul li:nth-child(6){
+     width: 268px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 3.5px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_nine ul li:nth-child(6) p{
+     width: 64px;
+     height: 21px;
+     display: flex;
+     position: absolute;
+     top: 24.5px;
+     color: #4277FF;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+     text-decoration: underline;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_nine ul li:nth-child(7){
+     width: 82px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     padding: 0px 17px 0px 17px;;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+     color: #4277FF;
+     text-decoration: underline;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_nine ul li:nth-child(8){
+     width: 106px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     font-weight: 400;
+     color: #4277FF;
+     text-decoration: underline;
+     font-size: 14px;
+     line-height: 21px; 
+     padding: 0px 17px 0px 17px; 
+}
+/*-----------------------------------------------------------*/
+section .menuDx .tableBx .tableBx-form .form-detail_ten{
+}
+section .menuDx .tableBx .tableBx-form .form-detail_ten ul{
+     display: flex;
+     position: relative;
+     background-color: #FFFFFF;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_ten ul li{
+     list-style: none;
+     color: #535261;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_ten ul li:nth-child(1){
+     width: 103px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 16px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_ten ul li:nth-child(2){
+     width: 99px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_ten ul li:nth-child(3){
+     width: 138px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_ten ul li:nth-child(4){
+     width: 171px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_ten ul li:nth-child(5){
+     width: 145px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     left: 12px;
+     top: 14px;
+     padding: 0px 8px 0px 8px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_ten ul li:nth-child(6){
+     width: 268px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 3.5px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_ten ul li:nth-child(6) p{
+     width: 64px;
+     height: 21px;
+     display: flex;
+     position: absolute;
+     color: #4277FF;
+     top: 24.5px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+     text-decoration: underline;
+}
+section .menuDx .tableBx .tableBx-form .form-detail_ten ul li:nth-child(7){
+     width: 82px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     padding: 0px 17px 0px 17px;;
+     color: #4277FF;
+     text-decoration: underline;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;  
+}
+section .menuDx .tableBx .tableBx-form .form-detail_ten ul li:nth-child(8){
+     width: 106px;
+     height: 49px;
+     position: relative;
+     top: 14px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px; 
+     padding: 0px 17px 0px 17px; 
+     color: #4277FF;
+     text-decoration: underline;
+}

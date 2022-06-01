@@ -28,15 +28,12 @@ section .contentBx .formBx img{
      top: 82px;
      left: 150px;
 }
-section .contentBx .titleFr{
-     /* margin-bottom: 20px;
-     margin-left: 40px;
-     margin-top: -30px; */
+section .contentBx .titleFrC{
+     
 }
-section .contentFr .formFr .titleFr h1{
-
+section .contentBx .formBx .titleFrC h1{
      position: absolute;
-     top: 320px;
+     top: 290px;
      width: 211px;
      height: 33px;
      left: 198px;
@@ -45,15 +42,14 @@ section .contentFr .formFr .titleFr h1{
      line-height: 33px;
      color: #282739;
 }
-section .contentBx .formBx .inputBx{
+section .contentBx .formBx .inputBxC{
      margin-bottom: 10px;
-     margin-left: -50px;
+    
 }
-section .contentBx .formBx .inputBX{
-     margin-top: 50px;
-     margin-left: -40px;
+section .contentBx .formBx .inputBXC{
+     
 }
-section .contentBx .formBx .inputBX input{
+section .contentBx .formBx .inputBXC button{
      width: 162px;
      height: 40px;
      border-radius: 8px;
@@ -61,9 +57,11 @@ section .contentBx .formBx .inputBX input{
      background-color:  #FF9138;
      border: 1.5px solid #FF9138;
      color: #E7E9F2;
-     margin-left: 100px;
+     position: absolute;
+     left: 219px;
+     top: 579px;
 }
-section .contentBx .formBx .inputBx span{
+section .contentBx .formBx .inputBxC span{
      display: flex;
      flex-direction: row;
      font-size: 18px;
@@ -71,14 +69,14 @@ section .contentBx .formBx .inputBx span{
      font-weight: 400;   
      color: #37474F;
 }
-section .contentBx .formBx .inputBx input{
+section .contentBx .formBx .inputBxC input{
      width: 400px;
      height: 44px;
      border-radius: 8px; 
      padding: 10px 270px 10px 12px;
      border: 1.5px solid #D4D4D7;
 }
-section .contentBx .formBx .inputBx button{
+section .contentBx .formBx .inputBxC button{
      width: 400px;
      height: 44px;
      border-radius: 8px; 

@@ -39,17 +39,17 @@ section .contentBx .formBx .iconBx{
      transform: translate(0px ,-60px);
      flex-direction: column;
 }
-section .contentBx .formBx form{
+section .contentBx .formBx form ul{
      
 }
-section .contentBx .formBx .iconBx menubar{
+section .contentBx .formBx .iconBx ul li{
      font-size: 16px;
      font-weight: 600;
      line-height: 24px;
      color: #7E7D88;
      margin-bottom: 20px;
 }
-section .contentBx .formBx .iconBx menubar span{
+section .contentBx .formBx .iconBx ul li span{
      font-size: 20px;
      font-weight: 600;
      color: #7E7D88;

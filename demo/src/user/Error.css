@@ -22,13 +22,15 @@ section .contentFr{
 }
 section .contentFr .formFr{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 section .contentFr .formFr img{
      position: absolute;
      width: 180px;
-     top: 112px;
+     top: 82px;
      height: 124px;
-     left: 200px;
+     left: 209px;
 }
 section .contentFr .formFr .titleFr{
      
@@ -65,8 +67,6 @@ section .contentFr .formFr .inputFr input{
      padding-left: 10px;
 } section .contentFr .formFr .buttonFr{
      display: inline-block;
-     position: relative;
-     top: 100px;
      /* margin-left: 20px; */
 }
 section .contentFr .formFr .buttonFr button{
@@ -79,10 +79,13 @@ section .contentFr .formFr .buttonFr button{
     border: 1px solid #FF9138;
     font-weight: 700;
     font-size: 16px;
+    left: -10px;
+    top: 90px;
     line-height: 24px;
     padding: 10px 24px 10px 24px;
     margin-left: 20px;
 } 
+ 
 section .imgBx{
      display: flex;
 }

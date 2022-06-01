@@ -1,28 +1,33 @@
-import './Login.css';
-import logo from '../images/Screenshot_39.jpg'
+import './Login.css'
+import pictures from '../images/Alta.png'
 import logos from '../images/Screenshot_37.jpg'
-import './Forget.js'
 import { Link } from 'react-router-dom'
 function Login(){
      return (
           <section>
                <div className="contentBx">
                     <div className='formBx'>
-                         <img src={logo}/>
+                         <img src={pictures}/>
                          <form>
                               <div className='inputBx'>
                                    <span>Tên đăng nhập *</span>
-                                   <input type='text' value='lequynhaivan01'></input>
+                                   <Link to={'/sai-tai-khoan'}>
+                                        <input type='text' value='lequynhaivan01'></input>
+                                   </Link>
                               </div>
                               <div className='inputBx'>
                                    <span>Mật khẩu *</span>
                                    <input type='password' value='password'></input>
                               </div>
-                              <Link to={'/quen-mat-khau'} className='remember'>
-                                   <h1>Quên mật khẩu?</h1>
-                              </Link>
+                              <div>
+                                   <Link to={'/quen-mat-khau'} className='rememberLx'>
+                                        <h1>Quên mật khẩu?</h1>
+                                   </Link>
+                              </div>
                               <div className='inputBX'>
-                                   <button type='sumbit'>Đăng nhập</button>
+                                   {/* <Link to={'/dash-board'}> */}
+                                        <button>Đăng nhập</button>
+                                   {/* </Link> */}
                               </div>
                          </form>
                     </div>

@@ -10,7 +10,7 @@ section{
      margin: auto;
      display: flex;
 }
-section .contentBx{
+section .contentBX{
      display: flex;
      position: relative;
      width: 200px;
@@ -21,16 +21,16 @@ section .contentBx{
      border-top-left-radius: 16px;
      border-bottom-left-radius: 16px;
 }
-section .contentBx .formBx{
-     
+section .contentBX .formBX{
+     position: fixed;
 }
-section .contentBx .formBx img{
+section .contentBX .formBX img{
      position: absolute;
      width: 100px;
      transform: translate(20px,-220px);
      margin-bottom: -450px;
 }
-section .contentBx .formBx .iconBx{
+section .contentBX .formBX .iconBX{
      position: relative;
      display: flex;
      margin-left: 30px;
@@ -38,17 +38,17 @@ section .contentBx .formBx .iconBx{
      transform: translate(0px ,-60px);
      flex-direction: column;
 }
-section .contentBx .formBx form{
+section .contentBX .formBX .iconBX ul{
      
 }
-section .contentBx .formBx .iconBx menubar{
+section .contentBX .formBX .iconBX ul li {
      font-size: 16px;
      font-weight: 600;
      line-height: 24px;
      color: #7E7D88;
      margin-bottom: 20px;
 }
-section .contentBx .formBx .iconBx menubar span{
+section .contentBX .formBX .iconBX ul li span{
      font-size: 20px;
      font-weight: 600;
      color: #7E7D88;
@@ -57,7 +57,7 @@ section .contentBx .formBx .iconBx menubar span{
      position: absolute;
      left:-25px;
 }
-section .contentBx .formBx .logoutBx{
+section .contentBX .formBX .logoutBx{
      width: 176px;
      height: 48px;
      background-color: #FFF2E7;
@@ -70,13 +70,13 @@ section .contentBx .formBx .logoutBx{
      margin-top: 235px;
      transform: translate(0px ,-60px);
 }
-section .contentBx .formBx .logoutBx menubar{
+section .contentBX .formBX .logoutBx {
      font-size: 16px;
      font-weight: 600;
      line-height: 24px;
      color: #FF7506;
 }
-section .contentBx .formBx .logoutBx menubar span{
+section .contentBX .formBX .logoutBx span{
      font-size: 20px;
      font-weight: 600;
      color: #FF7506;
@@ -85,6 +85,7 @@ section .contentBx .formBx .logoutBx menubar span{
      top: 12px;
      left: 10px;
 }
+/*--------------------------------------------------*/
 section .dashBx{
      width: 829px;
      height: 810px;
@@ -515,17 +516,6 @@ section .userBx .bigcircleBx .circleBx p{
      position: absolute;
      left: 200px;
      top: 18px;
-     font-size: 12px;
-     font-weight: 400;
-     line-height: 21px;
-     width: 87px;
-     height: 21px;
-     color: #7E7D88;
-}
-section .userBx .bigcircleBx .circleBx .offlineBx{
-     position: absolute;
-     left: 200px;
-     top: 28px;
      font-size: 12px;
      font-weight: 400;
      line-height: 21px;

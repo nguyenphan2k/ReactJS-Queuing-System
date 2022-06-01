@@ -20,44 +20,54 @@ import {Link} from 'react-router-dom'
 function Day(){
      return(
           <section>
-               <div className='contentBx'>
-                    <div className='formBx'>
+               <div className='contentBX'>
+                    <div className='formBX'>
                          <img src={picture}/>
-                         <form>
-                              <div className='iconBx'>
-                                   <menubar>
-                                        <span><MdDashboard/></span>
-                                        Dashboard
-                                   </menubar>
-                                   <menubar>
-                                        <span><FiMonitor/></span>
-                                        Thiết bị
-                                   </menubar>
-                                   <menubar>
-                                        <span><BiMessageRoundedDots/></span>
-                                        Dịch vụ
-                                   </menubar>
-                                   <menubar>
-                                        <span><BiLayer/></span>
-                                        Cấp số
-                                   </menubar>
-                                   <menubar>
-                                        <span><HiOutlineDocumentReport/></span>
-                                        Báo cáo
-                                   </menubar>
-                                   <menubar>
-                                        <span><AiOutlineSetting/></span>
-                                        Cài đặt hệ thống
-                                   </menubar>
-                                   
+                              <div className='iconBX'>
+                                   <ul>
+                                        <li>
+                                             <span><MdDashboard/></span>
+                                             Dashboard
+                                        </li>
+                                        <li>
+                                             <span><FiMonitor/></span>
+                                             Thiết bị
+                                        </li>
+                                        <li>
+                                             <span><BiMessageRoundedDots/></span>
+                                             Dịch vụ
+                                        </li>
+                                        <li>
+                                             <span><BiLayer/></span>
+                                             Cấp số
+                                        </li>
+                                        <li>
+                                             <span><HiOutlineDocumentReport/></span>
+                                             Báo cáo
+                                        </li>
+                                        <li>
+                                             <div>
+                                                  <Link to={'/thiet-bi'}>
+                                                       <span><AiOutlineSetting/></span>
+                                                  </Link>
+                                                  Cài đặt hệ thống
+                                             </div>
+                                        </li>
+                                   </ul>
                               </div>
-                              <Link to={'/thoat'} className='logoutBx'>
-                                   <menubar>
-                                        <span><FiLogOut/></span>
-                                        Đăng xuất
-                                   </menubar>
-                              </Link>
-                         </form>
+                              <div className='logoutBx'>
+                                   <ul>
+                                        
+                                                  <li>
+                                                  
+                                                       <span><FiLogOut/></span>
+                                                       Đăng xuất
+                                                   
+                                                  </li>
+                                        
+                                   </ul>
+                              </div>
+                         
                     </div>
                </div>
                <div className='dashBx'>
@@ -163,16 +173,16 @@ function Day(){
                     </div>
                </div>
 {/*------------------------------------------------------------------------------------*/}
-               <div className='userBx'>
+                <div className='userBx'>
                     <div className='infoBx'>
                          <div className='rightBx'>
                               <img src={bell}/>
                          </div>
-                         <div className='rightBX'>
+                         <Link to={'/tai-khoan'} className='rightBX'>
                               <img src={user}/>
                               <h1>Xin chào</h1>
                               <h2>Lê Quỳnh Ái Vân</h2>
-                         </div>
+                         </Link>
                          <div className='generalBx'>
                               <h1>Tổng quan</h1>
                          </div>
@@ -291,7 +301,7 @@ function Day(){
                                        </tbody>
                                   </table>
                               </div>
-                         </div>
+                         </div> 
                     </div>
                </div>
           </section>

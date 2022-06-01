@@ -17,13 +17,13 @@ function Forget(){
                                    <span>Mật khẩu *</span>
                                    <input type='password' value='password'></input>
                               </div>
-                              <div className='remember'>
+                              <div className='rememberFr'>
                                    <label>Sai mật khẩu hoặc tên đăng nhập</label>
                               </div>
                               <div className='inputBX'>
-                                   <input  type='submit' value='Đăng nhập' name=''/>
+                                   <button type='sumbit'>Đăng nhập</button>
                               </div>
-                              <Link to={'/quen-mat-khau-tiep'} className='forget'>
+                              <Link to={'/quen-mat-khau-tiep'} className='forgetFr'>
                                    <label>Quên mật khẩu</label>
                               </Link>
                          </form>

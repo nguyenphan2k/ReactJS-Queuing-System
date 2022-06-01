@@ -1,42 +1,49 @@
 *{
+     padding: 0; 
      margin: 0;
-     padding: 0;
-     box-sizing: border-box;
+     box-sizing: border-box; 
      font-family: Nunito;
 }
 section{
-     max-width: 1440px;
-     max-height: 810px;
+     width: 1440px;
+     height: 810px;
      display: flex;
      margin: auto;
 }
 section .contentBx{
      display: flex;
+     position: relative;
      width: 592px;
      height: 810px;
      background-color: #F6F6F6;
-     border-radius: 16px;
+     border-top-left-radius: 16px;
+     border-bottom-left-radius: 16px;
      justify-content: center;
      align-items: center;
 }
 section .contentBx .formBx{
-     /* width: 367px; */
+    
 }
 section .contentBx .formBx img{
-     position: absolute;
-     width: 167px;
-     height: 112px;
+    position: absolute;
+     width: 180px;
+     top: 82px;
+     height: 124px;
+     left: 200px;
 }
 section .contentBx .formBx .inputBx{
      margin-bottom: 10px;
 }
 section .contentBx .formBx .inputBX{
-     margin-bottom: 10px;
-     margin-left: 100px;
+     
 }
-section .contentBx .formBx .inputBX input{
+section .contentBx .formBx .inputBX button{
      width: 162px;
      height: 40px;
+     top: 30px;
+     position: absolute;
+     padding: 10px 24px 10px 24px;
+     left: 110px;
      border-radius: 8px;
      padding: 10px 24px 10px 24px;
      background-color:  #FF9138;
@@ -48,18 +55,20 @@ section .contentBx .formBx .inputBx span{
      flex-direction: row;
      font-size: 18px;
      line-height: 27px;
-     font-weight: 400;   
+     font-weight: 400;
+     margin-top: 10px;  
 }
-section .contentBx .formBx .inputBx input{
+section .contentBx .formBx .inputBx button{
      width: 400px;
+     position: absolute;
      height: 44px;
      border-radius: 8px; 
      padding: 10px 270px 10px 12px;
      border: 1.5px solid #E73F3F;
+     padding: 10px 16px 10px 12px;
 }
-section .contentBx .formBx .remember{
-     margin-bottom: 20px;
-     padding-left: 20px;
+section .contentBx .formBx .rememberFr{
+     position: absolute;
      font-size: 14px;
      color: #E73F3F; 
      line-height: 21px;
@@ -67,14 +76,19 @@ section .contentBx .formBx .remember{
      height: 21px;
      top: 471px;
      font-weight: 400;
+     left: 100px;
+     margin-top: 10px;
 }
-section .contentBx .formBx .forget{
-     margin-left: 155px;
+section .contentBx .formBx .forgetFr{
+     
 }
-section .contentBx .formBx .forget label{
+section .contentBx .formBx .forgetFr label{
      color: #E73F3F;
      font-size: 14px;
      font-weight: 400;
+     top: 564px;
+     left: 246px;
+     position: absolute;
      line-height: 21px;
 }
 section .imgBx{

@@ -1,29 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
-// import Login from './user/Login';
+import App from './App';
+import Device from './user/Device';
 // import Error from './user/Error';
 // import ConfirmPass from './user/ConfirmPass';
 // import Account from './user/Account';
-import Day from './dashboard/Day'
-// import {} from 'react-router-dom'
-// import App from './App';
 // import Forget from './user/Forget';
+// import Day from './user/Day';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
       <BrowserRouter>
-        {/* <Routes> */}
-          {/* <Route path='/' element={<App />}/>
+      
+         <Routes>
+           <Route path='/' element={<App/>}/> 
+           <Route path='/thiet-bi' element={<Device/>}/>
+          {/* <Route path='/sai-tai-khoan' element={<Forget/>}/>
           <Route path='/quen-mat-khau' element={<Error/>}/>
-          <Route path='/tiep-tuc' element={<ConfirmPass/>}/> */}
-          {/* <Account /> */}
-          <Day />
-        {/* </Routes> */}
+          <Route path='/tiep-tuc' element={<ConfirmPass/>}/>
+          <Route path='/dash-board' element={<Day/>}/> 
+           <Route path='/tai-khoan' element={<Account/>}/> */}
+         </Routes> 
       </BrowserRouter>
   </React.StrictMode>
 );

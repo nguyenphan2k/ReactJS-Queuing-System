@@ -1,7 +1,6 @@
 import './ConfirmPass.css'
 import logo from '../images/Screenshot_39.jpg'
 import image from '../images/Screenshot_40.jpg'
-
 function ConfirmPass(){
      return(
           <section>
@@ -9,18 +8,18 @@ function ConfirmPass(){
                     <div className='formBx'>
                          <img src={logo}/>
                          <form>
-                              <div className='titleFr'>
+                              <div className='titleFrC'>
                                    <h1>Đặt lại mật khẩu mới</h1>
                               </div>
-                              <div className='inputBx'>
+                              <div className='inputBxC'>
                                    <span>Mật khẩu</span>
                                    <input type='password' value='password'></input>
                               </div>
-                              <div className='inputBx'>
+                              <div className='inputBxC'>
                                    <span>Nhập lại mật khẩu</span>
                                    <input type='password' value='password'></input>
                               </div>
-                              <div className='inputBX'>
+                              <div className='inputBXC'>
                                    <button>Xác nhận</button>
                               </div>
                          </form>

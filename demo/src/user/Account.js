@@ -1,5 +1,5 @@
 import './Account.css'
-import picture from '../images/Alta.png'
+import photo from '../images/Alta.png'
 import user from '../images/user.png'
 import {MdDashboard} from 'react-icons/md'
 import {FiMonitor} from 'react-icons/fi'
@@ -15,34 +15,34 @@ function Account(){
           <section>
                <div className='contentBx'>
                     <div className='formBx'>
-                         <img src={picture}/>
-                         <form>
+                         <img src={photo}/>
                               <div className='iconBx'>
-                                   <menubar>
-                                        <span><MdDashboard/></span>
-                                        Dashboard
-                                   </menubar>
-                                   <menubar>
-                                        <span><FiMonitor/></span>
-                                        Thiết bị
-                                   </menubar>
-                                   <menubar>
-                                        <span><BiMessageRoundedDots/></span>
-                                        Dịch vụ
-                                   </menubar>
-                                   <menubar>
-                                        <span><BiLayer/></span>
-                                        Cấp số
-                                   </menubar>
-                                   <menubar>
-                                        <span><HiOutlineDocumentReport/></span>
-                                        Báo cáo
-                                   </menubar>
-                                   <menubar>
-                                        <span><AiOutlineSetting/></span>
-                                        Cài đặt hệ thống
-                                   </menubar>
-                                   
+                                   <ul>
+                                        <li>
+                                             <span><MdDashboard/></span>
+                                             Dashboard
+                                        </li>
+                                        <li>
+                                             <span><FiMonitor/></span>
+                                             Thiết bị
+                                        </li>
+                                        <li>
+                                             <span><BiMessageRoundedDots/></span>
+                                             Dịch vụ
+                                        </li>
+                                        <li>
+                                             <span><BiLayer/></span>
+                                             Cấp số
+                                        </li>
+                                        <li>
+                                             <span><HiOutlineDocumentReport/></span>
+                                             Báo cáo
+                                        </li>
+                                        <li>
+                                             <span><AiOutlineSetting/></span>
+                                             Cài đặt hệ thống
+                                        </li>
+                                   </ul>
                               </div>
                               <div className='logoutBx'>
                                    <menubar>
@@ -50,7 +50,6 @@ function Account(){
                                         Đăng xuất
                                    </menubar>
                               </div>
-                         </form>
                     </div>
                </div>
                <div className='userBx'>

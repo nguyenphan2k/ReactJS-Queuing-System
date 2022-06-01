@@ -2,7 +2,7 @@
      padding: 0; 
      margin: 0;
      box-sizing: border-box; 
-     font-family: 'Nunito';
+     font-family: Nunito;
 }
 section{
      width: 1440px;
@@ -27,10 +27,9 @@ section .contentBx .formBx{
 section .contentBx .formBx img{
      position: absolute;
      width: 180px;
-     top: 112px;
+     top: 82px;
      height: 124px;
-     left: 200px;
-
+     left: 300px;
 }
 section .contentBx .formBx .inputBX{
      position: absolute;
@@ -43,7 +42,7 @@ section .contentBx .formBx .inputBX button{
      border-radius: 8px;
      color: #FFFFFF;
      position: absolute;
-     top: 11px;
+     top: 91px;
      border: 0px solid #FF9138;
      left: 115px;
 }
@@ -52,7 +51,8 @@ section .contentBx .formBx .inputBx span{
      flex-direction: row;
      font-size: 18px;
      line-height: 27px;
-     font-weight: 400;   
+     font-weight: 400;
+     margin-top: 10px;   
 }
 section .contentBx .formBx .inputBx input{
      width: 400px;
@@ -60,16 +60,17 @@ section .contentBx .formBx .inputBx input{
      border-radius: 8px; 
      padding: 10px 270px 10px 12px;
      border: 1.5px solid #E73F3F;
+     text-decoration: none;
 }
-section .contentBx .formBx .remember h1{
+section .contentBx .formBx .rememberLx h1{
      position: absolute;
      font-size: 14px;
      color: #E73F3F; 
      line-height: 21px;
      width: 102px;
      height: 21px;
-     top: 473px;
-     left: 74px;
+     top: 482px;
+     left: 95px;
      font-weight: 400;
 }
 section .imgBx{
