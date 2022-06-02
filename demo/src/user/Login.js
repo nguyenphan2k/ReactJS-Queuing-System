@@ -24,10 +24,10 @@ function Login(){
                                         <h1>Quên mật khẩu?</h1>
                                    </Link>
                               </div>
-                              <div className='inputBX'>
-                                   {/* <Link to={'/dash-board'}> */}
+                              <div>
+                                   <Link to={'/dash-board'} className='inputBX'>
                                         <button>Đăng nhập</button>
-                                   {/* </Link> */}
+                                   </Link> 
                               </div>
                          </form>
                     </div>

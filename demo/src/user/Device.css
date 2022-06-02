@@ -134,7 +134,7 @@ section .menuDx .menuDx-info .info-right-two h2{
      top: 42px;
 }
 section .menuDx .menuDx-info .info-header{
-     display: inline-block;
+     display: inline-flex;
 }
 section .menuDx .menuDx-info .info-header h1{
      position: absolute;

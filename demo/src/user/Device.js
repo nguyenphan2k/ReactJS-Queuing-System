@@ -75,6 +75,7 @@ function Device(){
                               <h1>Danh sách thiết bị</h1>
                          </div>
                     </div>
+{/*----------------------------------------------------------------------*/}
                     <div className='statusBx-form'>
                          <div className='form-status'>
                               <h1>Trạng thái hoạt động</h1>
@@ -108,6 +109,7 @@ function Device(){
                               </div>
                          </div>
                     </div>
+{/*----------------------------------------------------------------------*/}
                     <div className='addBx-form'>
                          <div className='addBx-form-device'>
                               <Link to={'/them-thiet-bi'} className='addBx-form-device-click'>
@@ -115,6 +117,7 @@ function Device(){
                               </Link>
                          </div>
                     </div>
+{/*----------------------------------------------------------------------*/}
                     <div className='tableBx'>
                          <div className='tableBx-form'>
                               <div className='form-detail'>
