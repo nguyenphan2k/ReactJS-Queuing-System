@@ -10,6 +10,10 @@ import ConfirmPass from './user/ConfirmPass';
 import Forget from './user/Forget'
 import Day from './user/Day'
 import AddDevice from './user/AddDevice'
+import DetailDevice from './user/DetailDevice';
+import Login from './user/Login';
+import UpdateDevice from './user/UpdateDevice';
+import Service from './user/Service';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +27,14 @@ root.render(
             <Route path='/tiep-tuc' element={<ConfirmPass/>}/>
             <Route path='/dash-board' element={<Day/>}/> 
             <Route path='/them-thiet-bi' element={<AddDevice/>} />
+            <Route path='/quay-lai-thiet-bi' element={<Device/>}/>
+            <Route path='/chi-tiet' element={<DetailDevice/>}/>
+            <Route path='/man-hinh' element={<Login/>}/>
+            <Route path='/cap-nhat' element={<UpdateDevice/>}/>
+            <Route path='/cap-nhat-tiep' element={<Device/>}/>
+            <Route path='/huy-bo' element={<Device/>}/>
+            <Route path='/nang-cap' element={<UpdateDevice/>}/>
+            <Route path='/dich-vu' element={<Service/>}/>
          </Routes> 
       </BrowserRouter>
   </React.StrictMode>

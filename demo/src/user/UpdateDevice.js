@@ -1,4 +1,4 @@
-import './AddDevice.css'
+import './UpdateDevice.css'
 import picture from '../images/Alta.png'
 import {MdDashboard} from 'react-icons/md'
 import {FiMonitor} from 'react-icons/fi'
@@ -9,8 +9,10 @@ import {AiOutlineSetting} from 'react-icons/ai'
 import {FiLogOut} from 'react-icons/fi'
 import rings from '../images/Vector.png'
 import users from '../images/user.png'
+import arrows from '../images/Vector (12).png'
+// import {FiDelete} from 'react-icons/fi'
 import {Link} from 'react-router-dom'
-function AddDevice(){
+function UpdateDevice(){
      return(
           <section>
                <div className='contentBX'>
@@ -55,32 +57,35 @@ function AddDevice(){
                     </div>
                </div>
 {/*---------------------------------------------------------------------*/}
-               <div className='bodyBx'>
-                    <div className='bodyBx-info'>
-                         <div className='bodyBx-info-header'>
+               <div className='bodyUx'>
+                    <div className='bodyUx-info'>
+                         <div className='bodyUx-info-header'>
                               <h1>Thiết bị</h1>
+                              <ul>
+                                   <li><img src={arrows}/></li>
+                                   <li><img src={arrows}/></li>
+                              </ul>
                               <h2>Danh sách thiết bị</h2>
-                              <h3>Thêm thiết bị</h3>
+                              <h3>Cập nhật thiết bị</h3>
                          </div>
-                         <div className='bodyBx-info-right'>
+                         <div className='bodyUx-info-right'>
                               <img src={rings}/>
                          </div>
-                         <div className='bodyBx-info-right-two'>
+                         <div className='bodyUx-info-right-two'>
                               <img src={users}/>
                               <h1>Xin chào</h1>
                               <h2>Lê Quỳnh Ái Vân</h2>
                          </div>
-                         <div className='bodyBx-info-title'>
+                         <div className='bodyUx-info-title'>
                               <h1>Quản lý thiết bị</h1>
                          </div>
                     </div>
-{/*---------------------------------------------------------------------*/}  
-                    <div className='bodyBx-table'>
-                         <div className='bodyBx-table-form'>
-                              <div className='bodyBx-table-form-title'>
+                    <div className='bodyUx-table'>
+                         <div className='bodyUx-table-form'>
+                              <div className='bodyUx-table-form-title'>
                                    <h1>Thông tin thiết bị</h1>
                               </div>
-                              <div className='bodyBx-table-form-content'>
+                              <div className='bodyUx-table-form-content'>
                                    <ul>
                                         <li>
                                              <h1>Mã thiết bị:</h1>
@@ -108,7 +113,7 @@ function AddDevice(){
                                         </li>
                                         <li>
                                              <h1>Dịch vụ sử dụng:</h1>
-                                             <input type='text' value='Nhập dịch vụ sử dụng'/>
+                                             
                                         </li>
                                         <li>
                                              <p>*</p>
@@ -117,22 +122,21 @@ function AddDevice(){
                                    </ul>
                               </div>
                          </div>
+{/*---------------------------------------------------------------------*/}                         
                     </div>
-{/*---------------------------------------------------------------------*/}  
-                    <div className='bodyBx-button'>
-                         <div className='bodyBx-button-center'>
-                              <div className='bodyBx-button-center-one'>
-                                   <button>Huỷ bỏ</button>
+                    <div className='bodyUx-button'>
+                              <div className='bodyUx-button-center'>
+                                   <Link to={'/huy-bo'} className='bodyUx-button-center-one'>
+                                        <button>Huỷ bỏ</button>
+                                   </Link>
+                                   <Link to={'/cap-nhat-tiep'} className='bodyUx-button-center-two'>
+                                        <button>Thêm thiết bị</button>
+                                   </Link>
                               </div>
-                              <Link to={'/quay-lai-thiet-bi'} className='bodyBx-button-center-two'>
-                                   <button>Thêm thiết bị</button>
-                              </Link>
-                         </div>
                     </div>
-
-{/*---------------------------------------------------------------------*/}
                </div>
-          </section>     
+{/*---------------------------------------------------------------------*/}              
+          </section>
      )
 }
-export default AddDevice
+export default UpdateDevice

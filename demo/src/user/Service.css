@@ -1,0 +1,1397 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Nunito;
+}
+section{
+     width: 1440px;
+     height: 810px;
+     margin: auto;
+     display: flex;
+}
+section .contentBX{
+     display: flex;
+     position: relative;
+     width: 200px;
+     height: 810px;
+     background-color:#dbdbdb;
+     justify-content: center;
+     align-items: center;
+     border-top-left-radius: 16px;
+     border-bottom-left-radius: 16px;
+}
+section .contentBX .formBX{
+     position: fixed;
+}
+section .contentBX .formBX img{
+     position: absolute;
+     width: 100px;
+     transform: translate(20px,-220px);
+     margin-bottom: -450px;
+}
+section .contentBX .formBX .iconBX{
+     position: relative;
+     display: flex;
+     margin-left: 30px;
+     margin-bottom: 50px;
+     transform: translate(0px ,-60px);
+     flex-direction: column;
+}
+section .contentBX .formBX .iconBX ul{
+     
+}
+section .contentBX .formBX .iconBX ul li {
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #7E7D88;
+     margin-bottom: 20px;
+}
+section .contentBX .formBX .iconBX ul li span{
+     font-size: 20px;
+     font-weight: 600;
+     color: #7E7D88;
+     padding-right: 5px;
+     display: block;
+     position: absolute;
+     left:-25px;
+}
+section .contentBX .formBX .logoutBx{
+     width: 176px;
+     height: 48px;
+     background-color: #FFF2E7;
+     position: absolute;
+     border-radius: 8px;
+     display: flex;
+     margin-left: -15px;
+     justify-content: center;
+     align-items: center;
+     margin-top: 235px;
+     transform: translate(0px ,-60px);
+}
+section .contentBX .formBX .logoutBx {
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #FF7506;
+}
+section .contentBX .formBX .logoutBx span{
+     font-size: 20px;
+     font-weight: 600;
+     color: #FF7506;
+     margin-bottom: 20px;
+     position: absolute; 
+     top: 12px;
+     left: 10px;
+}
+/*--------------------------------------------------*/
+section .menuSx{
+     width: 1240px;
+     height: 810px;
+     background-color: #B1B1B1;
+     border-bottom-right-radius: 16px;
+     border-top-right-radius: 16px;
+}
+section .menuSx .menuSx-info{
+     display: flex;
+     position: relative;
+}
+section .menuSx .menuSx-info .info-right{
+     position: absolute;
+     width: 4.71px;
+     height: 1.67px;
+     top: 35.67px;
+     left: 957.59px;
+}
+section .menuSx .menuSx-info .info-right-two img{
+     position: absolute;
+     width: 40px;
+     height: 40px;
+     top: 24px;
+     left: 1004px;
+}
+section .menuSx .menuSx-info .info-right-two h1{
+     width: 47px;
+     height: 18px;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 18px;
+     color: #7E7D88;
+     position: absolute;
+     left: 1052px;
+     top: 24px;
+}
+section .menuSx .menuSx-info .info-right-two h2{
+     width: 124px;
+     height: 24px;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 24px;
+     position: absolute;
+     color: #535261;
+     left: 1052px;
+     top: 42px;
+}
+section .menuSx .menuSx-info .info-header{
+     display: inline-flex;
+}
+section .menuSx .menuSx-info .info-header h1{
+     position: absolute;
+     width: 70px;
+     height: 30px;
+     top: 29px;
+     left: 24px;
+     font-weight: 700;
+     line-height: 30px;
+     font-size: 20px;
+     color: #7E7D88;
+}
+section .menuSx .menuSx-info .info-header ul li{
+     list-style: none;
+}
+section .menuSx .menuSx-info .info-header ul li img{
+     position: absolute;
+     top: 39.63px;
+     left: 110.4px;
+     width: 5.21px;
+     height: 8.74px;
+     color: #7E7D88;
+}
+section .menuSx .menuSx-info .info-header h2{
+     position: absolute;
+     width: 169px;
+     height: 30px;
+     top: 29px;
+     left: 131px;
+     font-weight: 700;
+     line-height: 30px;
+     font-size: 20px;
+     color: #FF7506;
+     
+}
+section .menuSx .menuSx-info .info-title h1{
+     position: absolute;
+     width: 171px;
+     height: 36px;
+     top: 104px;
+     left: 24px;
+     font-weight: 700;
+     line-height: 36px;
+     font-size: 24px;
+     color: #FF7506;
+}
+/*-------------------------------------------------------------------*/
+section .menuSx .statusSx-form{
+     display: flex;
+     position: relative;
+}
+section .menuSx .statusSx-form .form-status h1{
+     position: absolute;
+     width: 152px;
+     height: 24px;
+     top: 156px;
+     left: 24.97px;
+     font-weight: 600;
+     line-height: 24px;
+     font-size: 16px;
+}
+ section .menuSx .statusSx-form .form-status-all{
+     display: flex;
+     position: absolute;
+}
+section .menuSx .statusSx-form .form-status-all .form-status-all-one{
+     position: relative;
+     width: 300px;
+     height: 44px;
+     top: 184px;
+     left: 24px;
+     cursor: pointer;
+     background-color: #FFFFFF;
+     padding: 10px 12px 10px 12px;
+     border-radius: 8px;
+}
+section .menuSx .statusSx-form .form-status-all .form-status-all-one h1{
+     position: absolute;
+     cursor: pointer;
+     left: 12px;
+     top: 10px;
+     width: 43px;
+     height: 24px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     color: #535261;
+}
+section .menuSx .statusSx-form .form-status-all .form-status-all-one span{
+     position: absolute;
+     left: 270px;
+     top: 14px;
+     width: 12px;
+     height: 6px;
+     color: #FF7506;
+}
+/*--------------------------------------------------------*/
+section .menuSx .statusSx-form-next{
+     display: flex;
+     position: relative;
+}
+section .menuSx .statusSx-form-next .form-status-next h1{
+     position: absolute;
+     width: 106px;
+     height: 24px;
+     top: 156px;
+     left: 348px;
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #282739;
+}
+section .menuSx .statusSx-form-next .form-status-all-next{
+     display: flex;
+     position: absolute;
+}
+section .menuSx .statusSx-form-next .form-status-all-next .form-status-all-one-next{
+     position: absolute;
+     width: 150px;
+     height: 44px;
+     background-color: #FFFFFF;
+     top: 184px;
+     left: 348px;
+     padding: 8px 16px 8px 16px;
+     border-radius: 8px;
+}
+section .menuSx .statusSx-form-next .form-status-all-next .form-status-all-one-next h1{
+     position: absolute;
+     width: 86px;
+     height: 24px;
+     top: 10px;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     color: #A9A9B0;
+     left: 48px;
+}
+section .menuSx .statusSx-form-next .form-status-all-next .form-status-all-one-next span{
+     position: absolute;
+     width: 16.25px;
+     height: 16.6px;
+     top: 14px;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     color: #FF7506;
+     left: 17.87px;
+}
+section .menuSx .statusSx-form-next .form-status-all-next .form-status-all-two-next{
+     position: absolute;
+     width: 150px;
+     height: 44px;
+     background-color: #FFFFFF;
+     top: 184px;
+     left: 518px;
+     padding: 8px 16px 8px 16px;
+     border-radius: 8px;
+}
+section .menuSx .statusSx-form-next .form-status-all-next .form-status-all-two-next h1{
+     position: absolute;
+     width: 86px;
+     height: 24px;
+     top: 10px;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     color: #A9A9B0;
+     left: 48px;
+}
+section .menuSx .statusSx-form-next .form-status-all-next .form-status-all-two-next span{
+     position: absolute;
+     width: 16.25px;
+     height: 16.6px;
+     top: 14px;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     color: #FF7506;
+     left: 17.87px;
+}
+section .menuSx .statusSx-form-next .form-status-all-next .form-status-all-three-next span{
+     position: absolute;
+     width: 4.5px;
+     height: 5px;
+     top: 200px;
+     left: 500px;
+     color: #535261;
+}
+/*--------------------------------------------------------------------*/
+section .menuSx .statusSx-form-search{
+     display: flex;
+     position: relative;
+}
+section .menuSx .statusSx-form-search .form-status h1{
+     position: absolute;
+     width: 62px;
+     height: 23.96px;
+     top: 156px;
+     left: 836px;
+     font-weight: 600;
+     line-height: 24px;
+     font-size: 16px;
+     color: #282739;
+}
+section .menuSx .statusSx-form-search .form-status-all{
+     display: flex;
+     position: absolute;
+}
+section .menuSx .statusSx-form-search .form-status-all .form-status-all-one{
+     position: relative;
+     width: 300px;
+     height: 44px;
+     top: 184px;
+     left: 836px;
+     background-color: #FFFFFF;
+     border-radius: 8px;
+     padding: 10px 16px 10px 12px;
+}
+section .menuSx .statusSx-form-search .form-status-all .form-status-all-one h1{
+     position: absolute;
+     width: 97px;
+     height: 22px;
+     top: 11px;
+     left: 12px;
+     font-size: 16px;
+     line-height: 21.82px;
+     font-weight: 400;
+     color: #A9A9B0;
+}
+section .menuSx .statusSx-form-search .form-status-all .form-status-all-one span{
+     position: absolute;
+     width: 3.63px;
+     height: 3.63px;
+     top: 14.5px;
+     left: 266.5px;
+     color: #FF7506;
+}
+/*----------------------------------------------------------------*/
+section .menuSx .tableSx{
+     display: flex;
+     position: relative;
+}
+section .menuSx .tableSx .tableSx-form{
+     position: absolute;
+     width: 1112px;
+     height: 490px;
+     background-color: #E8EFF4;
+     opacity: 80%;
+     top: 244px;
+     left: 24px;
+     border-radius: 12px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail{
+}
+section .menuSx .tableSx .tableSx-form .form-detail ul{
+     display: flex;
+     position: relative;
+     background-color: #FF9138;
+     height: 49px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail ul li{
+     list-style: none;
+     color: #FFFFFF;
+     display: flex;
+     position: absolute;
+}
+section .menuSx .tableSx .tableSx-form .form-detail ul li:nth-child(1){
+     list-style: none;
+     color: #FFFFFF;
+     width: 150px;
+     position: relative;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     top: 12.5px;
+     left: 16px;
+     padding: 0px 17px 0px 17px;
+}
+ section .menuSx .tableSx .tableSx-form .form-detail ul li:nth-child(2){
+     list-style: none;
+     color: #FFFFFF;
+     width: 224px;
+     position: relative;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     top: 12.5px;
+     left: 17px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail ul li:nth-child(3){
+     list-style: none;
+     color: #FFFFFF;
+     width: 230px;
+     height: 49px;
+     position: relative;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     top: 12.5px;
+     left: 17px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail ul li:nth-child(4){
+     list-style: none;
+     color: #FFFFFF;
+     width: 253px;
+     height: 49px;
+     position: relative;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     top: 12.5px;
+     left: 17px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail ul li:nth-child(5){
+     list-style: none;
+     color: #FFFFFF;
+     width: 125px;
+     height: 49px;
+     position: relative;
+     top: 12.5px;
+     left: 17px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail ul li:nth-child(6){
+     list-style: none;
+     color: #FFFFFF;
+     width: 125px;
+     height: 49px;
+     position: relative;
+     top: 12.5px;
+     left: 17px;
+     padding: 0px 17px 0px 17px;
+}
+/*------------------------------------------------------------*/
+section .menuSx .tableSx .tableSx-form .form-detail_two{
+}
+section .menuSx .tableSx .tableSx-form .form-detail_two ul{
+     display: flex;
+     position: relative;
+     background-color: #FFFFFF;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_two ul li{
+     list-style: none;
+     color: #535261;
+     height: 49px;
+     display: flex;
+     position: absolute;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_two ul li:nth-child(1){
+     list-style: none;
+     color: #535261;
+     width: 150px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     left: 16px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_two ul li:nth-child(2){
+     list-style: none;
+     color: #535261;
+     width: 224px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     left: 17px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_two ul li:nth-child(3){
+     list-style: none;
+     color: #535261;
+     width: 230px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     left: 17px;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_two ul li:nth-child(4) p{
+     position: absolute;
+     left: 660px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     list-style: none;
+     color: #535261;
+     width: 253px;
+     left: 660px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_two ul li:nth-child(4) span{
+     position: absolute;
+     left: 35px;
+     width: 8px;
+     height: 8px;
+     font-size: 37px;
+     top: -6.5px;
+     left: 645px;
+     color: #34CD26;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_two ul li:nth-child(5) p{
+     list-style: none;
+     width: 125px;
+     height: 49px;
+     position: absolute;
+     top: 14px;
+     color: #4277FF;
+     text-decoration: underline;
+     left: 877px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_two ul li:nth-child(6) p{
+     list-style: none;
+     color: #4277FF;
+     text-decoration: underline;
+     width: 125px;
+     height: 49px;
+     position: absolute;
+     top: 14px;
+     left: 1000px;
+     padding: 0px 17px 0px 17px;
+}
+/*------------------------------------------------------------*/
+section .menuSx .tableSx .tableSx-form .form-detail_three{
+}
+section .menuSx .tableSx .tableSx-form .form-detail_three ul{
+     display: flex;
+     position: relative;
+     background-color: #FFF2E7;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_three ul li{
+     list-style: none;
+     color: #535261;
+     height: 49px;
+     display: flex;
+     position: absolute;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_three ul li:nth-child(1){
+     list-style: none;
+     color: #535261;
+     width: 150px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     left: 16px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_three ul li:nth-child(2){
+     list-style: none;
+     color: #535261;
+     width: 224px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     left: 17px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_three ul li:nth-child(3){
+     list-style: none;
+     color: #535261;
+     width: 230px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     left: 17px;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_three ul li:nth-child(4) p{
+     position: absolute;
+     left: 660px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     list-style: none;
+     color: #535261;
+     width: 253px;
+     left: 660px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_three ul li:nth-child(4) span{
+     position: absolute;
+     left: 35px;
+     width: 8px;
+     height: 8px;
+     font-size: 37px;
+     top: -6.5px;
+     left: 645px;
+     color: #34CD26;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_three ul li:nth-child(5){
+     list-style: none;
+     color: #4277FF;
+     width: 125px;
+     height: 49px;
+     text-decoration: underline;
+     position: absolute;
+     top: 14px;
+     left: 877px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_three ul li:nth-child(6){
+     list-style: none;
+     color: #4277FF;
+     text-decoration: underline;
+     width: 125px;
+     height: 49px;
+     position: absolute;
+     top: 14px;
+     left: 1000px;
+     padding: 0px 17px 0px 17px;
+}
+/*------------------------------------------------------------*/
+section .menuSx .tableSx .tableSx-form .form-detail_four{
+}
+section .menuSx .tableSx .tableSx-form .form-detail_four ul{
+     display: flex;
+     position: relative;
+     background-color: #FFFFFF;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_four ul li{
+     list-style: none;
+     color: #535261;
+     height: 49px;
+     display: flex;
+     position: absolute;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_four ul li:nth-child(1){
+     list-style: none;
+     color: #535261;
+     width: 150px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     left: 16px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_four ul li:nth-child(2){
+     list-style: none;
+     color: #535261;
+     width: 224px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     left: 17px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_four ul li:nth-child(3){
+     list-style: none;
+     color: #535261;
+     width: 230px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     left: 17px;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_four ul li:nth-child(4) p{
+     position: absolute;
+     left: 660px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     list-style: none;
+     color: #535261;
+     width: 253px;
+     left: 660px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_four ul li:nth-child(4) span{
+     position: absolute;
+     left: 35px;
+     width: 8px;
+     height: 8px;
+     font-size: 37px;
+     top: -6.5px;
+     left: 645px;
+     color: #EC3740;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_four ul li:nth-child(5){
+     list-style: none;
+     color: #4277FF;
+     width: 125px;
+     height: 49px;
+     text-decoration: underline;
+     position: absolute;
+     top: 14px;
+     left: 877px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_four ul li:nth-child(6){
+     list-style: none;
+     color: #4277FF;
+     text-decoration: underline;
+     width: 125px;
+     height: 49px;
+     position: absolute;
+     top: 14px;
+     left: 1000px;
+     padding: 0px 17px 0px 17px;
+}
+/*------------------------------------------------------------*/
+section .menuSx .tableSx .tableSx-form .form-detail_five{
+}
+section .menuSx .tableSx .tableSx-form .form-detail_five ul{
+     display: flex;
+     position: relative;
+     background-color: #FFF2E7;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_five ul li{
+     list-style: none;
+     color: #535261;
+     height: 49px;
+     display: flex;
+     position: absolute;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_five ul li:nth-child(1){
+     list-style: none;
+     color: #535261;
+     width: 150px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     left: 16px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_five ul li:nth-child(2){
+     list-style: none;
+     color: #535261;
+     width: 224px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     left: 17px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_five ul li:nth-child(3){
+     list-style: none;
+     color: #535261;
+     width: 230px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     left: 17px;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_five ul li:nth-child(4) p{
+     position: absolute;
+     left: 660px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     list-style: none;
+     color: #535261;
+     width: 253px;
+     left: 660px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_five ul li:nth-child(4) span{
+     position: absolute;
+     left: 35px;
+     width: 8px;
+     height: 8px;
+     font-size: 37px;
+     top: -6.5px;
+     left: 645px;
+     color: #34CD26;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_five ul li:nth-child(5){
+     list-style: none;
+     color: #4277FF;
+     width: 125px;
+     height: 49px;
+     text-decoration: underline;
+     position: absolute;
+     top: 14px;
+     left: 877px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_five ul li:nth-child(6){
+     list-style: none;
+     color: #4277FF;
+     text-decoration: underline;
+     width: 125px;
+     height: 49px;
+     position: absolute;
+     top: 14px;
+     left: 1000px;
+     padding: 0px 17px 0px 17px;
+}
+/*------------------------------------------------------------*/
+section .menuSx .tableSx .tableSx-form .form-detail_six{
+}
+section .menuSx .tableSx .tableSx-form .form-detail_six ul{
+     display: flex;
+     position: relative;
+     background-color: #FFFFFF;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_six ul li{
+     list-style: none;
+     color: #535261;
+     height: 49px;
+     display: flex;
+     position: absolute;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_six ul li:nth-child(1){
+     list-style: none;
+     color: #535261;
+     width: 150px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     left: 16px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_six ul li:nth-child(2){
+     list-style: none;
+     color: #535261;
+     width: 224px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     left: 17px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_six ul li:nth-child(3){
+     list-style: none;
+     color: #535261;
+     width: 230px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     left: 17px;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_six ul li:nth-child(4) p{
+     position: absolute;
+     left: 660px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     list-style: none;
+     color: #535261;
+     width: 253px;
+     left: 660px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_six ul li:nth-child(4) span{
+     position: absolute;
+     left: 35px;
+     width: 8px;
+     height: 8px;
+     font-size: 37px;
+     top: -6.5px;
+     left: 645px;
+     color: #34CD26;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_six ul li:nth-child(5){
+     list-style: none;
+     color: #4277FF;
+     width: 125px;
+     height: 49px;
+     text-decoration: underline;
+     position: absolute;
+     top: 14px;
+     left: 877px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_six ul li:nth-child(6){
+     list-style: none;
+     color: #4277FF;
+     text-decoration: underline;
+     width: 125px;
+     height: 49px;
+     position: absolute;
+     top: 14px;
+     left: 1000px;
+     padding: 0px 17px 0px 17px;
+}
+/*------------------------------------------------------------*/
+section .menuSx .tableSx .tableSx-form .form-detail_seven{
+}
+section .menuSx .tableSx .tableSx-form .form-detail_seven ul{
+     display: flex;
+     position: relative;
+     background-color: #FFF2E7;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_seven ul li{
+     list-style: none;
+     color: #535261;
+     height: 49px;
+     display: flex;
+     position: absolute;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_seven ul li:nth-child(1){
+     list-style: none;
+     color: #535261;
+     width: 150px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     left: 16px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_seven ul li:nth-child(2){
+     list-style: none;
+     color: #535261;
+     width: 224px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     left: 17px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_seven ul li:nth-child(3){
+     list-style: none;
+     color: #535261;
+     width: 230px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     left: 17px;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_seven ul li:nth-child(4) p{
+     position: absolute;
+     left: 660px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     list-style: none;
+     color: #535261;
+     width: 253px;
+     left: 660px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_seven ul li:nth-child(4) span{
+     position: absolute;
+     left: 35px;
+     width: 8px;
+     height: 8px;
+     font-size: 37px;
+     top: -6.5px;
+     left: 645px;
+     color: #34CD26;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_seven ul li:nth-child(5){
+     list-style: none;
+     color: #4277FF;
+     width: 125px;
+     height: 49px;
+     text-decoration: underline;
+     position: absolute;
+     top: 14px;
+     left: 877px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_seven ul li:nth-child(6){
+     list-style: none;
+     color: #4277FF;
+     text-decoration: underline;
+     width: 125px;
+     height: 49px;
+     position: absolute;
+     top: 14px;
+     left: 1000px;
+     padding: 0px 17px 0px 17px;
+}
+/*------------------------------------------------------------*/
+section .menuSx .tableSx .tableSx-form .form-detail_eight{
+}
+section .menuSx .tableSx .tableSx-form .form-detail_eight ul{
+     display: flex;
+     position: relative;
+     background-color: #FFFFFF;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_eight ul li{
+     list-style: none;
+     color: #535261;
+     height: 49px;
+     display: flex;
+     position: absolute;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_eight ul li:nth-child(1){
+     list-style: none;
+     color: #535261;
+     width: 150px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     left: 16px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_eight ul li:nth-child(2){
+     list-style: none;
+     color: #535261;
+     width: 224px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     left: 17px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_eight ul li:nth-child(3){
+     list-style: none;
+     color: #535261;
+     width: 230px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     left: 17px;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_eight ul li:nth-child(4) p{
+     position: absolute;
+     left: 660px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     list-style: none;
+     color: #535261;
+     width: 253px;
+     left: 660px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_eight ul li:nth-child(4) span{
+     position: absolute;
+     left: 35px;
+     width: 8px;
+     height: 8px;
+     font-size: 37px;
+     top: -6.5px;
+     left: 645px;
+     color: #34CD26;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_eight ul li:nth-child(5){
+     list-style: none;
+     color: #4277FF;
+     width: 125px;
+     height: 49px;
+     text-decoration: underline;
+     position: absolute;
+     top: 14px;
+     left: 877px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_eight ul li:nth-child(6){
+     list-style: none;
+     color: #4277FF;
+     text-decoration: underline;
+     width: 125px;
+     height: 49px;
+     position: absolute;
+     top: 14px;
+     left: 1000px;
+     padding: 0px 17px 0px 17px;
+}
+/*------------------------------------------------------------*/
+section .menuSx .tableSx .tableSx-form .form-detail_nine{
+}
+section .menuSx .tableSx .tableSx-form .form-detail_nine ul{
+     display: flex;
+     position: relative;
+     background-color: #FFF2E7;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_nine ul li{
+     list-style: none;
+     color: #535261;
+     height: 49px;
+     display: flex;
+     position: absolute;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_nine ul li:nth-child(1){
+     list-style: none;
+     color: #535261;
+     width: 150px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     left: 16px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_nine ul li:nth-child(2){
+     list-style: none;
+     color: #535261;
+     width: 224px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     left: 17px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_nine ul li:nth-child(3){
+     list-style: none;
+     color: #535261;
+     width: 230px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     left: 17px;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_nine ul li:nth-child(4) p{
+     position: absolute;
+     left: 660px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     list-style: none;
+     color: #535261;
+     width: 253px;
+     left: 660px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_nine ul li:nth-child(4) span{
+     position: absolute;
+     left: 35px;
+     width: 8px;
+     height: 8px;
+     font-size: 37px;
+     top: -6.5px;
+     left: 645px;
+     color: #EC3740;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_nine ul li:nth-child(5){
+     list-style: none;
+     color: #4277FF;
+     width: 125px;
+     height: 49px;
+     text-decoration: underline;
+     position: absolute;
+     top: 14px;
+     left: 877px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_nine ul li:nth-child(6){
+     list-style: none;
+     color: #4277FF;
+     text-decoration: underline;
+     width: 125px;
+     height: 49px;
+     position: absolute;
+     top: 14px;
+     left: 1000px;
+     padding: 0px 17px 0px 17px;
+}
+/*------------------------------------------------------------*/
+section .menuSx .tableSx .tableSx-form .form-detail_ten{
+}
+section .menuSx .tableSx .tableSx-form .form-detail_ten ul{
+     display: flex;
+     position: relative;
+     background-color: #FFFFFF;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_ten ul li{
+     list-style: none;
+     color: #535261;
+     height: 49px;
+     display: flex;
+     position: absolute;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_ten ul li:nth-child(1){
+     list-style: none;
+     color: #535261;
+     width: 150px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     left: 16px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_ten ul li:nth-child(2){
+     list-style: none;
+     color: #535261;
+     width: 224px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     font-size: 14px;
+     left: 17px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_ten ul li:nth-child(3){
+     list-style: none;
+     color: #535261;
+     width: 230px;
+     height: 49px;
+     position: relative;
+     font-weight: 400;
+     left: 17px;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_ten ul li:nth-child(4) p{
+     position: absolute;
+     left: 660px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 14px;
+     list-style: none;
+     color: #535261;
+     width: 253px;
+     left: 660px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_ten ul li:nth-child(4) span{
+     position: absolute;
+     left: 35px;
+     width: 8px;
+     height: 8px;
+     font-size: 37px;
+     top: -6.5px;
+     left: 645px;
+     color: #34CD26;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_ten ul li:nth-child(5){
+     list-style: none;
+     color: #4277FF;
+     width: 125px;
+     height: 49px;
+     text-decoration: underline;
+     position: absolute;
+     top: 14px;
+     left: 877px;
+     padding: 0px 17px 0px 17px;
+}
+section .menuSx .tableSx .tableSx-form .form-detail_ten ul li:nth-child(6){
+     list-style: none;
+     color: #4277FF;
+     text-decoration: underline;
+     width: 125px;
+     height: 49px;
+     position: absolute;
+     top: 14px;
+     left: 1000px;
+     padding: 0px 17px 0px 17px;
+}
+/*----------------------------------------------------------*/
+section .menuSx .addSx-form{
+     display: flex;
+     position: relative;
+}
+section .menuSx .addSx-form .addSx-form-device{
+     display: flex;
+     position: absolute;
+}
+section .menuSx .addSx-form .addSx-form-device .addSx-form-device-click{
+     width: 80px;
+     height: 94px;
+     position: relative;
+     background-color: #FFF2E7;
+     top: 244px;
+     left: 1160px;
+     border-radius: 6px;
+}
+section .menuSx .addSx-form .addSx-form-device .addSx-form-device-click h1{
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     top: 44px;
+     width: 72px;
+     height: 38px;
+     left: 4px;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 19.1px;
+     padding: 12px 4px 12px 16px;
+     color: #FF7506;
+}
+section .menuSx .addSx-form .addSx-form-device .addSx-form-device-click span{
+     position: absolute;
+     font-size: 30px;
+     color: #FF7506;
+     width: 28px;
+     height: 28px;
+     top: 12px;
+     left: 26px;
+}

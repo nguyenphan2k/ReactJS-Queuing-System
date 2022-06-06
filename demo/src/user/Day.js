@@ -30,44 +30,48 @@ function Day(){
                                              Dashboard
                                         </li>
                                         <li>
-                                             <span><FiMonitor/></span>
-                                             Thiết bị
+                                             <div>
+                                                  <Link to={'/thiet-bi'}>
+                                                       <span><FiMonitor/></span>
+                                                  </Link>
+                                                  Thiết bị
+                                             </div>
                                         </li>
                                         <li>
-                                             <span><BiMessageRoundedDots/></span>
-                                             Dịch vụ
+                                             <div>
+                                                  <Link to={'/dich-vu'}>
+                                                       <span><BiMessageRoundedDots/></span>
+                                                  </Link>
+                                                  Dịch vụ
+                                             </div>
                                         </li>
                                         <li>
                                              <span><BiLayer/></span>
                                              Cấp số
                                         </li>
                                         <li>
-                                             <span><HiOutlineDocumentReport/></span>
-                                             Báo cáo
+                                             <Link to={'/bao-cao'}>
+                                                  <span><HiOutlineDocumentReport/></span>
+                                                  Báo cáo
+                                             </Link>
                                         </li>
                                         <li>
-                                             <div>
-                                                  <Link to={'/thiet-bi'}>
-                                                       <span><AiOutlineSetting/></span>
-                                                  </Link>
-                                                  Cài đặt hệ thống
-                                             </div>
+                                             <span><AiOutlineSetting/></span>
+                                             Cài đặt hệ thống
                                         </li>
                                    </ul>
                               </div>
                               <div className='logoutBx'>
                                    <ul>
-                                        
-                                                  <li>
-                                                  
-                                                       <span><FiLogOut/></span>
-                                                       <p>Đăng xuất</p>
-                                                   
-                                                  </li>
+                                        <li>
+                                             <Link to={'/man-hinh'}>
+                                                  <span><FiLogOut/></span>
+                                             </Link>
+                                             Đăng xuất
+                                        </li>
                                         
                                    </ul>
                               </div>
-                         
                     </div>
                </div>
                <div className='dashBx'>

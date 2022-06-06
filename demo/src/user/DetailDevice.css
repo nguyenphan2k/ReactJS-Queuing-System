@@ -1,0 +1,424 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Nunito;
+}
+section{
+     width: 1440px;
+     height: 810px;
+     margin: auto;
+     display: flex;
+}
+section .contentBX{
+     display: flex;
+     position: relative;
+     width: 200px;
+     height: 810px;
+     background-color:#dbdbdb;
+     justify-content: center;
+     align-items: center;
+     border-top-left-radius: 16px;
+     border-bottom-left-radius: 16px;
+}
+section .contentBX .formBX{
+     position: fixed;
+}
+section .contentBX .formBX img{
+     position: absolute;
+     width: 100px;
+     transform: translate(20px,-220px);
+     margin-bottom: -450px;
+}
+section .contentBX .formBX .iconBX{
+     position: relative;
+     display: flex;
+     margin-left: 30px;
+     margin-bottom: 50px;
+     transform: translate(0px ,-60px);
+     flex-direction: column;
+}
+section .contentBX .formBX .iconBX ul{
+     
+}
+section .contentBX .formBX .iconBX ul li {
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #7E7D88;
+     margin-bottom: 20px;
+}
+section .contentBX .formBX .iconBX ul li span{
+     font-size: 20px;
+     font-weight: 600;
+     color: #7E7D88;
+     padding-right: 5px;
+     display: block;
+     position: absolute;
+     left:-25px;
+}
+section .contentBX .formBX .logoutBx{
+     width: 176px;
+     height: 48px;
+     background-color: #FFF2E7;
+     position: absolute;
+     border-radius: 8px;
+     display: flex;
+     margin-left: -15px;
+     justify-content: center;
+     align-items: center;
+     margin-top: 235px;
+     transform: translate(0px ,-60px);
+}
+section .contentBX .formBX .logoutBx{
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #FF7506;
+}
+section .contentBX .formBX .logoutBx span{
+     font-size: 20px;
+     font-weight: 600;
+     color: #FF7506;
+     margin-bottom: 20px;
+     position: absolute; 
+     top: 12px;
+     left: 10px;
+}
+/*------------------------------------------------------------------------------*/
+section .bodyAx{
+     width: 1240px;
+     height: 810px;
+     background-color: #B1B1B1;
+     border-bottom-right-radius: 16px;
+     border-top-right-radius: 16px;
+}
+section .bodyAx .bodyAx-info{
+     display: flex;
+     position: relative;
+}
+section .bodyAx .bodyAx-info .bodyAx-info-right{
+     position: absolute;
+     top: 35.67px;
+     left: 957.59px;
+     width: 4.71px;
+     height: 1.67px;
+}
+section .bodyAx .bodyAx-info .bodyAx-info-right-two img{
+     position: absolute;
+     top: 24px;
+     left: 1004px;
+     width: 40px;
+     height: 40px;
+}
+section .bodyAx .bodyAx-info .bodyAx-info-right-two h1{
+     position: absolute;
+     width: 47px;
+     height: 18px;
+     top: 24px;
+     left: 1052px;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 18px;
+     color: #7E7D88;
+}
+section .bodyAx .bodyAx-info .bodyAx-info-right-two h2{
+     width: 124px;
+     height: 24px;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 24px;
+     position: absolute;
+     color: #535261;
+     left: 1052px;
+     top: 42px;
+}
+section .bodyAx .bodyAx-info .bodyAx-info-header{
+     display: inline-flex;
+}
+section .bodyAx .bodyAx-info .bodyAx-info-header h1{
+     position: absolute;
+     width: 71px;
+     height: 30px;
+     top: 29px;
+     left: 24px;
+     font-weight: 700;
+     line-height: 30px;
+     font-size: 20px;
+     color: #7E7D88;
+}
+section .bodyAx .bodyAx-info .bodyAx-info-header ul li{
+     list-style: none;
+}
+section .bodyAx .bodyAx-info .bodyAx-info-header ul li:nth-child(1) img{
+     position: absolute;
+     top: 39.63px;
+     left: 110.4px;
+     width: 5.21px;
+     height: 8.74px;
+     color: #7E7D88;
+}
+section .bodyAx .bodyAx-info .bodyAx-info-header ul li:nth-child(2) img{
+     position: absolute;
+     top: 39.63px;
+     left: 313.4px;
+     width: 5.21px;
+     height: 8.74px;
+     color: #7E7D88;
+}
+section .bodyAx .bodyAx-info .bodyAx-info-header h2{
+     position: absolute;
+     width: 167px;
+     height: 30px;
+     top: 29px;
+     left: 131px;
+     font-weight: 700;
+     line-height: 30px;
+     font-size: 20px;
+     color: #7E7D88;
+}
+section .bodyAx .bodyAx-info .bodyAx-info-header h3{
+     position: absolute;
+     width: 137px;
+     height: 30px;
+     top: 29px;
+     left: 334px;
+     font-weight: 700;
+     line-height: 30px;
+     font-size: 20px;
+     color: #FF7506;
+}
+section .bodyAx .bodyAx-info .bodyAx-info-title h1{
+     position: absolute;
+     width: 169px;
+     height: 36px;
+     top: 104px;
+     left: 24px;
+     font-weight: 700;
+     line-height: 36px;
+     font-size: 24px;
+     color: #FF7506;
+}
+/*----------------------------------------------------------------*/
+section .bodyAx .textAx{
+     display: flex;
+     position: relative;
+}
+section .bodyAx .textAx .textAx-table{
+     position: relative;
+     width: 1112px;
+     height: 604px;
+     background-color: #FFFFFF;
+     top: 156px;
+     left: 24px;
+     border-radius: 16px;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-title h1{
+     position: absolute;
+     width: 160px;
+     height: 30px;
+     top: 16px;
+     left: 24px;
+     font-weight: 700;
+     line-height: 30px;
+     font-size: 20px;
+     color: #FF7506;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content{
+     display: flex;
+     position: relative;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul{
+     position: absolute;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li{
+     list-style: none;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(1){
+     position: absolute;
+     width: 81px;
+     height: 24px;
+     left: 24px;
+     top: 66px;
+     font-weight: 600;
+     line-height: 24px;
+     font-size: 16px;
+     color:#282739;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(2){
+     position: absolute;
+     width: 54px;
+     height: 24px;
+     left: 148px;
+     top: 66px;
+     font-weight: 400;
+     line-height: 24px;
+     font-size: 16px;
+     color:#535261;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(3){
+     position: absolute;
+     width: 85px;
+     height: 24px;
+     left: 24px;
+     top: 106px;
+     font-weight: 600;
+     line-height: 24px;
+     font-size: 16px;
+     color:#282739;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(4){
+     position: absolute;
+     width: 39px;
+     height: 24px;
+     left: 148px;
+     top: 106px;
+     font-weight: 400;
+     line-height: 24px;
+     font-size: 16px;
+     color:#535261;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(5){
+     position: absolute;
+     width: 78px;
+     height: 24px;
+     left: 24px;
+     top: 146px;
+     font-weight: 600;
+     line-height: 24px;
+     font-size: 16px;
+     color:#282739;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(6){
+     position: absolute;
+     width: 94px;
+     height: 24px;
+     left: 148px;
+     top: 146px;
+     font-weight: 400;
+     line-height: 24px;
+     font-size: 16px;
+     color:#535261;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(7){
+     position: absolute;
+     width: 89px;
+     height: 24px;
+     left: 568px;
+     top: 66px;
+     font-weight: 600;
+     line-height: 24px;
+     font-size: 16px;
+     color:#282739;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(8){
+     position: absolute;
+     width: 39px;
+     height: 24px;
+     left: 726px;
+     top: 66px;
+     font-weight: 400;
+     line-height: 24px;
+     font-size: 16px;
+     color:#535261;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(9){
+     position: absolute;
+     width: 112px;
+     height: 24px;
+     left: 568px;
+     top: 106px;
+     font-weight: 600;
+     line-height: 24px;
+     font-size: 16px;
+     color:#282739;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(10){
+     position: absolute;
+     width: 85px;
+     height: 24px;
+     left: 726px;
+     top: 106px;
+     font-weight: 400;
+     line-height: 24px;
+     font-size: 16px;
+     color:#535261;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(11){
+     position: absolute;
+     width: 75px;
+     height: 24px;
+     left: 568px;
+     top: 146px;
+     font-weight: 600;
+     line-height: 24px;
+     font-size: 16px;
+     color:#282739;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(12){
+     position: absolute;
+     width: 35px;
+     height: 24px;
+     left: 726px;
+     top: 146px;
+     font-weight: 400;
+     line-height: 24px;
+     font-size: 16px;
+     color:#535261;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(13){
+     position: absolute;
+     width: 122px;
+     height: 24px;
+     left: 24px;
+     top: 186px;
+     font-weight: 600;
+     line-height: 24px;
+     font-size: 16px;
+     color:#282739;
+}
+section .bodyAx .textAx .textAx-table .textAx-table-content ul li:nth-child(14){
+     position: absolute;
+     width: 795px;
+     height: 24px;
+     left: 24px;
+     top: 218px;
+     font-weight: 400;
+     line-height: 24px;
+     font-size: 16px;
+     color:#535261;
+}
+/*---------------------------------------------*/
+/*----------------------------------------------------------*/
+section .bodyAx .addAx-form{
+     display: flex;
+     position: relative;
+}
+section .bodyAx .addAx-form .addAx-form-device{
+     display: flex;
+     position: absolute;
+}
+section .bodyAx .addAx-form .addAx-form-device .addAx-form-device-click{
+     width: 80px;
+     height: 94px;
+     position: relative;
+     background-color: #FFF2E7;
+     top: 156px;
+     left: 1160px;
+     border-radius: 6px;
+}
+section .bodyAx .addAx-form .addAx-form-device .addAx-form-device-click p{
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     top: 44px;
+     width: 72px;
+     height: 38px;
+     left: 4px;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 19.1px;
+     padding: 12px 4px 12px 16px;
+     color: #FF7506;
+}

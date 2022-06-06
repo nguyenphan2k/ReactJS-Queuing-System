@@ -570,7 +570,7 @@ section .menuDx .tableBx .tableBx-form .form-detail_two ul li:nth-child(7) p{
      font-size: 14px;
      line-height: 21px;  
 }
-section .menuDx .tableBx .tableBx-form .form-detail_two ul li:nth-child(8){
+section .menuDx .tableBx .tableBx-form .form-detail_two ul li:nth-child(8) p{
      width: 106px;
      height: 49px;
      position: relative;
