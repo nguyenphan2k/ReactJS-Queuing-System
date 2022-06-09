@@ -122,8 +122,8 @@ function UpdateDevice(){
                                    </ul>
                               </div>
                          </div>
+                    </div>     
 {/*---------------------------------------------------------------------*/}                         
-                    </div>
                     <div className='bodyUx-button'>
                               <div className='bodyUx-button-center'>
                                    <Link to={'/huy-bo'} className='bodyUx-button-center-one'>

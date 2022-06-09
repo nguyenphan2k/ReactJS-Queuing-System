@@ -144,14 +144,14 @@ function Device(){
                                         </li>
                                         <li>
                                              <div>
-                                                  <Link to={'/chi-tiet'}>
+                                                  <Link to={'/chi-tiet-dich-vu'}>
                                                        <p>Chi tiết</p>
                                                   </Link>
                                              </div>
                                         </li>
                                         <li>
                                              <div>
-                                                  <Link to={'/cap-nhat'}>
+                                                  <Link to={'/cap-nhat-dich-vu'}>
                                                        <p>Cập nhật</p>
                                                   </Link>
                                              </div>

@@ -14,6 +14,8 @@ import DetailDevice from './user/DetailDevice';
 import Login from './user/Login';
 import UpdateDevice from './user/UpdateDevice';
 import Service from './user/Service';
+import AddService from './user/AddService';
+import DetailService from './user/DetailService';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,6 +37,10 @@ root.render(
             <Route path='/huy-bo' element={<Device/>}/>
             <Route path='/nang-cap' element={<UpdateDevice/>}/>
             <Route path='/dich-vu' element={<Service/>}/>
+            <Route path='/them-dich-vu' element={<AddService/>}/>
+            <Route path='/quay-lai-dich-vu' element={<Service/>}/>
+            <Route path='/huy-bo-dich-vu' element={<Service/>}/>
+            <Route path='/chi-tiet-dich-vu' element={<DetailService/>}/>
          </Routes> 
       </BrowserRouter>
   </React.StrictMode>
