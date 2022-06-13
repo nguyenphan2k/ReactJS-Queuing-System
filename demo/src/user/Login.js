@@ -12,12 +12,12 @@ function Login(){
                               <div className='inputBx'>
                                    <span>Tên đăng nhập *</span>
                                    <Link to={'/sai-tai-khoan'}>
-                                        <input type='text' value='lequynhaivan01'></input>
+                                        <input type='text' placeholder='lequynhaivan01'></input>
                                    </Link>
                               </div>
                               <div className='inputBx'>
                                    <span>Mật khẩu *</span>
-                                   <input type='password' value='password'></input>
+                                   <input type='password' placeholder='password'></input>
                               </div>
                               <div>
                                    <Link to={'/quen-mat-khau'} className='rememberLx'>

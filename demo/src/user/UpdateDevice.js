@@ -15,42 +15,56 @@ import {Link} from 'react-router-dom'
 function UpdateDevice(){
      return(
           <section>
-               <div className='contentBX'>
-                    <div className='formBX'>
-                         <img src={picture}/>
-                         <div className='iconBX'>
+               <div className='dashUs'>
+                    <div className='dashUs__form'>
+                         <div className='dashUs__formImage'>
+                              <img src={picture}/>
+                         </div>
+                         <div className='dashUs__formIcon'>
                               <ul>
                                    <li>
                                         <span><MdDashboard/></span>
-                                        Dashboard
+                                        <p>Dashboard</p>
                                    </li>
                                    <li>
-                                        <span><FiMonitor/></span>
-                                        Thiết bị
+                                        <div>
+                                             <Link to={'/thiet-bi'}>
+                                                  <span><FiMonitor/></span>
+                                                  <p>Thiết bị</p>
+                                             </Link>
+                                        </div>
                                    </li>
                                    <li>
-                                        <span><BiMessageRoundedDots/></span>
-                                        Dịch vụ
+                                        <div>
+                                             <Link to={'/dich-vu'}>
+                                                  <span><FiMonitor/></span>
+                                                  <p>Dịch vụ</p>
+                                             </Link>
+                                        </div>
                                    </li>
                                    <li>
-                                        <span><BiLayer/></span>
-                                        Cấp số
+                                        <div>
+                                             <Link to={'/cap-so'}>
+                                                  <span><BiLayer/></span>
+                                                  <p>Cấp số</p>
+                                             </Link>
+                                        </div>
                                    </li>
                                    <li>
                                         <span><HiOutlineDocumentReport/></span>
-                                        Báo cáo
+                                        <p>Báo cáo</p>
                                    </li>
                                    <li>
                                         <span><AiOutlineSetting/></span>
-                                         Cài đặt hệ thống
+                                        <p>Cài đặt hệ thống</p>
                                    </li>
                               </ul>
                          </div>
-                         <div className='logoutBx'>
+                         <div className='dashUs__formLogout'>
                               <ul>
                                    <li>
                                         <span><FiLogOut/></span>
-                                        Đăng xuất
+                                        <p>Đăng xuất</p>
                                    </li>
                               </ul>
                          </div>

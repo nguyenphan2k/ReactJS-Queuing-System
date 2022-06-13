@@ -209,33 +209,33 @@ section{
      line-height: 24px;
      color: #FF7506;
 }
-/*-------------------------------------------------------------*/
-section .bodyBx{
+/*------------------------------------------------------------*/
+section .bodyUs{
      width: 1240px;
      height: 810px;
      background-color: #B1B1B1;
      border-bottom-right-radius: 16px;
      border-top-right-radius: 16px;
 }
-section .bodyBx .bodyBx-info{
+.bodyUs__header{
      display: flex;
      position: relative;
 }
-section .bodyBx .bodyBx-info .bodyBx-info-right{
+.bodyUs__headerInfo__right{
      position: absolute;
      top: 35.67px;
      left: 957.59px;
      width: 4.71px;
      height: 1.67px;
 }
-section .bodyBx .bodyBx-info .bodyBx-info-right-two img{
+.bodyUs__headerInfo__rightTwo img{
      position: absolute;
      top: 24px;
      left: 1004px;
      width: 40px;
      height: 40px;
 }
-section .bodyBx .bodyBx-info .bodyBx-info-right-two h1{
+.bodyUs__headerInfo__rightTwo h1{
      position: absolute;
      width: 47px;
      height: 18px;
@@ -246,7 +246,7 @@ section .bodyBx .bodyBx-info .bodyBx-info-right-two h1{
      line-height: 18px;
      color: #7E7D88;
 }
-section .bodyBx .bodyBx-info .bodyBx-info-right-two h2{
+.bodyUs__headerInfo__rightTwo h2{
      width: 124px;
      height: 24px;
      font-size: 16px;
@@ -257,12 +257,12 @@ section .bodyBx .bodyBx-info .bodyBx-info-right-two h2{
      left: 1052px;
      top: 42px;
 }
-section .bodyBx .bodyBx-info .bodyBx-info-header{
-     display: inline-flex;
+.bodyUs__headerInfo{
+     display: inline-block;
 }
-section .bodyBx .bodyBx-info .bodyBx-info-header h1{
+.bodyUs__headerInfo h1{
      position: absolute;
-     width: 71px;
+     width: 70px;
      height: 30px;
      top: 29px;
      left: 24px;
@@ -271,31 +271,69 @@ section .bodyBx .bodyBx-info .bodyBx-info-header h1{
      font-size: 20px;
      color: #7E7D88;
 }
-section .bodyBx .bodyBx-info .bodyBx-info-header h2{
+.bodyUs__headerInfo ul li{
+     list-style: none;
+}
+.bodyUs__headerInfo ul li:nth-child(1) img{
      position: absolute;
-     width: 167px;
+     top: 39.63px;
+     left: 109.4px;
+     width: 5.21px;
+     height: 8.74px;
+     color: #7E7D88;
+}
+.bodyUs__headerInfo ul li:nth-child(2) img{
+     position: absolute;
+     top: 40.63px;
+     left: 314.4px;
+     width: 5.21px;
+     height: 8.74px;
+     color: #7E7D88;
+}
+.bodyUs__headerInfo ul li:nth-child(3) img{
+     position: absolute;
+     top: 40.63px;
+     left: 417.4px;
+     width: 5.21px;
+     height: 8.74px;
+     color: #7E7D88;
+}
+.bodyUs__headerInfo h2{
+     position: absolute;
+     width: 169px;
      height: 30px;
-     top: 29px;
-     left: 131px;
+     top: 30px;
+     left: 130px;
      font-weight: 700;
      line-height: 30px;
      font-size: 20px;
      color: #7E7D88;
 }
-section .bodyBx .bodyBx-info .bodyBx-info-header h3{
+.bodyUs__headerInfo h3{
      position: absolute;
-     width: 124px;
+     width: 67px;
      height: 30px;
      top: 29px;
-     left: 334px;
+     left: 335px;
+     font-weight: 700;
+     line-height: 30px;
+     font-size: 20px;
+     color: #7E7D88;
+}
+.bodyUs__headerInfo h4{
+     position: absolute;
+     width: 84px;
+     height: 30px;
+     top: 29px;
+     left: 438px;
      font-weight: 700;
      line-height: 30px;
      font-size: 20px;
      color: #FF7506;
 }
-section .bodyBx .bodyBx-info .bodyBx-info-title h1{
+.bodyUs__headerInfo__title h1{
      position: absolute;
-     width: 169px;
+     width: 171px;
      height: 36px;
      top: 104px;
      left: 24px;
@@ -304,23 +342,25 @@ section .bodyBx .bodyBx-info .bodyBx-info-title h1{
      font-size: 24px;
      color: #FF7506;
 }
-/*-------------------------------------------------------------------------*/
-section .bodyBx .bodyBx-table{
+/*------------------------------------------------------*/
+.bodyUs__table{
      display: flex;
      position: relative;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form{
+.bodyUs__tableForm{
      position: absolute;
-     width: 1152px;
-     height: 550px;
+     width: 1178px;
+     height: 534px;
      background-color: #FFFFFF;
      top: 156px;
      left: 24px;
      border-radius: 16px;
+     box-shadow: #E8EFF4;
+     opacity: 80%;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-title h1{
+.bodyUs__tableForm__title h1{
      position: absolute;
-     width: 160px;
+     width: 162px;
      height: 30px;
      top: 16px;
      left: 24px;
@@ -329,20 +369,20 @@ section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-title h1{
      line-height: 30px;
      color: #FF7506;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content{
+.bodyUs__tableForm__content{
      display: flex;
      position: relative;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul{
+.bodyUs__tableForm__content ul{
      position: absolute;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li{
+.bodyUs__tableForm__content ul li{
+     position: absolute;
      list-style: none;
-     position: absolute;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(1) h1{
+.bodyUs__tableForm__content ul li:nth-child(1) h1{
      position: absolute;
-     width: 81px;
+     width: 88px;
      height: 24px;
      top: 66px;
      left: 24px;
@@ -351,196 +391,292 @@ section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul l
      line-height: 24px;
      color: #282739;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(1) input{
+.bodyUs__tableForm__content ul li:nth-child(1) h2{
+     color: #FF4747;
+     width: 6px;
+     height: 6px;
      position: absolute;
-     width: 540px;
+     top: 67px;
+     left: 110px;
+}
+.bodyUs__tableForm__content ul li:nth-child(1) input{
+     position: absolute;
+     width: 553px;
      height: 44px;
-     top: 98px;
+     top: 90px;
      left: 24px;
      border-radius: 8px;
      padding: 10px 270px 10px 12px;
-     color: #A9A9B0;
+     color: #D4D4D7;
      font-weight: 400;
      font-size: 16px;
      line-height: 24px;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(2) h1{
+.bodyUs__tableForm__content ul li:nth-child(2) h1{
      position: absolute;
-     width: 89px;
+     width: 91px;
      height: 24px;
-     top: 66px;
-     left: 588px;
-     font-weight: 600;
-     font-size: 16px;
-     line-height: 24px;
-     color: #282739;
-}
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(2) input{
-     position: absolute;
-     width: 540px;
-     height: 44px;
-     top: 98px;
-     left: 588px;
-     border-radius: 8px;
-     padding: 10px 270px 10px 12px;
-     color: #A9A9B0;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
-}
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(3) h1{
-     position: absolute;
-     width: 85px;
-     height:24px;
-     top: 158px;
+     top: 146px;
      left: 24px;
      font-weight: 600;
      font-size: 16px;
      line-height: 24px;
      color: #282739;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(3) input{
+.bodyUs__tableForm__content ul li:nth-child(2) h2{
+     color: #FF4747;
+     width: 6px;
+     height: 6px;
      position: absolute;
-     width: 540px;
+     top: 148px;
+     left: 119px;
+}
+.bodyUs__tableForm__content ul li:nth-child(2) input{
+     position: absolute;
+     width: 553px;
      height: 44px;
-     top: 190px;
+     top: 178px;
      left: 24px;
      border-radius: 8px;
      padding: 10px 270px 10px 12px;
-     color: #A9A9B0;
+     color: #D4D4D7;
      font-weight: 400;
      font-size: 16px;
      line-height: 24px;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(4) h1{
+.bodyUs__tableForm__content ul li:nth-child(3) h1{
      position: absolute;
-     width: 112px;
-     height:24px;
-     top: 158px;
-     left: 588px;
+     width: 50px;
+     height: 24px;
+     top: 58px;
+     left: 601px;
      font-weight: 600;
      font-size: 16px;
      line-height: 24px;
      color: #282739;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(4) input{
+.bodyUs__tableForm__content ul li:nth-child(3) input{
      position: absolute;
-     width: 540px;
-     height: 44px;
-     top: 190px;
-     left: 588px;
+     width: 553px;
+     height: 132px;
+     top: 90px;
+     left: 601px;
      border-radius: 8px;
      padding: 10px 270px 10px 12px;
-     color: #A9A9B0;
+     color: #D4D4D7;
      font-weight: 400;
      font-size: 16px;
      line-height: 24px;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(5) h1{
+.bodyUs__tableForm__role h1{
      position: absolute;
-     width: 79px;
-     height:24px;
-     top: 250px;
+     width: 136px;
+     height: 30px;
      left: 24px;
-     font-weight: 600;
+     top: 238px;
+     font-weight:700;
+     font-size: 20px;
+     line-height: 30px;
+     color: #FF7506;
+}
+.bodyUs__tableForm__checkbox{
+     display: flex;
+     position: relative;
+}
+.bodyUs__tableForm__checkbox input{
+     position: absolute;
+     width: 20px;
+     height: 20px;
+     left: 24px;
+     top: 292px;
+}
+.bodyUs__tableForm__checkbox h1{
+     position: absolute;
+     width: 120px;
+     height: 24px;
+     left: 52px;
+     top: 290px;
+     font-weight:600;
      font-size: 16px;
      line-height: 24px;
      color: #282739;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(5) input{
-     position: absolute;
-     width: 540px;
-     height: 44px;
-     top: 282px;
-     left: 24px;
-     border-radius: 8px;
-     padding: 10px 270px 10px 12px;
-     color: #A9A9B0;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
+/*-----------------------------------------------*/
+.bodyUs__tableForm__checkboxTwo{
+     display: flex;
+     position: relative;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(6) h1{
+.bodyUs__tableForm__checkboxTwo input{
      position: absolute;
-     width: 75px;
-     height:24px;
-     top: 250px;
-     left: 588px;
-     font-weight: 600;
+     width: 20px;
+     height: 20px;
+     left: 24px;
+     top: 348px;
+}
+.bodyUs__tableForm__checkboxTwo h1{
+     position: absolute;
+     width: 46px;
+     height: 24px;
+     left: 52px;
+     top: 346px;
+     font-weight:600;
      font-size: 16px;
      line-height: 24px;
      color: #282739;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(6) input{
-     position: absolute;
-     width: 540px;
-     height: 44px;
-     top: 282px;
-     left: 588px;
-     border-radius: 8px;
-     padding: 10px 270px 10px 12px;
-     color: #A9A9B0;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
+/*-----------------------------------------------*/
+.bodyUs__tableForm__checkboxThree{
+     display: flex;
+     position: relative;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(7) h1{
+.bodyUs__tableForm__checkboxThree input{
      position: absolute;
-     width: 122px;
-     height:24px;
-     top: 342px;
+     width: 20px;
+     height: 20px;
      left: 24px;
-     font-weight: 600;
+     top: 404px;
+}
+.bodyUs__tableForm__checkboxThree h1{
+     position: absolute;
+     width: 48px;
+     height: 24px;
+     left: 52px;
+     top: 402px;
+     font-weight:600;
      font-size: 16px;
      line-height: 24px;
      color: #282739;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(7) input{
+/*-----------------------------------------------*/
+.bodyUs__tableForm__checkboxFour{
+     display: flex;
+     position: relative;
+}
+.bodyUs__tableForm__checkboxFour input{
      position: absolute;
-     width: 1104px;
-     height: 44px;
-     top: 374px;
+     width: 20px;
+     height: 20px;
      left: 24px;
-     border-radius: 8px;
-     padding: 10px 270px 10px 12px;
-     color: #A9A9B0;
-     font-weight: 400;
+     top: 450px;
+}
+.bodyUs__tableForm__checkboxFour h1{
+     position: absolute;
+     width: 113px;
+     height: 24px;
+     left: 52px;
+     top: 448px;
+     font-weight:600;
      font-size: 16px;
      line-height: 24px;
+     color: #282739;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(8) p{
+/*-----------------------------------------------*/
+.bodyUs__tableForm__checkboxFive{
+     display: flex;
+     position: relative;
+}
+.bodyUs__tableForm__checkboxFive h1{
+     position: absolute;
+     width: 61px;
+     height: 44px;
+     left: 187px;
+     top: 280px;
+     font-weight:400;
+     font-size: 16px;
+     line-height: 24px;
+     padding: 10px 12px 10px 12px;
+     color: #535261;
+     border: 1.5px solid #D4D4D7;
+}
+.bodyUs__tableForm__checkboxFive h2{
+     position: absolute;
+     width: 61px;
+     height: 44px;
+     left: 187px;
+     top: 336px;
+     font-weight:400;
+     font-size: 16px;
+     line-height: 24px;
+     padding: 10px 12px 10px 12px;
+     color: #535261;
+     border: 1.5px solid #D4D4D7;
+}
+.bodyUs__tableForm__checkboxFive h3{
+     position: absolute;
+     width: 61px;
+     height: 44px;
+     left: 187px;
+     top: 392px;
+     font-weight:400;
+     font-size: 16px;
+     line-height: 24px;
+     padding: 10px 12px 10px 12px;
+     color: #535261;
+     border: 1.5px solid #D4D4D7;
+}
+/*-------------------------------------------------*/
+.bodyUs__tableForm__checkboxSix{
+     display: flex;
+     position: relative;
+}
+.bodyUs__tableForm__checkboxSix p{
+     position: absolute;
+     width: 28px;
+     height: 24px;
+     left: 260px;
+     top: 290px;
+     font-weight:600;
+     font-size: 16px;
+     line-height: 24px;
+     color: #282739;
+}
+.bodyUs__tableForm__checkboxSix h1{
+     position: absolute;
+     width: 61px;
+     height: 44px;
+     left: 300px;
+     top: 280px;
+     font-weight:400;
+     font-size: 16px;
+     line-height: 24px;
+     padding: 10px 12px 10px 12px;
+     color: #535261;
+     border: 1.5px solid #D4D4D7;
+}
+/*-------------------------------------------------*/
+.bodyUs__tableForm__checkboxSeven{
+     display: flex;
+     position: relative;
+}
+.bodyUs__tableForm__checkboxSeven h1{
      position: absolute;
      width: 6px;
-     height:6px;
-     top: 443px;
+     height: 6px;
      left: 24px;
+     top: 503px;
      color: #FF4747;
 }
-section .bodyBx .bodyBx-table .bodyBx-table-form .bodyBx-table-form-content ul li:nth-child(8) h1{
+.bodyUs__tableForm__checkboxSeven p{
      position: absolute;
      width: 179px;
-     height:21px;
-     top: 436px;
-     left: 34px;
-     color: #7E7D88;
-     font-weight: 400;
+     height: 21px;
+     left: 38px;
+     top: 504px;
+     font-weight:400;
      font-size: 14px;
      line-height: 21px;
+     color: #7E7D88;
 }
-/*-----------------------------------------------------*/
-section .bodyBx .bodyBx-button{
+/*-------------------------------------------------*/
+.bodyUs__button{
      display: flex;
      position: relative;
 }
-section .bodyBx .bodyBx-button .bodyBx-button-center{
+.bodyUs__buttonCancel{
      display: flex;
      position: absolute;
 }
-section .bodyBx .bodyBx-button .bodyBx-button-center .bodyBx-button-center-one{
-     display: flex;
-     position: absolute;
-}
-section .bodyBx .bodyBx-button .bodyBx-button-center .bodyBx-button-center-one button{
+.bodyUs__buttonCancel__one button{
      position: absolute;
      left: 434.5px;
      top: 730px;
@@ -555,7 +691,7 @@ section .bodyBx .bodyBx-button .bodyBx-button-center .bodyBx-button-center-one b
      line-height: 21.82px;
      padding: 10px 24px 10px 24px;
 }
-section .bodyBx .bodyBx-button .bodyBx-button-center .bodyBx-button-center-two button{
+.bodyUs__buttonCancel__two button{
      position: absolute;
      left: 613.5px;
      top: 730px;

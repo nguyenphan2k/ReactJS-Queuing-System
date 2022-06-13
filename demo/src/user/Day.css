@@ -2,17 +2,14 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     font-family: 'Nunito';
+     font-family: Nunito;
 }
 section{
      width: 1440px;
      height: 810px;
      margin: auto;
-     display: flex;
 }
-section .contentBX{
-     display: flex;
-     position: relative;
+.dashUs{
      width: 200px;
      height: 810px;
      background-color:#dbdbdb;
@@ -21,69 +18,197 @@ section .contentBX{
      border-top-left-radius: 16px;
      border-bottom-left-radius: 16px;
 }
-section .contentBX .formBX{
-     position: fixed;
-}
-section .contentBX .formBX img{
-     position: absolute;
-     width: 100px;
-     transform: translate(20px,-220px);
-     margin-bottom: -450px;
-}
-section .contentBX .formBX .iconBX{
-     position: relative;
+.dashUs__form{
      display: flex;
-     margin-left: 30px;
-     margin-bottom: 50px;
-     transform: translate(0px ,-60px);
-     flex-direction: column;
+     position: relative;
 }
-section .contentBX .formBX .iconBX ul{
-     
-}
-section .contentBX .formBX .iconBX ul li {
-     font-size: 16px;
-     font-weight: 600;
-     line-height: 24px;
-     color: #7E7D88;
-     margin-bottom: 20px;
-}
-section .contentBX .formBX .iconBX ul li span{
-     font-size: 20px;
-     font-weight: 600;
-     color: #7E7D88;
-     padding-right: 5px;
-     display: block;
+.dashUs__formImage{
      position: absolute;
-     left:-25px;
+     width: 79.19px;
+     height: 53.14px;
+     top: 32px;
+     left: 60.81px;
 }
-section .contentBX .formBX .logoutBx{
+.dashUs__formIcon{
+     display: flex;
+}
+.dashUs__formIcon ul{
+     position: absolute;
+     align-items: center;
+     justify-content: center;
+     top: 150px;
+     left: 0px;
+     width: 200px;
+}
+.dashUs__formIcon ul li{
+     display: flex;
+     list-style: none;
+     color: #7E7D88;
+}
+.dashUs__formIcon ul li:hover{
+     background-color: #FF7506;
+     color: #FFFFFF;
+}
+.dashUs__formIcon ul li:nth-child(1){
+     width: 200px;
+     height: 48px;
+}
+.dashUs__formIcon ul li:nth-child(1) span{
+     width: 7.08px;
+     height: 5px;
+     position: absolute;
+     top: 12px;
+     left: 17px;
+}
+.dashUs__formIcon ul li:nth-child(1) p{
+     width: 81px;
+     height: 24px;
+     position: absolute;
+     top: 12px;
+     left:44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+}
+.dashUs__formIcon ul li:nth-child(2){
+     width: 200px;
+     height: 48px;
+}
+.dashUs__formIcon ul li:nth-child(2) span{
+     width: 16.67px;
+     height: 12.68px;
+     position: absolute;
+     top: 60px;
+     left: 17px;
+}
+.dashUs__formIcon ul li:nth-child(2) p{
+     width: 56px;
+     height: 24px;
+     position: absolute;
+     top: 60px;
+     left:44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+}
+.dashUs__formIcon ul li:nth-child(3){
+     width: 200px;
+     height: 48px;
+}
+.dashUs__formIcon ul li:nth-child(3) span{
+     width: 16.67px;
+     height: 12.68px;
+     position: absolute;
+     top: 108px;
+     left: 17px;
+}
+.dashUs__formIcon ul li:nth-child(3) p{
+     width: 55px;
+     height: 24px;
+     position: absolute;
+     top: 108px;
+     left:44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+}
+.dashUs__formIcon ul li:nth-child(4){
+     width: 200px;
+     height: 48px;
+}
+.dashUs__formIcon ul li:nth-child(4) span{
+     width: 16.67px;
+     height: 12.68px;
+     position: absolute;
+     top: 156px;
+     left: 17px;
+}
+.dashUs__formIcon ul li:nth-child(4) p{
+     width: 50px;
+     height: 24px;
+     position: absolute;
+     top: 156px;
+     left:44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+}
+.dashUs__formIcon ul li:nth-child(5){
+     width: 200px;
+     height: 48px;
+}
+.dashUs__formIcon ul li:nth-child(5) span{
+     width: 16.67px;
+     height: 12.68px;
+     position: absolute;
+     top: 204px;
+     left: 17px;
+}
+.dashUs__formIcon ul li:nth-child(5) p{
+     width: 58px;
+     height: 24px;
+     position: absolute;
+     top: 204px;
+     left:44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+}
+.dashUs__formIcon ul li:nth-child(6){
+     width: 200px;
+     height: 48px;
+}
+.dashUs__formIcon ul li:nth-child(6) span{
+     width: 16.67px;
+     height: 12.68px;
+     position: absolute;
+     top: 252px;
+     left: 17px;
+}
+.dashUs__formIcon ul li:nth-child(6) p{
+     width: 120px;
+     height: 24px;
+     position: absolute;
+     top: 252px;
+     left:44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+}
+.dashUs__formLogout{
+     display: flex;
+}
+.dashUs__formLogout ul{
+     position: relative;
+}
+.dashUs__formLogout ul li{
+     position: absolute;
+     list-style: none;
+     display: flex;
      width: 176px;
      height: 48px;
+     top: 732px;
+     left: 12px;
      background-color: #FFF2E7;
-     position: absolute;
-     border-radius: 8px;
-     display: flex;
-     margin-left: -15px;
-     justify-content: center;
-     align-items: center;
-     margin-top: 235px;
-     transform: translate(0px ,-60px);
 }
-section .contentBX .formBX .logoutBx {
+.dashUs__formLogout ul li span{
+     width: 5px;
+     position: absolute;
+     height: 15px;
+     top: 16.5px;
+     left: 14.5px;
+     color: #FF7506;
+}
+.dashUs__formLogout ul li p{
+     position: absolute;
+     width: 76px;
+     height: 24px;
+     top: 12px;
+     left: 44px;
+     font-family: 600;
      font-size: 16px;
-     font-weight: 600;
      line-height: 24px;
      color: #FF7506;
-}
-section .contentBX .formBX .logoutBx span{
-     font-size: 20px;
-     font-weight: 600;
-     color: #FF7506;
-     margin-bottom: 20px;
-     position: absolute; 
-     top: 12px;
-     left: 10px;
 }
 /*--------------------------------------------------*/
 section .dashBx{
@@ -873,6 +998,12 @@ section .userBx .calenderBx .caframeBx .casecondBx table tbody tr{
 section .userBx .calenderBx .caframeBx .casecondBx table tbody tr td{
      list-style: none;
      padding: 10px 10px;
+     border-radius: 8px;
+     width: 36px;
+     height: 36px;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr td:hover{
+     background-color: #FF9138;
 }
 section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2){
      color:#535261 ;
@@ -892,21 +1023,37 @@ section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(6){
 /*-----------------------------------------------------------------------------*/
 section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2) td:nth-child(1){
      color: #7E7D88;
-}
-section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2) td:nth-child(2){
-     color: #7E7D88;
-}
-section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2) td:nth-child(3){
-     color: #7E7D88;
-}
-section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2) td:nth-child(4){
-     color: #7E7D88;
-}
-/*--------------------------------------*/
-section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(5) td:nth-child(2){
-     color:#FFFFFF;
-     background-color: #FF7506;
+     padding: 10px 10px;
      border-radius: 8px;
      width: 36px;
      height: 36px;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2) td:nth-child(2){
+     color: #7E7D88;
+     padding: 10px 10px;
+     border-radius: 8px;
+     width: 36px;
+     height: 36px;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2) td:nth-child(3){
+     color: #7E7D88;
+     padding: 10px 10px;
+     border-radius: 8px;
+     width: 36px;
+     height: 36px;
+}
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(2) td:nth-child(4){
+     color: #7E7D88;
+     padding: 10px 10px;
+     border-radius: 8px;
+     width: 36px;
+     height: 36px;
+}
+/*--------------------------------------*/
+section .userBx .calenderBx .caframeBx .casecondBx table tbody tr:nth-child(5) td:nth-child(2){
+     padding: 10px 10px;
+     border-radius: 8px;
+     width: 36px;
+     height: 36px;
+     background-color: #FF9138;
 }

@@ -1,4 +1,4 @@
-import './DetailDevice.css'
+import './DevicePart.css'
 import picture from '../images/Alta.png'
 import {MdDashboard} from 'react-icons/md'
 import {FiMonitor} from 'react-icons/fi'
@@ -11,45 +11,59 @@ import rings from '../images/Vector.png'
 import users from '../images/user.png'
 import { Link } from 'react-router-dom'
 import arrow from '../images/Vector (12).png'
-function DetailDevice(){
+function DevicePart(){
      return(
           <section>
-               <div className='contentBX'>
-                    <div className='formBX'>
-                         <img src={picture}/>
-                         <div className='iconBX'>
+               <div className='dashUs'>
+                    <div className='dashUs__form'>
+                         <div className='dashUs__formImage'>
+                              <img src={picture}/>
+                         </div>
+                         <div className='dashUs__formIcon'>
                               <ul>
                                    <li>
                                         <span><MdDashboard/></span>
-                                        Dashboard
+                                        <p>Dashboard</p>
                                    </li>
                                    <li>
-                                        <span><FiMonitor/></span>
-                                        Thiết bị
+                                        <div>
+                                             <Link to={'/thiet-bi'}>
+                                                  <span><FiMonitor/></span>
+                                                  <p>Thiết bị</p>
+                                             </Link>
+                                        </div>
                                    </li>
                                    <li>
-                                        <span><BiMessageRoundedDots/></span>
-                                        Dịch vụ
+                                        <div>
+                                             <Link to={'/dich-vu'}>
+                                                  <span><FiMonitor/></span>
+                                                  <p>Dịch vụ</p>
+                                             </Link>
+                                        </div>
                                    </li>
                                    <li>
-                                        <span><BiLayer/></span>
-                                        Cấp số
+                                        <div>
+                                             <Link to={'/cap-so'}>
+                                                  <span><BiLayer/></span>
+                                                  <p>Cấp số</p>
+                                             </Link>
+                                        </div>
                                    </li>
                                    <li>
                                         <span><HiOutlineDocumentReport/></span>
-                                        Báo cáo
+                                        <p>Báo cáo</p>
                                    </li>
                                    <li>
                                         <span><AiOutlineSetting/></span>
-                                         Cài đặt hệ thống
+                                        <p>Cài đặt hệ thống</p>
                                    </li>
                               </ul>
                          </div>
-                         <div className='logoutBx'>
+                         <div className='dashUs__formLogout'>
                               <ul>
                                    <li>
                                         <span><FiLogOut/></span>
-                                        Đăng xuất
+                                        <p>Đăng xuất</p>
                                    </li>
                               </ul>
                          </div>
@@ -82,7 +96,7 @@ function DetailDevice(){
 {/*---------------------------------------------------------------------*/}
                     <div className='addAx-form'>
                          <div className='addAx-form-device'>
-                              <Link to={'/nang-cap'} className='addAx-form-device-click'>
+                              <Link to={'/len-cap-thiet-bi'} className='addAx-form-device-click'>
                                    <p>Cập nhật thiết bị</p>
                               </Link>
                          </div>
@@ -118,4 +132,4 @@ function DetailDevice(){
           </section>
      )
 }
-export default DetailDevice
+export default DevicePart

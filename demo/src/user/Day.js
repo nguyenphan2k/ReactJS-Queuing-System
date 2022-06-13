@@ -20,60 +20,62 @@ import {Link} from 'react-router-dom'
 function Day(){
      return(
           <section>
-               <div className='contentBX'>
-                    <div className='formBX'>
-                         <img src={picture}/>
-                              <div className='iconBX'>
-                                   <ul>
-                                        <li>
-                                             <span><MdDashboard/></span>
-                                             Dashboard
-                                        </li>
-                                        <li>
-                                             <div>
-                                                  <Link to={'/thiet-bi'}>
-                                                       <span><FiMonitor/></span>
-                                                  </Link>
-                                                  Thiết bị
-                                             </div>
-                                        </li>
-                                        <li>
-                                             <div>
-                                                  <Link to={'/dich-vu'}>
-                                                       <span><BiMessageRoundedDots/></span>
-                                                  </Link>
-                                                  Dịch vụ
-                                             </div>
-                                        </li>
-                                        <li>
-                                             <span><BiLayer/></span>
-                                             Cấp số
-                                        </li>
-                                        <li>
-                                             <Link to={'/bao-cao'}>
-                                                  <span><HiOutlineDocumentReport/></span>
-                                                  Báo cáo
+                <div className='dashUs'>
+                    <div className='dashUs__form'>
+                         <div className='dashUs__formImage'>
+                              <img src={picture}/>
+                         </div>
+                         <div className='dashUs__formIcon'>
+                              <ul>
+                                   <li>
+                                        <span><MdDashboard/></span>
+                                        <p>Dashboard</p>
+                                   </li>
+                                   <li>
+                                        <div>
+                                             <Link to={'/thiet-bi'}>
+                                                  <span><FiMonitor/></span>
+                                                  <p>Thiết bị</p>
                                              </Link>
-                                        </li>
-                                        <li>
-                                             <span><AiOutlineSetting/></span>
-                                             Cài đặt hệ thống
-                                        </li>
-                                   </ul>
-                              </div>
-                              <div className='logoutBx'>
-                                   <ul>
-                                        <li>
-                                             <Link to={'/man-hinh'}>
-                                                  <span><FiLogOut/></span>
+                                        </div>
+                                   </li>
+                                   <li>
+                                        <div>
+                                             <Link to={'/dich-vu'}>
+                                                  <span><FiMonitor/></span>
+                                                  <p>Dịch vụ</p>
                                              </Link>
-                                             Đăng xuất
-                                        </li>
-                                        
-                                   </ul>
-                              </div>
+                                        </div>
+                                   </li>
+                                   <li>
+                                        <div>
+                                             <Link to={'/cap-so'}>
+                                                  <span><BiLayer/></span>
+                                                  <p>Cấp số</p>
+                                             </Link>
+                                        </div>
+                                   </li>
+                                   <li>
+                                        <span><HiOutlineDocumentReport/></span>
+                                        <p>Báo cáo</p>
+                                   </li>
+                                   <li>
+                                        <span><AiOutlineSetting/></span>
+                                        <p>Cài đặt hệ thống</p>
+                                   </li>
+                              </ul>
+                         </div>
+                         <div className='dashUs__formLogout'>
+                              <ul>
+                                   <li>
+                                        <span><FiLogOut/></span>
+                                        <p>Đăng xuất</p>
+                                   </li>
+                              </ul>
+                         </div>
                     </div>
                </div>
+{/*------------------------------------------------------------------*/}
                <div className='dashBx'>
                     <div className='boardBx'>
                          <div className='headerBx'>

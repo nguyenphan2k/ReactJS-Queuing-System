@@ -1,4 +1,4 @@
-import './AddService.css'
+import './UpdateService.css'
 import picture from '../images/Alta.png'
 import {MdDashboard} from 'react-icons/md'
 import {FiMonitor} from 'react-icons/fi'
@@ -10,9 +10,21 @@ import {FiLogOut} from 'react-icons/fi'
 import rings from '../images/Vector.png'
 import users from '../images/user.png'
 import arrows from '../images/Vector (12).png'
+import { useEffect, useState } from 'react'
 import {Link} from 'react-router-dom'
-function AddService(){
-     return(
+function UpdateService() {
+     const [number, setNumber] = useState("")
+     const [up, setUp] = useState(1)
+
+     useEffect(()=>{
+          setNumber(Math.floor(Math.random() * 9999))
+     }, [])
+     useEffect(()=>{
+          setInterval(()=>{
+               setUp(pre => pre)
+          },1000)
+     }, [])
+  return (
           <section>
                <div className='dashUs'>
                     <div className='dashUs__form'>
@@ -69,36 +81,39 @@ function AddService(){
                          </div>
                     </div>
                </div>
-{/*---------------------------------------------------------------------*/}
-               <div className='bodyDx'>
-                    <div className='bodyDx-info'>
-                         <div className='bodyDx-info-header'>
+{/*-------------------------------------------------------------------*/}
+               <div className='bodyUs'>
+                    <div className='bodyUs__header'>
+                         <div className='bodyUs__headerInfo'>
                               <h1>Dịch vụ</h1>
                               <ul>
                                    <li><img src={arrows}/></li>
                                    <li><img src={arrows}/></li>
+                                   <li><img src={arrows}/></li>
                               </ul>
                               <h2>Danh sách dịch vụ</h2>
-                              <h3>Thêm dịch vụ</h3>
+                              <h3>Chi tiết</h3>
+                              <h4>Cập nhật</h4>
                          </div>
-                         <div className='bodyDx-info-right'>
+                         <div className='bodyUs__headerInfo__right'>
                               <img src={rings}/>
                          </div>
-                         <div className='bodyDx-info-right-two'>
+                         <div className='bodyUs__headerInfo__rightTwo'>
                               <img src={users}/>
                               <h1>Xin chào</h1>
                               <h2>Lê Quỳnh Ái Vân</h2>
                          </div>
-                         <div className='bodyDx-info-title'>
+                         <div className='bodyUs__headerInfo__title'>
                               <h1>Quản lý dịch vụ</h1>
                          </div>
                     </div>
-                    <div className='bodyDx-table'>
-                         <div className='bodyDx-table-form'>
-                              <div className='bodyDx-table-form-title'>
+{/*----------------------------------------------------*/}
+                    <div className='bodyUs__table'>
+                         <div className='bodyUs__tableForm'>
+                              <div className='bodyUs__tableForm__title'>
                                    <h1>Thông tin dịch vụ</h1>
                               </div>
-                              <div className='bodyDx-table-form-content'>
+                              <div className='bodyUs__tableForm__content'>
                                    <ul>
                                         <li>
                                              <h2>*</h2>
@@ -116,59 +131,53 @@ function AddService(){
                                         </li>
                                    </ul>
                               </div>
-                              <div className='bodyDx-table-form-title-next'>
+                              <div className='bodyUs__tableForm__role'>
                                    <h1>Quy tắc cấp số</h1>
                               </div>
-                              <div className='bodyDx-checkbox'>
+                              <div className='bodyUs__tableForm__checkbox'>
                                    <input type='checkbox'/>      
                                    <h1>Tăng tự động từ:</h1>
                               </div>
-                              <div className='bodyDx-checkbox-two'>
+                              <div className='bodyUs__tableForm__checkboxTwo'>
                                    <input type='checkbox'/>      
                                    <h1>Prefix:</h1>
                               </div>
-                              <div className='bodyDx-checkbox-three'>
+                              <div className='bodyUs__tableForm__checkboxThree'>
                                    <input type='checkbox'/>      
                                    <h1>Surfix:</h1>
                               </div>
-                              <div className='bodyDx-checkbox-four'>
+                              <div className='bodyUs__tableForm__checkboxFour'>
                                    <input type='checkbox'/>      
                                    <h1>Resert mỗi ngày</h1>
                               </div>
-                              <div className='bodyDx-checkbox-five'>      
-                                   <h1>0001</h1>
+                              <div className='bodyUs__tableForm__checkboxFive'>      
+                                   <h1>{up}</h1>
+                                   <h2>{number}</h2>
+                                   <h3>{number}</h3>
                               </div>
-                              <div className='bodyDx-checkbox-six'>      
-                                   <h1>0001</h1>
-                              </div>
-                              <div className='bodyDx-checkbox-seven'>      
-                                   <h1>0001</h1>
-                              </div>
-                              <div className='bodyDx-checkbox-eight'>      
+                              <div className='bodyUs__tableForm__checkboxSix'>      
                                    <p>đến</p>
-                              </div>
-                              <div className='bodyDx-checkbox-nine'>      
                                    <h1>9999</h1>
                               </div>
-                              <div className='bodyDx-checkbox-ten'>
+                              <div className='bodyUs__tableForm__checkboxSeven'>
                                    <h1>*</h1>      
                                    <p>Là trường thông tin bắt buộc</p>
                               </div>
                          </div>
                     </div> 
-                    <div className='bodyDx-button'>
-                         <div className='bodyDx-button-center'>
-                              <Link to={'/huy-bo-dich-vu'} className='bodyDx-button-center-one'>
+                    <div className='bodyUs__button'>
+                         <div className='bodyUs__buttonCancel'>
+                              <Link to={'/tu-choi-dich-vu'} className='bodyUs__buttonCancel__one'>
                                    <button>Huỷ bỏ</button>
                               </Link>
-                              <Link to={'/quay-lai-dich-vu'} className='bodyDx-button-center-two'>
+                              <Link to={'/chap-nhan-dich-vu'} className='bodyUs__buttonCancel__two'>
                                    <button>Thêm thiết bị</button>
                               </Link>
                          </div>
                     </div>
-{/*---------------------------------------------------------------------*/}   
                </div>
           </section>
-     )
+  )
 }
-export default AddService
+
+export default UpdateService
