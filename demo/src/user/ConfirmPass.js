@@ -1,4 +1,5 @@
 import './ConfirmPass.css'
+import React from 'react'
 import logo from '../images/Screenshot_39.jpg'
 import image from '../images/Screenshot_40.jpg'
 function ConfirmPass(){

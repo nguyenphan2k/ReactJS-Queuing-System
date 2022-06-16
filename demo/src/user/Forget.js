@@ -1,4 +1,5 @@
 import './Forget.css'
+import React from 'react'
 import logo from '../images/Screenshot_39.jpg'
 import logos from '../images/Screenshot_37.jpg'
 import {Link} from 'react-router-dom'

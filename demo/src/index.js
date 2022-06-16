@@ -18,6 +18,9 @@ import AddService from './user/AddService';
 import DetailService from './user/DetailService';
 import UpdateService from './user/UpdateService';
 import Level from './user/Level';
+import AddLevel from './user/AddLevel';
+import DetailLevel from './user/DetailLevel';
+import Report from './user/Report';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -48,6 +51,12 @@ root.render(
             <Route path='/tu-choi-dich-vu' element={<Service/>}/>
             <Route path='/chap-nhan-dich-vu' element={<Service/>}/>
             <Route path='/cap-so' element={<Level/>}/>
+            <Route path='/thoat' element={<Login/>}/>
+            <Route path='/them-cap-so' element={<AddLevel/>}/>
+            <Route path='/huy-cap-so' element={<Level/>}/>
+            <Route path='/chi-tiet-cap-so' element={<DetailLevel/>}/>
+            <Route path='/quay-lai-cap-so-tiep' element={<Level/>}/>
+            <Route path='/bao-cao' element={<Report/>}/>
          </Routes> 
       </BrowserRouter>
   </React.StrictMode>

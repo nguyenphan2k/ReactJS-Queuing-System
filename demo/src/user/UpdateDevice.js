@@ -1,4 +1,5 @@
 import './UpdateDevice.css'
+import React from 'react'
 import picture from '../images/Alta.png'
 import {MdDashboard} from 'react-icons/md'
 import {FiMonitor} from 'react-icons/fi'
@@ -10,7 +11,6 @@ import {FiLogOut} from 'react-icons/fi'
 import rings from '../images/Vector.png'
 import users from '../images/user.png'
 import arrows from '../images/Vector (12).png'
-// import {FiDelete} from 'react-icons/fi'
 import {Link} from 'react-router-dom'
 function UpdateDevice(){
      return(

@@ -1,4 +1,5 @@
 import './Level.css'
+import React from 'react'
 import picture from '../images/Alta.png'
 import {MdDashboard} from 'react-icons/md'
 import {FiMonitor} from 'react-icons/fi'
@@ -16,6 +17,9 @@ import {BsCalendarDay} from 'react-icons/bs'
 import {MdArrowRight} from 'react-icons/md'
 import {useState, useEffect} from 'react'
 import {AiOutlineSearch} from 'react-icons/ai'
+import {IoMdArrowDropleft} from 'react-icons/io'
+import {IoMdArrowDropright} from 'react-icons/io'
+import {SiAddthis} from 'react-icons/si'
 function Level() {
      const [day, setDay] = useState(1)
 
@@ -67,12 +71,20 @@ function Level() {
                                         </div>
                                    </li>
                                    <li>
-                                        <span><HiOutlineDocumentReport/></span>
-                                        <p>Báo cáo</p>
+                                        <div>
+                                             <Link to={'/bao-cao'}>
+                                                  <span><HiOutlineDocumentReport/></span>
+                                                  <p>Báo cáo</p>
+                                             </Link>
+                                        </div>
                                    </li>
                                    <li>
-                                        <span><AiOutlineSetting/></span>
-                                        <p>Cài đặt hệ thống</p>
+                                        <div>
+                                             <Link to={'/cai-dat-he-thong'}>
+                                                  <span><AiOutlineSetting/></span>
+                                                  <p>Cài đặt hệ thống</p>
+                                             </Link>
+                                        </div>
                                    </li>
                               </ul>
                          </div>
@@ -168,6 +180,15 @@ function Level() {
                                    <span><AiOutlineSearch/></span>
                               </div>
                          </div>
+                         {/*--------------------------*/}
+                         <div className='bodyLx__formAdd'>
+                              <div className='bodyLx__formAdd__level'>
+                                   <Link to={'/them-cap-so'} className='bodyLx__formAdd__levelClick'>
+                                        <span><SiAddthis/></span>
+                                        <h1>Cấp số mới</h1>
+                                   </Link>
+                              </div>
+                         </div>
                     </div>
                     {/*---------------------------------------------*/}
                     <div className='bodyLx__table'>
@@ -204,6 +225,147 @@ function Level() {
                                              </div>
                                         </li>
                                    </ul>
+                              </div>
+                              <div className='bodyLx__tableForm__countTwo'>
+                                   <ul>
+                                        <li>2010002</li>
+                                        <li>Huỳnh Ái Vân</li>
+                                        <li>Khám sản - Phụ Khoa</li>
+                                        <li>14:35 - 07/11/2021</li> 
+                                        <li>14:35 - 12/11/2021</li>
+                                        <li>
+                                             <span>.</span>
+                                             <p>Đã sử dụng</p>
+                                        </li> 
+                                        <li>Kiosk</li>
+                                        <li>Chi tiết</li>
+                                   </ul>
+                              </div>
+                              <div className='bodyLx__tableForm__countThree'>
+                                   <ul>
+                                        <li>2010003</li>
+                                        <li>Lê Ái Vân</li>
+                                        <li>Khám răng hàm mặt</li>
+                                        <li>14:35 - 07/11/2021</li> 
+                                        <li>14:35 - 12/11/2021</li>
+                                        <li>
+                                             <span>.</span>
+                                             <p>Đang chờ</p>
+                                        </li> 
+                                        <li>Hệ thống</li>
+                                        <li>Chi tiết</li>
+                                   </ul>
+                              </div>
+                              <div className='bodyLx__tableForm__countFour'>
+                                   <ul>
+                                        <li>2010004</li>
+                                        <li>Nguyễn Ái Vân</li>
+                                        <li>Khám tai mũi họng</li>
+                                        <li>14:35 - 07/11/2021</li> 
+                                        <li>14:35 - 12/11/2021</li>
+                                        <li>
+                                             <span>.</span>
+                                             <p>Đang chờ</p>
+                                        </li> 
+                                        <li>Hệ thống</li>
+                                        <li>Chi tiết</li>
+                                   </ul>
+                              </div>
+                              <div className='bodyLx__tableForm__countFive'>
+                                   <ul>
+                                        <li>2010005</li>
+                                        <li>Trần Thị Ái Vân</li>
+                                        <li>Khám hô hấp</li>
+                                        <li>14:35 - 07/11/2021</li> 
+                                        <li>14:35 - 12/11/2021</li>
+                                        <li>
+                                             <span>.</span>
+                                             <p>Đang chờ</p>
+                                        </li> 
+                                        <li>Kiosk</li>
+                                        <li>Chi tiết</li>
+                                   </ul>
+                              </div>
+                              <div className='bodyLx__tableForm__countSix'>
+                                   <ul>
+                                        <li>2010006</li>
+                                        <li>Lê Huỳnh Nghĩa</li>
+                                        <li>Khám mắt</li>
+                                        <li>14:35 - 07/11/2021</li> 
+                                        <li>14:35 - 12/11/2021</li>
+                                        <li>
+                                             <span>.</span>
+                                             <p>Đã sử dụng</p>
+                                        </li> 
+                                        <li>Hệ thống</li>
+                                        <li>Chi tiết</li>
+                                   </ul>
+                              </div>
+                              <div className='bodyLx__tableForm__countSeven'>
+                                   <ul>
+                                        <li>2010007</li>
+                                        <li>Lê Huỳnh Đức</li>
+                                        <li>Khám tiêu hoá</li>
+                                        <li>14:35 - 07/11/2021</li> 
+                                        <li>14:35 - 12/11/2021</li>
+                                        <li>
+                                             <span>.</span>
+                                             <p>Đã sử dụng</p>
+                                        </li> 
+                                        <li>Kiosk</li>
+                                        <li>Chi tiết</li>
+                                   </ul>
+                              </div>
+                              <div className='bodyLx__tableForm__countEight'>
+                                   <ul>
+                                        <li>2010008</li>
+                                        <li>Phạm Văn Mạnh</li>
+                                        <li>Khám tổng quát</li>
+                                        <li>14:35 - 07/11/2021</li> 
+                                        <li>14:35 - 12/11/2021</li>
+                                        <li>
+                                             <span>.</span>
+                                             <p>Bỏ qua</p>
+                                        </li> 
+                                        <li>Hệ thống</li>
+                                        <li>Chi tiết</li>
+                                   </ul>
+                              </div>
+                              <div className='bodyLx__tableForm__countNine'>
+                                   <ul>
+                                        <li>2010009</li>
+                                        <li>Lê Thị Cẩm Tiên</li>
+                                        <li>Khám da liễu</li>
+                                        <li>14:35 - 07/11/2021</li> 
+                                        <li>14:35 - 12/11/2021</li>
+                                        <li>
+                                             <span>.</span>
+                                             <p>Đã sử dụng</p>
+                                        </li> 
+                                        <li>Hệ thống</li>
+                                        <li>Chi tiết</li>
+                                   </ul>
+                              </div>
+                              <div className='bodyLx__tableForm__increase'>
+                                   <div className='bodyLx__tableForm__increaseNumber'>
+                                        <ul>
+                                             <li>
+                                                  <p><IoMdArrowDropleft/></p>
+                                             </li>
+                                             <li>
+                                                  <p>1</p>
+                                             </li>
+                                             <li><p>2</p></li>
+                                             <li><p>3</p></li>
+                                             <li><p>4</p></li>
+                                             <li><p>5</p></li>
+                                             <li><p>...</p></li>
+                                             <li><p>10</p></li>
+                                             <li>
+                                                  <p><IoMdArrowDropright/></p>
+                                             </li>
+                                        </ul>
+                                   </div>
                               </div>
                          </div>
                     </div>

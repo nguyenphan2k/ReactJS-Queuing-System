@@ -11,6 +11,7 @@ import rings from '../images/Vector.png'
 import users from '../images/user.png'
 import arrows from '../images/Vector (12).png'
 import {Link} from 'react-router-dom'
+import React from 'react'
 function AddService(){
      return(
           <section>

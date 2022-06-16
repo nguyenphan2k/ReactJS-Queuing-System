@@ -1,5 +1,6 @@
 import './Service.css'
 import picture from '../images/Alta.png'
+import React from 'react'
 import {MdDashboard} from 'react-icons/md'
 import {FiMonitor} from 'react-icons/fi'
 import {BiMessageRoundedDots} from 'react-icons/bi'

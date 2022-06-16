@@ -1,4 +1,5 @@
 import './Device.css'
+import React from 'react'
 import picture from '../images/Alta.png'
 import {MdDashboard} from 'react-icons/md'
 import {FiMonitor} from 'react-icons/fi'

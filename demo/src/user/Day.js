@@ -1,4 +1,5 @@
 import './Day.css'
+import React from 'react'
 import picture from '../images/Alta.png'
 import {MdDashboard} from 'react-icons/md'
 import {FiMonitor} from 'react-icons/fi'
@@ -56,20 +57,33 @@ function Day(){
                                         </div>
                                    </li>
                                    <li>
-                                        <span><HiOutlineDocumentReport/></span>
-                                        <p>Báo cáo</p>
+                                        <div>
+                                             <Link to={'/bao-cao'}>
+                                                  <span><HiOutlineDocumentReport/></span>
+                                                  <p>Báo cáo</p>
+                                             </Link>
+                                        </div>
                                    </li>
                                    <li>
-                                        <span><AiOutlineSetting/></span>
-                                        <p>Cài đặt hệ thống</p>
+                                        <div>
+                                             <Link to={'/cai-dat-he-thong'}>
+                                                  <span><AiOutlineSetting/></span>
+                                                  <p>Cài đặt hệ thống</p>
+                                             </Link>
+                                        </div>
                                    </li>
                               </ul>
                          </div>
                          <div className='dashUs__formLogout'>
                               <ul>
+                                   
                                    <li>
-                                        <span><FiLogOut/></span>
-                                        <p>Đăng xuất</p>
+                                        <div>
+                                             <Link to={'/thoat'}>
+                                                  <span><FiLogOut/></span>
+                                                  <p>Đăng xuất</p>
+                                             </Link>
+                                        </div>
                                    </li>
                               </ul>
                          </div>

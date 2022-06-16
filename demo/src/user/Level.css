@@ -808,4 +808,950 @@ section{
      line-height: 21px;
      top: 63px;
      left: 1042px;
+     color: #4277FF;
+     text-decoration: underline;
+}
+/*---------------------------------------------------------*/
+.bodyLx__tableForm__countTwo{
+     
+}
+.bodyLx__tableForm__countTwo ul{
+     display: flex;
+     background-color: #FFF2E7;
+     height: 49px;
+}
+.bodyLx__tableForm__countTwo ul li{
+     list-style: none;
+     color: #535261;
+     display: flex;
+}
+.bodyLx__tableForm__countTwo ul li:nth-child(1){
+     width: 59px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 112px;
+     left: 17px;
+}
+.bodyLx__tableForm__countTwo ul li:nth-child(2){
+     width: 106px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 112px;
+     left: 118px;
+}
+.bodyLx__tableForm__countTwo ul li:nth-child(3){
+     width: 136px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 112px;
+     left: 281px;
+}
+.bodyLx__tableForm__countTwo ul li:nth-child(4){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 112px;
+     left: 453px;
+}
+.bodyLx__tableForm__countTwo ul li:nth-child(5){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 112px;
+     left: 615px;
+}
+.bodyLx__tableForm__countTwo ul li:nth-child(6) span{
+     width: 8px;
+     height: 8px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     font-size: 50px;
+     top: 99.5px;
+     left: 790px;
+     color: #7E7D88;
+}
+.bodyLx__tableForm__countTwo ul li:nth-child(6) p{
+     width: 73px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 112px;
+     left: 802px;
+}
+.bodyLx__tableForm__countTwo ul li:nth-child(7){
+     width: 34px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 112px;
+     left: 938px;
+}
+.bodyLx__tableForm__countTwo ul li:nth-child(8){
+     width: 45px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     color: #4277FF;
+     text-decoration: underline;
+     top: 112px;
+     left: 1042px;
+}
+/*---------------------------------------------------------*/
+.bodyLx__tableForm__countThree{
+     
+}
+.bodyLx__tableForm__countThree ul{
+     display: flex;
+     background-color: #FFFFFF;
+     height: 49px;
+}
+.bodyLx__tableForm__countThree ul li{
+     list-style: none;
+     color: #535261;
+     display: flex;
+}
+.bodyLx__tableForm__countThree ul li:nth-child(1){
+     width: 60px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 161px;
+     left: 17px;
+}
+.bodyLx__tableForm__countThree ul li:nth-child(2){
+     width: 106px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 161px;
+     left: 118px;
+}
+.bodyLx__tableForm__countThree ul li:nth-child(3){
+     width: 127px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 161px;
+     left: 281px;
+}
+.bodyLx__tableForm__countThree ul li:nth-child(4){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 161px;
+     left: 453px;
+}
+.bodyLx__tableForm__countThree ul li:nth-child(5){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 161px;
+     left: 615px;
+}
+.bodyLx__tableForm__countThree ul li:nth-child(6) span{
+     width: 8px;
+     height: 8px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     font-size: 50px;
+     top: 148.5px;
+     left: 790px;
+     color: #4277FF;
+}
+.bodyLx__tableForm__countThree ul li:nth-child(6) p{
+     width: 73px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 161px;
+     left: 802px;
+}
+.bodyLx__tableForm__countThree ul li:nth-child(7){
+     width: 59px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 161px;
+     left: 938px;
+}
+.bodyLx__tableForm__countThree ul li:nth-child(8){
+     width: 45px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     color: #4277FF;
+     text-decoration: underline;
+     top: 161px;
+     left: 1042px;
+}
+/*---------------------------------------------------------*/
+.bodyLx__tableForm__countFour{
+     
+}
+.bodyLx__tableForm__countFour ul{
+     display: flex;
+     background-color: #FFF2E7;
+     height: 49px;
+}
+.bodyLx__tableForm__countFour ul li{
+     list-style: none;
+     color: #535261;
+     display: flex;
+}
+.bodyLx__tableForm__countFour ul li:nth-child(1){
+     width: 60px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 210px;
+     left: 17px;
+}
+.bodyLx__tableForm__countFour ul li:nth-child(2){
+     width: 94px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 210px;
+     left: 118px;
+}
+.bodyLx__tableForm__countFour ul li:nth-child(3){
+     width: 118px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 210px;
+     left: 281px;
+}
+.bodyLx__tableForm__countFour ul li:nth-child(4){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 210px;
+     left: 453px;
+}
+.bodyLx__tableForm__countFour ul li:nth-child(5){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 210px;
+     left: 615px;
+}
+.bodyLx__tableForm__countFour ul li:nth-child(6) span{
+     width: 8px;
+     height: 8px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     font-size: 50px;
+     top: 197.5px;
+     left: 790px;
+     color: #4277FF;
+}
+.bodyLx__tableForm__countFour ul li:nth-child(6) p{
+     width: 61px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 210px;
+     left: 802px;
+}
+.bodyLx__tableForm__countFour ul li:nth-child(7){
+     width: 59px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 210px;
+     left: 938px;
+}
+.bodyLx__tableForm__countFour ul li:nth-child(8){
+     width: 45px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     color: #4277FF;
+     text-decoration: underline;
+     top: 210px;
+     left: 1042px;
+}
+/*---------------------------------------------------------*/
+.bodyLx__tableForm__countFive{
+     
+}
+.bodyLx__tableForm__countFive ul{
+     display: flex;
+     background-color: #FFFFFF;
+     height: 49px;
+}
+.bodyLx__tableForm__countFive ul li{
+     list-style: none;
+     color: #535261;
+     display: flex;
+}
+.bodyLx__tableForm__countFive ul li:nth-child(1){
+     width: 60px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 259px;
+     left: 17px;
+}
+.bodyLx__tableForm__countFive ul li:nth-child(2){
+     width: 97px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 259px;
+     left: 118px;
+}
+.bodyLx__tableForm__countFive ul li:nth-child(3){
+     width: 83px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 259px;
+     left: 281px;
+}
+.bodyLx__tableForm__countFive ul li:nth-child(4){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 259px;
+     left: 453px;
+}
+.bodyLx__tableForm__countFive ul li:nth-child(5){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 259px;
+     left: 615px;
+}
+.bodyLx__tableForm__countFive ul li:nth-child(6) span{
+     width: 8px;
+     height: 8px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     font-size: 50px;
+     top: 246.5px;
+     left: 790px;
+     color: #4277FF;
+}
+.bodyLx__tableForm__countFive ul li:nth-child(6) p{
+     width: 61px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 259px;
+     left: 802px;
+}
+.bodyLx__tableForm__countFive ul li:nth-child(7){
+     width: 39px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 259px;
+     left: 938px;
+}
+.bodyLx__tableForm__countFive ul li:nth-child(8){
+     width: 45px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     color: #4277FF;
+     text-decoration: underline;
+     top: 259px;
+     left: 1042px;
+}
+/*---------------------------------------------------------*/
+.bodyLx__tableForm__countSix{
+     
+}
+.bodyLx__tableForm__countSix ul{
+     display: flex;
+     background-color: #FFF2E7;
+     height: 49px;
+}
+.bodyLx__tableForm__countSix ul li{
+     list-style: none;
+     color: #535261;
+     display: flex;
+}
+.bodyLx__tableForm__countSix ul li:nth-child(1){
+     width: 60px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 308px;
+     left: 17px;
+}
+.bodyLx__tableForm__countSix ul li:nth-child(2){
+     width: 101px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 308px;
+     left: 118px;
+}
+.bodyLx__tableForm__countSix ul li:nth-child(3){
+     width: 59x;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 308px;
+     left: 281px;
+}
+.bodyLx__tableForm__countSix ul li:nth-child(4){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 308px;
+     left: 453px;
+}
+.bodyLx__tableForm__countSix ul li:nth-child(5){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 308px;
+     left: 615px;
+}
+.bodyLx__tableForm__countSix ul li:nth-child(6) span{
+     width: 8px;
+     height: 8px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     font-size: 50px;
+     top: 294.5px;
+     left: 790px;
+     color: #7E7D88;
+}
+.bodyLx__tableForm__countSix ul li:nth-child(6) p{
+     width: 73px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 308px;
+     left: 802px;
+}
+.bodyLx__tableForm__countSix ul li:nth-child(7){
+     width: 59px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 308px;
+     left: 938px;
+}
+.bodyLx__tableForm__countSix ul li:nth-child(8){
+     width: 45px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     color: #4277FF;
+     text-decoration: underline;
+     top: 308px;
+     left: 1042px;
+}
+/*---------------------------------------------------------*/
+.bodyLx__tableForm__countSeven{
+     
+}
+.bodyLx__tableForm__countSeven ul{
+     display: flex;
+     background-color: #FFFFFF;
+     height: 49px;
+}
+.bodyLx__tableForm__countSeven ul li{
+     list-style: none;
+     color: #535261;
+     display: flex;
+}
+.bodyLx__tableForm__countSeven ul li:nth-child(1){
+     width: 60px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 357px;
+     left: 17px;
+}
+.bodyLx__tableForm__countSeven ul li:nth-child(2){
+     width: 89px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 357px;
+     left: 118px;
+}
+.bodyLx__tableForm__countSeven ul li:nth-child(3){
+     width: 100px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 357px;
+     left: 281px;
+}
+.bodyLx__tableForm__countSeven ul li:nth-child(4){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 357px;
+     left: 453px;
+}
+.bodyLx__tableForm__countSeven ul li:nth-child(5){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 357px;
+     left: 615px;
+}
+.bodyLx__tableForm__countSeven ul li:nth-child(6) span{
+     width: 8px;
+     height: 8px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     font-size: 50px;
+     top: 344.5px;
+     left: 790px;
+     color: #7E7D88;
+}
+.bodyLx__tableForm__countSeven ul li:nth-child(6) p{
+     width: 73px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 357px;
+     left: 802px;
+}
+.bodyLx__tableForm__countSeven ul li:nth-child(7){
+     width: 39px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 357px;
+     left: 938px;
+}
+.bodyLx__tableForm__countSeven ul li:nth-child(8){
+     width: 45px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     color: #4277FF;
+     text-decoration: underline;
+     top: 357px;
+     left: 1042px;
+}
+/*---------------------------------------------------------*/
+.bodyLx__tableForm__countEight{
+     
+}
+.bodyLx__tableForm__countEight ul{
+     display: flex;
+     background-color: #FFF2E7;
+     height: 49px;
+}
+.bodyLx__tableForm__countEight ul li{
+     list-style: none;
+     color: #535261;
+     display: flex;
+}
+.bodyLx__tableForm__countEight ul li:nth-child(1){
+     width: 60px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 406px;
+     left: 17px;
+}
+.bodyLx__tableForm__countEight ul li:nth-child(2){
+     width: 103px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 406px;
+     left: 118px;
+}
+.bodyLx__tableForm__countEight ul li:nth-child(3){
+     width: 101x;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 406px;
+     left: 281px;
+}
+.bodyLx__tableForm__countEight ul li:nth-child(4){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 406px;
+     left: 453px;
+}
+.bodyLx__tableForm__countEight ul li:nth-child(5){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 406px;
+     left: 615px;
+}
+.bodyLx__tableForm__countEight ul li:nth-child(6) span{
+     width: 8px;
+     height: 8px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     font-size: 50px;
+     top: 392.5px;
+     left: 790px;
+     color: #E73F3F;
+}
+.bodyLx__tableForm__countEight ul li:nth-child(6) p{
+     width: 45px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 406px;
+     left: 802px;
+}
+.bodyLx__tableForm__countEight ul li:nth-child(7){
+     width: 59px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 406px;
+     left: 938px;
+}
+.bodyLx__tableForm__countEight ul li:nth-child(8){
+     width: 45px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     color: #4277FF;
+     text-decoration: underline;
+     top: 406px;
+     left: 1042px;
+}
+/*---------------------------------------------------------*/
+.bodyLx__tableForm__countNine{
+     
+}
+.bodyLx__tableForm__countNine ul{
+     display: flex;
+     background-color: #FFFFFF;
+     height: 49px;
+}
+.bodyLx__tableForm__countNine ul li{
+     list-style: none;
+     color: #535261;
+     display: flex;
+}
+.bodyLx__tableForm__countNine ul li:nth-child(1){
+     width: 60px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 455px;
+     left: 17px;
+}
+.bodyLx__tableForm__countNine ul li:nth-child(2){
+     width: 103px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 455px;
+     left: 118px;
+}
+.bodyLx__tableForm__countNine ul li:nth-child(3){
+     width: 100px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 455px;
+     left: 281px;
+}
+.bodyLx__tableForm__countNine ul li:nth-child(4){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 455px;
+     left: 453px;
+}
+.bodyLx__tableForm__countNine ul li:nth-child(5){
+     width: 126px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 455px;
+     left: 615px;
+}
+.bodyLx__tableForm__countNine ul li:nth-child(6) span{
+     width: 8px;
+     height: 8px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     font-size: 50px;
+     top: 441.5px;
+     left: 790px;
+     color: #7E7D88;
+}
+.bodyLx__tableForm__countNine ul li:nth-child(6) p{
+     width: 73px;
+     position: absolute;
+     height: 21px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 455px;
+     left: 802px;
+}
+.bodyLx__tableForm__countNine ul li:nth-child(7){
+     width: 59px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     top: 455px;
+     left: 938px;
+}
+.bodyLx__tableForm__countNine ul li:nth-child(8){
+     width: 45px;
+     height: 21px;
+     position: absolute;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 21px;
+     color: #4277FF;
+     text-decoration: underline;
+     top: 455px;
+     left: 1042px;
+}
+/*------------------------------------------------*/
+.bodyLx__tableForm__increase{
+     position: relative;
+}
+.bodyLx__tableForm__increaseNumber{
+     position: absolute;
+}
+.bodyLx__tableForm__increaseNumber ul{
+     position: absolute;
+     display: flex;
+     left: 770px;
+     top: 10px;
+}
+/* .bodyLx__tableForm__increaseNumber ul:hover{
+     
+} */
+.bodyLx__tableForm__increaseNumber ul li{
+     list-style: none;
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 21.82px;
+     margin-left: 5px;
+     
+}
+.bodyLx__tableForm__increaseNumber ul li:hover{
+     width: 32px;
+     height: 32px;
+     background-color: #FF7506;
+     border-radius: 4px;
+}
+.bodyLx__tableForm__increaseNumber ul li:nth-child(1):hover{
+     background-color:transparent;
+}
+.bodyLx__tableForm__increaseNumber ul li:nth-child(9):hover{
+     background-color:transparent;
+}
+.bodyLx__tableForm__increaseNumber ul li p{
+     margin: 8px 12px;
+}
+/*---------------------------------------------*/
+.bodyLx__formAdd{
+     position: relative;
+}
+.bodyLx__formAdd__level{
+     display: flex;
+     position: absolute;
+}
+.bodyLx__formAdd__levelClick{
+     width: 80px;
+     height: 94px;
+     position: relative;
+     background-color: #FFF2E7;
+     top: 244px;
+     left: 1160px;
+     border-radius: 6px;
+}
+.bodyLx__formAdd__levelClick h1{
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     top: 44px;
+     width: 72px;
+     height: 38px;
+     left: 4px;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 19.1px;
+     padding: 12px 4px 12px 16px;
+     color: #FF7506;
+}
+.bodyLx__formAdd__levelClick span{
+     position: absolute;
+     font-size: 30px;
+     color: #FF7506;
+     width: 28px;
+     height: 28px;
+     top: 12px;
+     left: 26px;
 }

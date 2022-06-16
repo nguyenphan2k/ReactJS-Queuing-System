@@ -11,6 +11,7 @@ import rings from '../images/Vector.png'
 import users from '../images/user.png'
 import { Link } from 'react-router-dom'
 import arrow from '../images/Vector (12).png'
+import React from 'react'
 function DevicePart(){
      return(
           <section>

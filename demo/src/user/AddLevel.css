@@ -1,0 +1,501 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Nunito;
+}
+section{
+     width: 1440px;
+     height: 810px;
+     margin: auto;
+}
+.dashUs{
+     width: 200px;
+     height: 810px;
+     background-color:#dbdbdb;
+     justify-content: center;
+     align-items: center;
+     border-top-left-radius: 16px;
+     border-bottom-left-radius: 16px;
+}
+.dashUs__form{
+     display: flex;
+     position: relative;
+}
+.dashUs__formImage{
+     position: absolute;
+     width: 79.19px;
+     height: 53.14px;
+     top: 32px;
+     left: 60.81px;
+}
+.dashUs__formIcon{
+     display: flex;
+}
+.dashUs__formIcon ul{
+     position: absolute;
+     align-items: center;
+     justify-content: center;
+     top: 150px;
+     left: 0px;
+     width: 200px;
+}
+.dashUs__formIcon ul li{
+     display: flex;
+     list-style: none;
+}
+.dashUs__formIcon ul li:hover{
+     background-color: #FF7506;
+}
+.dashUs__formIcon ul li:nth-child(1){
+     width: 200px;
+     height: 48px;
+     color: #7E7D88;
+}
+.dashUs__formIcon ul li:nth-child(1):hover{
+     color:#FFFFFF;
+}
+.dashUs__formIcon ul li:nth-child(1) span{
+     width: 7.08px;
+     height: 5px;
+     position: absolute;
+     top: 12px;
+     left: 17px;
+}
+.dashUs__formIcon ul li:nth-child(1) p{
+     width: 81px;
+     height: 24px;
+     position: absolute;
+     top: 12px;
+     left:44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+}
+.dashUs__formIcon ul li:nth-child(2){
+     width: 200px;
+     height: 48px;
+}
+.dashUs__formIcon ul li:nth-child(2) span{
+     width: 16.67px;
+     height: 12.68px;
+     position: absolute;
+     top: 60px;
+     left: 17px;
+}
+.dashUs__formIcon ul li:nth-child(2) p{
+     width: 56px;
+     height: 24px;
+     position: absolute;
+     top: 60px;
+     left:44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+}
+.dashUs__formIcon ul li:nth-child(3){
+     width: 200px;
+     height: 48px;
+}
+.dashUs__formIcon ul li:nth-child(3) span{
+     width: 16.67px;
+     height: 12.68px;
+     position: absolute;
+     top: 108px;
+     left: 17px;
+}
+.dashUs__formIcon ul li:nth-child(3) p{
+     width: 55px;
+     height: 24px;
+     position: absolute;
+     top: 108px;
+     left:44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+}
+.dashUs__formIcon ul li:nth-child(4){
+     width: 200px;
+     height: 48px;
+}
+.dashUs__formIcon ul li:nth-child(4) span{
+     width: 16.67px;
+     height: 12.68px;
+     position: absolute;
+     top: 156px;
+     left: 17px;
+}
+.dashUs__formIcon ul li:nth-child(4) p{
+     width: 50px;
+     height: 24px;
+     position: absolute;
+     top: 156px;
+     left:44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+}
+.dashUs__formIcon ul li:nth-child(5){
+     width: 200px;
+     height: 48px;
+}
+.dashUs__formIcon ul li:nth-child(5) span{
+     width: 16.67px;
+     height: 12.68px;
+     position: absolute;
+     top: 204px;
+     left: 17px;
+}
+.dashUs__formIcon ul li:nth-child(5) p{
+     width: 58px;
+     height: 24px;
+     position: absolute;
+     top: 204px;
+     left:44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+}
+.dashUs__formIcon ul li:nth-child(6){
+     width: 200px;
+     height: 48px;
+}
+.dashUs__formIcon ul li:nth-child(6) span{
+     width: 16.67px;
+     height: 12.68px;
+     position: absolute;
+     top: 252px;
+     left: 17px;
+}
+.dashUs__formIcon ul li:nth-child(6) p{
+     width: 120px;
+     height: 24px;
+     position: absolute;
+     top: 252px;
+     left:44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+}
+.dashUs__formLogout{
+     display: flex;
+}
+.dashUs__formLogout ul{
+     position: relative;
+}
+.dashUs__formLogout ul li{
+     position: absolute;
+     list-style: none;
+     display: flex;
+     width: 176px;
+     height: 48px;
+     top: 732px;
+     left: 12px;
+     background-color: #FFF2E7;
+}
+.dashUs__formLogout ul li span{
+     width: 5px;
+     position: absolute;
+     height: 15px;
+     top: 16.5px;
+     left: 14.5px;
+     color: #FF7506;
+}
+.dashUs__formLogout ul li p{
+     position: absolute;
+     width: 76px;
+     height: 24px;
+     top: 12px;
+     left: 44px;
+     font-family: 600;
+     font-size: 16px;
+     line-height: 24px;
+     color: #FF7506;
+}
+/*---------------------------------------------------------------*/
+.bodyAl{
+     width: 1240px;
+     height: 810px;
+     background-color: #B1B1B1;
+     border-bottom-right-radius: 16px;
+     border-top-right-radius: 16px;
+}
+.bodyAl__header{
+     display: flex;
+     position: relative;
+}
+.bodyAl__headerInfo__right{
+     position: absolute;
+     width: 4.71px;
+     height: 1.67px;
+     top: 35.67px;
+     left: 957.59px;
+}
+.bodyAl__headerInfo__rightTwo img{
+     position: absolute;
+     width: 40px;
+     height: 40px;
+     top: 24px;
+     left: 1004px;
+}
+.bodyAl__headerInfo__rightTwo h1{
+     width: 47px;
+     height: 18px;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 18px;
+     color: #7E7D88;
+     position: absolute;
+     left: 1052px;
+     top: 24px;
+}
+.bodyAl__headerInfo__rightTwo h2{
+     width: 124px;
+     height: 24px;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 24px;
+     position: absolute;
+     color: #535261;
+     left: 1052px;
+     top: 42px;
+}
+.bodyAl__headerInfo{
+     display: inline-flex;
+}
+.bodyAl__headerInfo h1{
+     position: absolute;
+     width: 63px;
+     height: 30px;
+     top: 29px;
+     left: 24px;
+     font-weight: 700;
+     line-height: 30px;
+     font-size: 20px;
+     color: #7E7D88;
+}
+.bodyAl__headerInfo ul li{
+     list-style: none;
+}
+.bodyAl__headerInfo ul li:nth-child(1) img{
+     position: absolute;
+     top: 39.63px;
+     left: 100.4px;
+     width: 5.21px;
+     height: 8.74px;
+     color: #7E7D88;
+}
+.bodyAl__headerInfo h2{
+     position: absolute;
+     width: 162px;
+     height: 30px;
+     top: 29px;
+     left: 123px;
+     font-weight: 700;
+     line-height: 30px;
+     font-size: 20px;
+     color: #7E7D88;
+}
+.bodyAl__headerInfo ul li:nth-child(2) img{
+     position: absolute;
+     top: 39.63px;
+     left: 295.4px;
+     width: 5.21px;
+     height: 8.74px;
+     color: #7E7D88;
+}
+.bodyAl__headerInfo h3{
+     position: absolute;
+     width: 103px;
+     height: 30px;
+     top: 29px;
+     left: 321px;
+     font-weight: 700;
+     line-height: 30px;
+     font-size: 20px;
+     color: #FF7506;
+}
+.bodyAl__headerInfo__title h1{
+     position: absolute;
+     width: 163px;
+     height: 36px;
+     top: 104px;
+     left: 24px;
+     font-weight: 700;
+     line-height: 36px;
+     font-size: 24px;
+     color: #FF7506;
+}
+/*----------------------------------------------*/
+.bodyAl__frame{
+     position: relative;
+}
+.bodyAl__frameContain{
+     position: absolute;
+     width: 1192px;
+     height: 604px;
+     top: 192px;
+     left: 24px;
+     background-color: #FFFFFF;
+}
+.bodyAl__frameContain__name h1{
+     position: absolute;
+     width: 200px;
+     height: 48px;
+     top: 24px;
+     left: 501px;
+     color: #FF7506;
+     font-size: 32px;
+     font-weight: 700;
+     line-height: 48px;
+}
+.bodyAl__frameContain__name h2{
+     position: absolute;
+     width: 265px;
+     height: 30px;
+     top: 92px;
+     left: 464px;
+     color: #535261;
+     font-size: 20px;
+     font-weight: 700;
+     line-height: 30px;
+}
+/*-----------------------------------------------------*/
+.bodyAl__frameContain__scroll{
+     position: relative;
+}
+.bodyAl__frameContain__scroll ul{
+     width: 400px;
+     height: 44px;
+     position: absolute;
+     background-color: #FFFFFF;
+     display: flex;
+     top: 134px;
+     left: 396px;
+     border: 1.5px solid #D4D4D7;
+     padding: 10px 12px 10px 12px;
+     justify-content: space-between;
+     border-radius: 8px;
+}
+.bodyAl__frameContain__scroll ul li{
+     list-style: none;
+}
+.bodyAl__frameContain__scroll ul li:nth-child(1){
+     width: 94px;
+     height: 24px;
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #A9A9B0;
+}
+.bodyAl__frameContain__scroll ul li:nth-child(2){
+     width: 12px;
+     height: 6px;
+     color: #FF7506;
+     font-size: 20px;
+}
+.bodyAl__frameContain__scrollDown{
+     display: none;
+}
+.bodyAl__frameContain__scrollDown ul{
+     display: block;
+     width: 400px;
+     height: 156px;
+     position: relative;
+     top: 10px;
+     left: -12px;
+}
+.bodyAl__frameContain__scrollDown ul li{
+     list-style: none;
+}
+.bodyAl__frameContain__scrollDown ul li:nth-child(1){
+     width: 320px;
+     height: 24px;
+     position: absolute;
+     background-color: #FFFFFF;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     color: #282739;
+}
+.bodyAl__frameContain__scrollDown ul li:nth-child(2){
+     width: 153px;
+     height: 24px;
+     position: absolute;
+     top: 46px;
+     background-color: #FFFFFF;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     color: #282739;
+}
+.bodyAl__frameContain__scrollDown ul li:nth-child(3){
+     width: 400px;
+     height: 44px;
+     position: absolute;
+     top: 82px;
+     background-color: #FFF2E7;
+     width: 153px;
+     height: 24px;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     color: #282739;
+}
+
+.bodyAl__frameContain__scrollDown ul li:nth-child(4){
+     width: 153px;
+     height: 24px;
+     position: absolute;
+     top: 118px;
+     left: 12px;
+     background-color: #FFFFFF;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     color: #282739;
+}
+.bodyAl__frameContain__scroll ul li:hover .bodyAl__frameContain__scrollDown{
+     display: block;
+     position: absolute;
+}
+/*--------------------------------------*/
+.bodyAl__frameContain__button{
+     position: relative;
+     display: flex;
+}
+.bodyAl__frameContain__buttonCancel button{
+     width: 115px;
+     position: absolute;
+     height: 48px;
+     border-radius: 8px;
+     top: 258px;
+     left: 465px;
+     background-color: #FFF2E7;
+     color: #FF9138;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 21.82px;
+     border: 1.5px solid #FF9138;
+}
+.bodyAl__frameContain__buttonPrint button{
+     width: 115px;
+     position: absolute;
+     height: 48px;
+     border-radius: 8px;
+     top: 258px;
+     left: 612px;
+     background-color: #FF9138;
+     color: #FFFFFF;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 21.82px;
+     border: #FF9138;
+}
+/*--------------------------------------------------------*/
+.bodyAl__frameContain__popUp{
+     width: 469px;
+     height: 385px;
+     position: absolute;
+     background-color: yellow;
+}

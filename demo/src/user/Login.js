@@ -1,4 +1,5 @@
 import './Login.css'
+import React from 'react'
 import pictures from '../images/Alta.png'
 import logos from '../images/Screenshot_37.jpg'
 import { Link } from 'react-router-dom'
