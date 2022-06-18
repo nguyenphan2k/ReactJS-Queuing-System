@@ -21,6 +21,8 @@ import Level from './user/Level';
 import AddLevel from './user/AddLevel';
 import DetailLevel from './user/DetailLevel';
 import Report from './user/Report';
+import Role from './user/Role';
+import AddRole from './user/AddRole';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -57,6 +59,8 @@ root.render(
             <Route path='/chi-tiet-cap-so' element={<DetailLevel/>}/>
             <Route path='/quay-lai-cap-so-tiep' element={<Level/>}/>
             <Route path='/bao-cao' element={<Report/>}/>
+            <Route path='/quan-ly-vai-tro' element={<Role/>}/>
+            <Route path='/them-vai-tro' element={<AddRole/>}/>
          </Routes> 
       </BrowserRouter>
   </React.StrictMode>
